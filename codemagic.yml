@@ -1,0 +1,45 @@
+workflows:
+  android-workflow:
+    name: 魔鬼辞典 Android Build
+    instance_type: linux
+    max_build_duration: 30
+    environment:
+      java: 21
+      node: 20
+    scripts:
+      - name: Install dependencies
+        script: npm install
+      - name: Add Android platform
+        script: npx cap add android || true
+      - name: Sync Capacitor
+        script: npx cap sync android
+      - name: Build APK (debug, unsigned)
+        script: |
+          cd android
+          ./gradlew assembleDebug
+    artifacts:
+      - android/app/build/outputs/apk/debug/*.apk
+
+  ios-workflow:
+    name: 魔鬼辞典 iOS Build
+    instance_type: mac_mini_m2
+    max_build_duration: 60
+    environment:
+      node: 20
+      xcode: latest
+      cocoapods: default
+    scripts:
+      - name: Install dependencies
+        script: npm install
+      - name: Add iOS platform
+        script: npx cap add ios || true
+      - name: Sync Capacitor
+        script: npx cap sync ios
+      - name: Install CocoaPods
+        script: |
+          cd ios/App
+          pod install
+      - name: Build (unsigned, for local testing first)
+        script: |
+          cd ios/App
+          xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug -sdk iphonesimulator CODE_SIGNING_ALLOWED=NO

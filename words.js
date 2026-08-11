@@ -15,7 +15,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "鹿砦",
     "defEn": "Rubbish in front of a fort, to prevent the rubbish outside from molesting! the rubbish inside.",
-    "defCn": "这是炮楼前的垃圾，它阻止了炮楼外面的垃圾侵害里面的垃圾。"
+    "defCn": "这是炮楼前的垃圾，它阻止了炮楼外面的垃圾侵害里面的垃圾。",
+    "footnotes": [
+      {
+        "term": "molest",
+        "pos": "v.",
+        "gloss": "骚乱，困扰"
+      }
+    ]
   },
   {
     "id": 3,
@@ -23,7 +30,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "退位",
     "defEn": "An act whereby a sovereign’ attests his sense of the high temperature of the throne.",
-    "defCn": "这是君王借以体会王座高远的一种行为。"
+    "defCn": "这是君王借以体会王座高远的一种行为。",
+    "footnotes": [
+      {
+        "term": "sovereign",
+        "pos": "n.",
+        "gloss": "君主，统治"
+      }
+    ]
   },
   {
     "id": 4,
@@ -34,9 +48,24 @@ const WORDS = [
     "defCn": "这是胃神的圣典。所有的男人都向他顶礼膜拜，献出祭品。这种古老的信仰在女人中很难得到强烈的认同。尽管她们有时也会漫不经心、徒劳地在祭坛边转儿，但是对于男人热切崇拜的胃神却一无所知。如果说女人在世界的交易场中能够自由自在的话 , 那么她们就会变成温顺的食草动物。",
     "footnotes": [
       {
+        "term": "assent",
+        "pos": "n.",
+        "gloss": "赞成"
+      },
+      {
+        "term": "reverence",
+        "pos": "n.",
+        "gloss": "尊敬，敬重"
+      },
+      {
         "term": "deity",
         "pos": "n.",
         "gloss": "神，神性"
+      },
+      {
+        "term": "graminivorous",
+        "pos": "adj.",
+        "gloss": "食草的"
       }
     ]
   },
@@ -54,7 +83,24 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "变态",
     "defEn": "Not conforming to standard. In matters of thought and conduct, to be independent is to be abnormal, to be abnormal is to be detested’. Wherefore the lexicographer” adviseth a striving toward the straiter [sic] resemblance® of the Average Man than he hath to himself. Whoso attaineth thereto shall have peace, the prospect of death and the hope of Hell.",
-    "defCn": "不循规蹈矩就叫变态。就思想和行为而言，与众不同、不受他人左右便是变态，变态则意味着被人妨恨。因此，本词典编撰者敬劝各位，努力消灭自我，随波逐流，谁做到这一点，谁就会享受安宁，就可望走向死亡，实现地狱的渴望。"
+    "defCn": "不循规蹈矩就叫变态。就思想和行为而言，与众不同、不受他人左右便是变态，变态则意味着被人妨恨。因此，本词典编撰者敬劝各位，努力消灭自我，随波逐流，谁做到这一点，谁就会享受安宁，就可望走向死亡，实现地狱的渴望。",
+    "footnotes": [
+      {
+        "term": "detest",
+        "pos": "vi.",
+        "gloss": "厌恶，憎恨"
+      },
+      {
+        "term": "lexicographer",
+        "pos": "n.",
+        "gloss": "词典编纂者"
+      },
+      {
+        "term": "resemblance",
+        "pos": "n.",
+        "gloss": "类同之处"
+      }
+    ]
   },
   {
     "id": 7,
@@ -62,7 +108,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "土著居民",
     "defEn": "Persons of little worth found cumbering* the soil of a newly discovered country. They soon cease to cumber; they fertilize.",
-    "defCn": "这是些没多大价值的人，拖累这个新发现的国家的人。不过，他们很快就不再拖累土地了，他们自己变成了肥料，使士地丰饶。"
+    "defCn": "这是些没多大价值的人，拖累这个新发现的国家的人。不过，他们很快就不再拖累土地了，他们自己变成了肥料，使士地丰饶。",
+    "footnotes": [
+      {
+        "term": "cumber",
+        "pos": "v.",
+        "gloss": "阻碍"
+      }
+    ]
   },
   {
     "id": 8,
@@ -86,7 +139,19 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "缺席的",
     "defEn": "Peculiarly exposed to the tooth of detraction’; vilifed; hopelessly in the wrong; superseded” in the consideration and affection of another.",
-    "defCn": "这就意味着特别容易被人诈毁、中伤。缺席者除蒙受冤枉别无希望。他常会被别人取代，失去他分内的东西。"
+    "defCn": "这就意味着特别容易被人诈毁、中伤。缺席者除蒙受冤枉别无希望。他常会被别人取代，失去他分内的东西。",
+    "footnotes": [
+      {
+        "term": "detraction",
+        "pos": "n.",
+        "gloss": "诽谤"
+      },
+      {
+        "term": "supersede",
+        "pos": "vt.",
+        "gloss": "代替，取代"
+      }
+    ]
   },
   {
     "id": 11,
@@ -94,7 +159,19 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "绝对的",
     "defEn": "Independent, irresponsible. An absolute monarchy is one in which the sovereign does as he pleases so long as he pleases the assassins’. Not many absolute monarchies are left, most of them having been replaced by limited monarchies, where the sovereign's power for evil (and for good) is greatly curtailed’, and by republics, which are governed by chance.",
-    "defCn": "自主的，不负责任的。在绝对的君主制下，国王可以随心所欲，只要刺客们高兴就行。时至今日，世界剩下的绝对君主制不多了，国王为和亚〈当然也为善 )的威力已被大大地削弱 ,还有些绝对君主制则变成了共和制，共和制是靠侥地来治理国家的。"
+    "defCn": "自主的，不负责任的。在绝对的君主制下，国王可以随心所欲，只要刺客们高兴就行。时至今日，世界剩下的绝对君主制不多了，国王为和亚〈当然也为善 )的威力已被大大地削弱 ,还有些绝对君主制则变成了共和制，共和制是靠侥地来治理国家的。",
+    "footnotes": [
+      {
+        "term": "curtail",
+        "pos": "vt.",
+        "gloss": "缩减，减少(经费等)"
+      },
+      {
+        "term": "assassin",
+        "pos": "n.",
+        "gloss": "暗杀者，刺客"
+      }
+    ]
   },
   {
     "id": 12,
@@ -126,7 +203,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "意外",
     "defEn": "An inevitable occurrence due to the action of immutable” natural laws.",
-    "defCn": "由于不可改变的自然规律的作用而不可避免地发生的事件。"
+    "defCn": "由于不可改变的自然规律的作用而不可避免地发生的事件。",
+    "footnotes": [
+      {
+        "term": "immutable",
+        "pos": "adj.",
+        "gloss": "不可变的，永恒的"
+      }
+    ]
   },
   {
     "id": 16,
@@ -134,7 +218,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "同谋",
     "defEn": "One associated with another in a crime, having guilty knowledge and complicity’, as an attorney who defends a criminal, knowing him guilty. This view of the attorney's position in the matter has not hitherto commanded the assent of attorneys, no one having offered them a fee for assenting. accord, 7. Harmony.",
-    "defCn": "和别人一起犯罪的人。明知犯罪，仍当帮凶，就象律师一样，明知罪犯有罪，仍然为他辩护。对律师的这种看法至今还未得到律师们的认可，央为还没有谁向他们交纳认可费。符合就是融洽。"
+    "defCn": "和别人一起犯罪的人。明知犯罪，仍当帮凶，就象律师一样，明知罪犯有罪，仍然为他辩护。对律师的这种看法至今还未得到律师们的认可，央为还没有谁向他们交纳认可费。符合就是融洽。",
+    "footnotes": [
+      {
+        "term": "complicity",
+        "pos": "n.",
+        "gloss": "同谋，共犯"
+      }
+    ]
   },
   {
     "id": 17,
@@ -614,7 +705,24 @@ const WORDS = [
     "pos": "n",
     "cnWord": "婴儿",
     "defEn": "A misshapen creature of no particular age, sex, or condition, chiefly remarkable for the violence of the sympathies and antipathies! it excites in others, itself without sentiment or emotion. There have been famous babes; for example, little Moses, from whose adventure in the bulrushes* the Egyptian hierophants* of seven centuries before doubtless derived their idle tale of the child Osiris being preserved on a floating lotus leaf. B54 J LK Pe SS AY AT AR He SE — Frat OE Tg",
-    "defCn": "一种畸形的生物，没有年龄、性特征和社会地位。它主要因能在别人心中激起强烈的同情或厌恶而著称，而它自己却无动于惠。有一些著名的婴儿可以作为范例 ,犹太英雄摩西小时候的冒险事迹，是从公元前七世纪的埃及祭司的纸莎草的一则无聊故事偷来的，后来成为地狱之王"
+    "defCn": "一种畸形的生物，没有年龄、性特征和社会地位。它主要因能在别人心中激起强烈的同情或厌恶而著称，而它自己却无动于惠。有一些著名的婴儿可以作为范例 ,犹太英雄摩西小时候的冒险事迹，是从公元前七世纪的埃及祭司的纸莎草的一则无聊故事偷来的，后来成为地狱之王",
+    "footnotes": [
+      {
+        "term": "antipathy",
+        "pos": "n.",
+        "gloss": "反感"
+      },
+      {
+        "term": "bulrush",
+        "pos": "n.",
+        "gloss": "芦苇，香蒲，纸莎草"
+      },
+      {
+        "term": "hierophant",
+        "pos": "n.",
+        "gloss": "祭司"
+      }
+    ]
   },
   {
     "id": 77,
@@ -638,7 +746,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "背部",
     "defEn": "That part of your friend which it is your privilege to contemplate in your adversity’.",
-    "defCn": "这是你朋友身体的一部分，专供你在不幸时注视 ?。"
+    "defCn": "这是你朋友身体的一部分，专供你在不幸时注视 ?。",
+    "footnotes": [
+      {
+        "term": "adversity",
+        "pos": "n.",
+        "gloss": "不幸，灾祸"
+      }
+    ]
   },
   {
     "id": 80,
@@ -654,7 +769,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "土匪",
     "defEn": "A preparation that renders the hook more palatable’. The best kind is beauty. wet",
-    "defCn": "使钓钧变的美味可口的东西。最好的诱饵是美色。"
+    "defCn": "使钓钧变的美味可口的东西。最好的诱饵是美色。",
+    "footnotes": [
+      {
+        "term": "palatable",
+        "pos": "adj.",
+        "gloss": "美味的"
+      }
+    ]
   },
   {
     "id": 82,
@@ -662,7 +784,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "土匪",
     "defEn": "A person who takes by force from A what A has taken by guile? from B.",
-    "defCn": "就是用暴力拿走某人用诡计从他人那里骗来的东西的人。"
+    "defCn": "就是用暴力拿走某人用诡计从他人那里骗来的东西的人。",
+    "footnotes": [
+      {
+        "term": "guile",
+        "pos": "n.",
+        "gloss": "狡诈，诡计"
+      }
+    ]
   },
   {
     "id": 83,
@@ -670,7 +799,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "洗礼",
     "defEn": "A sacred rite of such efficacy that he who finds himself in heaven without having undergone it will be unhappy forever. It is performed with water in two ways -- by immersion’, or plunging, and by aspersion‘, or sprinkling.",
-    "defCn": "这是一种功效卓著的神圣仪式，没有受过洗礼的人，即使侥幸升入天堂，也永远得不到欢乐。这种仪式用水举行，方法有两种一一让受礼者浸入水中，或者把水酒在他的头上。"
+    "defCn": "这是一种功效卓著的神圣仪式，没有受过洗礼的人，即使侥幸升入天堂，也永远得不到欢乐。这种仪式用水举行，方法有两种一一让受礼者浸入水中，或者把水酒在他的头上。",
+    "footnotes": [
+      {
+        "term": "immersion",
+        "pos": "n.",
+        "gloss": "浸水礼"
+      },
+      {
+        "term": "aspersion",
+        "pos": "n.",
+        "gloss": "洒水礼"
+      }
+    ]
   },
   {
     "id": 84,
@@ -678,7 +819,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "理发师",
     "defEn": "A savage whose laceration’ of your cheek is unobserved in the superior torment of his conversation.",
-    "defCn": "一位粗鄙之人，在他唆唆不休的残酷折麻下，你往往感觉不到脖子上的刀口。"
+    "defCn": "一位粗鄙之人，在他唆唆不休的残酷折麻下，你往往感觉不到脖子上的刀口。",
+    "footnotes": [
+      {
+        "term": "laceration",
+        "pos": "n.",
+        "gloss": "伤口，裂口"
+      }
+    ]
   },
   {
     "id": 85,
@@ -1333,7 +1481,24 @@ const WORDS = [
     "pos": "n",
     "cnWord": "保持中立并广施仁爱",
     "defEn": "An ancient religious symbol erroneously supposed to ay ree owe its significance to the most solemn event in the a . ee history of Christianity, but really antedating ' it by Va ys thousands of years. By many it has been believed to be > ‘ 4) identical with the crux ansata of the ancient phallic” AS (UZ : worship, but it has been traced even beyond all that we a . 人 ie know of that, to the rites of primitive peoples. We have bee a ee to-day the White Cross as a symbol of chastity*, and the ee LA | Red Cross as a badge of benevolent neutrality in war.",
-    "defCn": "这是一种很老气的宗教象征物 ,，大家错误地认为它起源于基督教史上最神圣的事情，其实在那事几千年以前它就有了。有不少人相信它起源于古老的生殖器崇拜 , 更有人追溯到我们所知极少的原始部落的种种仪式上去了。今天我们用白十字架象征圣洁，用红十字架表示在战争中保持中立并广施仁爱。"
+    "defCn": "这是一种很老气的宗教象征物 ,，大家错误地认为它起源于基督教史上最神圣的事情，其实在那事几千年以前它就有了。有不少人相信它起源于古老的生殖器崇拜 , 更有人追溯到我们所知极少的原始部落的种种仪式上去了。今天我们用白十字架象征圣洁，用红十字架表示在战争中保持中立并广施仁爱。",
+    "footnotes": [
+      {
+        "term": "antedate",
+        "pos": "v.",
+        "gloss": "提早日期，居先"
+      },
+      {
+        "term": "phallic",
+        "pos": "adj.",
+        "gloss": "生殖器的"
+      },
+      {
+        "term": "chastity",
+        "pos": "n.",
+        "gloss": "贞洁"
+      }
+    ]
   },
   {
     "id": 166,
@@ -1357,7 +1522,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "好奇心",
     "defEn": "An objectionable quality of the female mind. The desire to know whether or not a woman is cursed with' curiosity is one of the most active and insatiable passions of the masculine soul.",
-    "defCn": "这是女人心中的一种讨厌的品质。想知道一个女人是和否有可怕的好奇心，这是男人心中最热烈、最难以满足的激情之一。"
+    "defCn": "这是女人心中的一种讨厌的品质。想知道一个女人是和否有可怕的好奇心，这是男人心中最热烈、最难以满足的激情之一。",
+    "footnotes": [
+      {
+        "term": "cursed with",
+        "pos": "",
+        "gloss": "受...折磨，因...受害"
+      }
+    ]
   },
   {
     "id": 169,
@@ -1365,7 +1537,14 @@ const WORDS = [
     "pos": "vt",
     "cnWord": "诅咒",
     "defEn": "Energetically to belabor with a verbal slap-stick. This is an operation which in literature, particularly in the drama, is commonly fatal to the victim. Nevertheless, the liability to a cursing is a risk that cuts but a small figure in fixing the rates of life insurance. iE",
-    "defCn": "用言词做大棒有力地痛打别人，这在文学尤其是戏剧中较常见，往往能给挨打者致命的一击。不过，动轰诅咒是有风险的，不利于稳定人寿保险率。"
+    "defCn": "用言词做大棒有力地痛打别人，这在文学尤其是戏剧中较常见，往往能给挨打者致命的一击。不过，动轰诅咒是有风险的，不利于稳定人寿保险率。",
+    "footnotes": [
+      {
+        "term": "belabor",
+        "pos": "v.",
+        "gloss": "<古>痛打，不断辱骂和嘲弄"
+      }
+    ]
   },
   {
     "id": 170,
@@ -1373,7 +1552,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "玩世不恭者",
     "defEn": "A blackguard’ whose faulty vision sees things as they are, not as they ought to be. Hence the custom among the Scythians of plucking out a cynic”s eyes to improve his vision. 2% Borg > =, ~~. a. J & a 7-298 on A word formerly much used by the Paphlagonians, the meaning of which is lost. By the learned Dr. Dolabelly Gak it is believed to have been a term of satisfaction, implying the highest possible degree of mental tranquillity. Professor Groke, on the contrary, thinks it expressed an emotion of tumultuous’ delight, because it so frequently occurs in combination with the word jod or god, meaning \"joy.\" It would be with great diffidence” that I should advance an opinion conflicting with that of either of these formidable authorities.",
-    "defCn": "这是一种恶棍，他眼睛有毛病，看见的是事物本来的面目，而不是他们应该表现出的样子。难怪赛西亚人 3 有控出玩世不恭者的眼珠以改| 善他的视力的风俗。> 赛西亚，黑海与里海之间一古地名。该死这是住在黑海边上的帕夫拉戈尼亚人以前常挂在嘴上的一个口头禅，其意思是“玩完”。多拉贝里。蔷克博士认为它是一个让人满意的措施，暗示着精神宁静可能达到的最高极限。相反，格洛克教授则断定它表达的是一种狂喜的情绪，表示“快活”因为它是如此频繁地与jod或god一起出现。我将要提出一个与他们冲突的另一种见解，面对着这"
+    "defCn": "这是一种恶棍，他眼睛有毛病，看见的是事物本来的面目，而不是他们应该表现出的样子。难怪赛西亚人 3 有控出玩世不恭者的眼珠以改| 善他的视力的风俗。> 赛西亚，黑海与里海之间一古地名。该死这是住在黑海边上的帕夫拉戈尼亚人以前常挂在嘴上的一个口头禅，其意思是“玩完”。多拉贝里。蔷克博士认为它是一个让人满意的措施，暗示着精神宁静可能达到的最高极限。相反，格洛克教授则断定它表达的是一种狂喜的情绪，表示“快活”因为它是如此频繁地与jod或god一起出现。我将要提出一个与他们冲突的另一种见解，面对着这",
+    "footnotes": [
+      {
+        "term": "blackguard",
+        "pos": "n.",
+        "gloss": "流氓，恶棍"
+      },
+      {
+        "term": "Scythians",
+        "pos": "",
+        "gloss": "赛西亚，古代西域部族"
+      }
+    ]
   },
   {
     "id": 171,
@@ -1396,7 +1587,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "和危险",
     "defEn": "A savage beast which, when it sleeps, Man girds’ at and despises, But takes himself away by leaps And bounds when it arises. Ser One of the most conspicuous qualities of a man in security.",
-    "defCn": "危险是一头凶猛的野兽，它睡着时人类把它嘲笑，一旦它苏醒并站起，人类就会抱头逃窗，溜之大吉。勇敢男人在安全时表现得最为显著的品德之一。"
+    "defCn": "危险是一头凶猛的野兽，它睡着时人类把它嘲笑，一旦它苏醒并站起，人类就会抱头逃窗，溜之大吉。勇敢男人在安全时表现得最为显著的品德之一。",
+    "footnotes": [
+      {
+        "term": "gird",
+        "pos": "v.",
+        "gloss": "嘲笑"
+      }
+    ]
   },
   {
     "id": 173,
@@ -1404,7 +1602,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "教廷审查官",
     "defEn": "A high ecclesiastic official of the Roman Catholic Church, whose important function is to brand the Pope's bulls' with the words Datum Romae. He enjoys a princely revenue and the friendship of God.",
-    "defCn": "罗马教廷的高级头目，他的主要任务就是给教皇的旨意盖上“罗马权威”的戳记。他还受到上帝的垂青。"
+    "defCn": "罗马教廷的高级头目，他的主要任务就是给教皇的旨意盖上“罗马权威”的戳记。他还受到上帝的垂青。",
+    "footnotes": [
+      {
+        "term": "bull",
+        "pos": "n.",
+        "gloss": "教皇敕书所用的玺"
+      }
+    ]
   },
   {
     "id": 174,
@@ -1420,7 +1625,24 @@ const WORDS = [
     "pos": "n",
     "cnWord": "天",
     "defEn": "A period of twenty-four hours, mostly misspent'. This period is divided into two parts, the day proper and the night, or day improper -- the former devoted to sins of business, the latter consecrated” to the other sort. These two kinds of social activity overlap’.",
-    "defCn": "| 一段二十四小时的时间，大部分时间都是浪费了的。这段时间分为两部分 : 一部分是白天，另一部分是黑夜〈或者说不恰当的白天 ); 前1 者消耗在做生意的罪孽中，后者则在其他的罪莫中虚度了，这两种社会"
+    "defCn": "| 一段二十四小时的时间，大部分时间都是浪费了的。这段时间分为两部分 : 一部分是白天，另一部分是黑夜〈或者说不恰当的白天 ); 前1 者消耗在做生意的罪孽中，后者则在其他的罪莫中虚度了，这两种社会",
+    "footnotes": [
+      {
+        "term": "misspend",
+        "pos": "v.",
+        "gloss": "浪费"
+      },
+      {
+        "term": "consecrate",
+        "pos": "v.",
+        "gloss": "奉献，献给"
+      },
+      {
+        "term": "overlap",
+        "pos": "v.",
+        "gloss": "与···交迭"
+      }
+    ]
   },
   {
     "id": 176,
@@ -1452,7 +1674,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "顶点全盛时期",
     "defEn": "A series of commandments’, ten in number -- just enough to permit an intelligent selection for observance, but not enough to embarrass the choice. Following is the revised edition of the Decalogue, calculated for this meridian’. Thou shalt no God but me adore: No images nor idols make For Robert Ingersoll to break. Take not God's name in vain; select A time when it will have effect. Work not on Sabbath days at all, But go to see the teams play ball. Honor thy parents. - | That creates for life insurance lower rates. : Kill not, abet not those who kill; ， Thou shalt not pay thy butcher's bill. Kiss not thy neighbor's wife, Unless thine own thy neighbor doth caress Don't steal; thou'lt never thus compete Successfully in business. Cheat. Bear not false witness -- that is low -- But \"hear 'tis rumored so and so.\" Covet thou naught that thou hast not By hook or crook, or somehow, got. GJ. tik RT QPRE HEF,",
-    "defCn": "一系列的戒律，共有十条一 -刚好够你明智地选择和遵守，再多几条就会叫你无所适从。以下是经过修订的《十诚》:除了我不要党拜任何上壳，党和拜多了费用太昂焉。不要制作和跪拜偶像，再多也会被罗伯特砸掉。不要徒劳地把耶和华呼叫，要等到有效时才向他祈祷。安息日不要做任何工作，应去球场看玩篮球或足球。要孝投你的父亲和母亲，这样可以减少人寿保险费。不要杀人，也不要支持杀人犯，同样不要向属夫支付买肉的钱。除非他也吻你的妻子。不要偷盗，因为这样不能使你生意兴旺，做生意靠欺骗。不要作伪证一 -这很可耻，但可以说 :“据传事实如此 .”不要存非分之想去疯饥你用捧骗或其他手段没得到的东西。"
+    "defCn": "一系列的戒律，共有十条一 -刚好够你明智地选择和遵守，再多几条就会叫你无所适从。以下是经过修订的《十诚》:除了我不要党拜任何上壳，党和拜多了费用太昂焉。不要制作和跪拜偶像，再多也会被罗伯特砸掉。不要徒劳地把耶和华呼叫，要等到有效时才向他祈祷。安息日不要做任何工作，应去球场看玩篮球或足球。要孝投你的父亲和母亲，这样可以减少人寿保险费。不要杀人，也不要支持杀人犯，同样不要向属夫支付买肉的钱。除非他也吻你的妻子。不要偷盗，因为这样不能使你生意兴旺，做生意靠欺骗。不要作伪证一 -这很可耻，但可以说 :“据传事实如此 .”不要存非分之想去疯饥你用捧骗或其他手段没得到的东西。",
+    "footnotes": [
+      {
+        "term": "commandment",
+        "pos": "n.",
+        "gloss": "戒律"
+      },
+      {
+        "term": "meridian",
+        "pos": "n.",
+        "gloss": "顶点，全盛时期"
+      }
+    ]
   },
   {
     "id": 180,
@@ -1460,7 +1694,19 @@ const WORDS = [
     "pos": "vi",
     "cnWord": "决定",
     "defEn": "To succumb to’ the preponderance” of one set of influences over another set. A leaf was riven from a tree, j \"I mean to fall to earth,\" said he. : The west wind, rising, made him veer. The east wind rose with greater force. Said he: \"'Twere wise to change my course.\" With equal power they contend. He said: \"My judgment I suspend.\" Down died the winds; the leaf, elate, Cried: \"I've decided to fall straight.\" Just choose your own and we'll not quarrel. Howe'er your choice may chance to fall, You'll have no hand in it at all. GJ.",
-    "defCn": "在一系列影响之中，择其强者而从之。一片树叶从树枝向下跌落，西风列起并改变了树叶的方向，转眼东风到起把西风压倒，树叶说 :“向西飞行其实更妙。.”接着是势均力敌，西风对抗东风，树叶说 :“理智告诉我应该悬浮在空中 .”西风和东凤消失，树叶迎然跌落，树叶说 :“我已决定径直落向地面 .”“最初的想法最好嘛 ?”这不是故事的富意，走自己的路得了，我们不会为难你。不管你怎样选择，如何得意，谋事在你，成事在天。噶萨拉斯卡，杰普神父"
+    "defCn": "在一系列影响之中，择其强者而从之。一片树叶从树枝向下跌落，西风列起并改变了树叶的方向，转眼东风到起把西风压倒，树叶说 :“向西飞行其实更妙。.”接着是势均力敌，西风对抗东风，树叶说 :“理智告诉我应该悬浮在空中 .”西风和东凤消失，树叶迎然跌落，树叶说 :“我已决定径直落向地面 .”“最初的想法最好嘛 ?”这不是故事的富意，走自己的路得了，我们不会为难你。不管你怎样选择，如何得意，谋事在你，成事在天。噶萨拉斯卡，杰普神父",
+    "footnotes": [
+      {
+        "term": "succumb to",
+        "pos": "",
+        "gloss": "屈服于"
+      },
+      {
+        "term": "preponderance",
+        "pos": "n.",
+        "gloss": "优势，占优势"
+      }
+    ]
   },
   {
     "id": 181,
@@ -1484,7 +1730,24 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "退化的",
     "defEn": "; Less conspicuously admirable than one's ancestors. The required ten of them to raise a rock or a riot that one of the heroes of the Trojan war’ could have raised with ease. Homer never tires of sneering at suffered him to beg his bread -- a marked instance of returning good for evil, by the way, for if they had forbidden him he would certainly have starved.",
-    "defCn": "不如祖上令人倾慕，威名赫赫，与荷马同在一个时代的人们就是最典型的退化案例，他们起码十个人才能举起一块大石头或挑起一场暴乱，而特洛伊的战士们中的任何一个都能轻而易举地做到这一点。荷马总是不知疲倦地嘲笑那些“荀活在当今蝴落时代的人们”大概正是由于这样，他们才让他讨饭过活。如果他们不准荷马乞讨的话，他不饿死才怪，看来荷马的做法是典型的恩将仇报。"
+    "defCn": "不如祖上令人倾慕，威名赫赫，与荷马同在一个时代的人们就是最典型的退化案例，他们起码十个人才能举起一块大石头或挑起一场暴乱，而特洛伊的战士们中的任何一个都能轻而易举地做到这一点。荷马总是不知疲倦地嘲笑那些“荀活在当今蝴落时代的人们”大概正是由于这样，他们才让他讨饭过活。如果他们不准荷马乞讨的话，他不饿死才怪，看来荷马的做法是典型的恩将仇报。",
+    "footnotes": [
+      {
+        "term": "contemporary",
+        "pos": "n.",
+        "gloss": "同时代的人"
+      },
+      {
+        "term": "degeneracy",
+        "pos": "n.",
+        "gloss": "堕落，退化"
+      },
+      {
+        "term": "Trojan War",
+        "pos": "n.",
+        "gloss": "[希神]特洛伊战争"
+      }
+    ]
   },
   {
     "id": 184,
@@ -1524,7 +1787,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "大洪水",
     "defEn": "A notable first experiment in baptism’ which washed away the sins (and sinners) of the world.",
-    "defCn": "值得注意的第一次洗礼试验，它洗刷了世界的罪恶，冲走了那些罪"
+    "defCn": "值得注意的第一次洗礼试验，它洗刷了世界的罪恶，冲走了那些罪",
+    "footnotes": [
+      {
+        "term": "baptism",
+        "pos": "n.",
+        "gloss": "浸洗，洗礼"
+      }
+    ]
   },
   {
     "id": 189,
@@ -1540,7 +1810,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "牙医",
     "defEn": "A prestidigitator’ who, putting metal into your mouth, pulls coins out of your pocket.",
-    "defCn": "一种变戏法的人 , 他一边往你嘴里放金属 , 一边从你口袋里掏金钱。"
+    "defCn": "一种变戏法的人 , 他一边往你嘴里放金属 , 一边从你口袋里掏金钱。",
+    "footnotes": [
+      {
+        "term": "prestidigitator",
+        "pos": "n.",
+        "gloss": "变戏法的人"
+      }
+    ]
   },
   {
     "id": 191,
@@ -1548,7 +1825,14 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "依赖的",
     "defEn": "Reliant upon another's generosity for the support which you are not in a position to exact’ from his fears. S exact wt FRIAR, dk",
-    "defCn": "寄希望于别人慷慨的支持 ,因为你还没有能力强迫他献出你需要的东西。"
+    "defCn": "寄希望于别人慷慨的支持 ,因为你还没有能力强迫他献出你需要的东西。",
+    "footnotes": [
+      {
+        "term": "exact",
+        "pos": "vt.",
+        "gloss": "强迫支付，强求"
+      }
+    ]
   },
   {
     "id": 192,
@@ -1556,7 +1840,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "代理人",
     "defEn": "A male relative of an office-holder, or of his bondsman. The deputy is commonly a beautiful young man, with a red necktie and an intricate system of cobwebs! extending from his nose to his desk. When accidentally struck by the janitor”s broom, he gives off a cloud of dust.",
-    "defCn": "某官员的男性亲友，或者是他的奴仆的男性亲友。代理人通常是一个负俊潇洒的男子，系着一条红色的领带，通过精细复杂的蜘蛛网和办公课连成一气。看门人偶尔用扫山柄敲敲他，从他身上就会腾起一片灰"
+    "defCn": "某官员的男性亲友，或者是他的奴仆的男性亲友。代理人通常是一个负俊潇洒的男子，系着一条红色的领带，通过精细复杂的蜘蛛网和办公课连成一气。看门人偶尔用扫山柄敲敲他，从他身上就会腾起一片灰",
+    "footnotes": [
+      {
+        "term": "cobweb",
+        "pos": "n.",
+        "gloss": "蜘蛛网"
+      },
+      {
+        "term": "janitor",
+        "pos": "n.",
+        "gloss": "看门人"
+      }
+    ]
   },
   {
     "id": 193,
@@ -1580,7 +1876,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "横膈膜",
     "defEn": "A muscular partition’ separating disorders of the chest from disorders of the bowels.",
-    "defCn": "把胸腔的紊乱和腹腔的紊乱隔开的一片落肉。"
+    "defCn": "把胸腔的紊乱和腹腔的紊乱隔开的一片落肉。",
+    "footnotes": [
+      {
+        "term": "partition",
+        "pos": "n.",
+        "gloss": "分开，隔离物"
+      }
+    ]
   },
   {
     "id": 196,
@@ -1596,7 +1899,24 @@ const WORDS = [
     "pos": "n",
     "cnWord": "独裁者",
     "defEn": "| The chief of a nation that prefers the pestilence” of despotism’ to the | plague of anarchy’.",
-    "defCn": "一种国家元首，较之于无政府主义的灾难，他更喜欢专制主义这种"
+    "defCn": "一种国家元首，较之于无政府主义的灾难，他更喜欢专制主义这种",
+    "footnotes": [
+      {
+        "term": "pestilence",
+        "pos": "n.",
+        "gloss": "瘟疫"
+      },
+      {
+        "term": "despotism",
+        "pos": "n.",
+        "gloss": "专制"
+      },
+      {
+        "term": "anarchy",
+        "pos": "n.",
+        "gloss": "无政府状态，政治混乱"
+      }
+    ]
   },
   {
     "id": 198,
@@ -1604,7 +1924,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "词典",
     "defEn": "A malevolent’ literary device for cramping the growth of a language and making it hard and inelastic’. This dictionary, however, is a most useful work.",
-    "defCn": "这是一种恶毒的学究式的东西，发明它的目的是妨碍语言的发展，使之变得僵死呆板，不过，这本《魔鬼词典》是一种很有用的工具。"
+    "defCn": "这是一种恶毒的学究式的东西，发明它的目的是妨碍语言的发展，使之变得僵死呆板，不过，这本《魔鬼词典》是一种很有用的工具。",
+    "footnotes": [
+      {
+        "term": "inelastic",
+        "pos": "adj.",
+        "gloss": "无弹性的，僵硬的"
+      },
+      {
+        "term": "malevolent",
+        "pos": "adj.",
+        "gloss": "有恶意的，坏心肠的"
+      }
+    ]
   },
   {
     "id": 199,
@@ -1628,7 +1960,14 @@ const WORDS = [
     "pos": "vi",
     "cnWord": "区别",
     "defEn": "To note the particulars in which one person or thing is, if possible, more objectionable” than another.",
-    "defCn": "注意某人或某物的独特之处 ,尤其是比别的人或物更令人讨厌的特"
+    "defCn": "注意某人或某物的独特之处 ,尤其是比别的人或物更令人讨厌的特",
+    "footnotes": [
+      {
+        "term": "objectionable",
+        "pos": "adj.",
+        "gloss": "引起反对的，令人不快的"
+      }
+    ]
   },
   {
     "id": 202,
@@ -1644,7 +1983,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "违命",
     "defEn": "The silver lining to the cloud of servitude’.",
-    "defCn": "苦和投的乌云边缘的一丝银色亮光。"
+    "defCn": "苦和投的乌云边缘的一丝银色亮光。",
+    "footnotes": [
+      {
+        "term": "servitude",
+        "pos": "n.",
+        "gloss": "奴隶状态"
+      }
+    ]
   },
   {
     "id": 204,
@@ -1676,7 +2022,24 @@ const WORDS = [
     "pos": "n",
     "cnWord": "狗",
     "defEn": "A kind of additional or subsidiary ' Deity designed to catch the overflow and surplus of the world's worship. This Divine Being in some of his smaller and silkier incarnations takes, in the IN affection of Woman, the place to which there is no 过 human male aspirant’. The Dog is a survival -- an 了 H 村 anachronism’. He toils not, neither does he spin, yet by * Solomon in all his glory never lay upon a door-mat all day long, sun-soaked and fly-fed and fat, while his master worked for the means wherewith to purchase the idle wag of the Solomonic’ tail, seasoned with a look of tolerant recognition.",
-    "defCn": "这是主创造世界时作为搭头的一种圣物 , 为的是满足人类的日益增长的崇拜需求。这种神物偶尔现形为一种身材娇小、满身绒毛的尤物，深受女士们的亲睐，就连尘世的男人们，在它面前也自叹弗如。狗是一种侥幸存活下来的动物一一这也许是一个时代的错误。它勿需操劳，不必为生机四处转悠。瞧瞧，它成天趴在门边的擦鞋垫上晒太阳，心宽体胖，任苍蝇在身边喻喻乱飞，而它的主人一天到晚忙忙碌碌，为的就是让那尾巴仁慈而慷慨地晃悠几下。"
+    "defCn": "这是主创造世界时作为搭头的一种圣物 , 为的是满足人类的日益增长的崇拜需求。这种神物偶尔现形为一种身材娇小、满身绒毛的尤物，深受女士们的亲睐，就连尘世的男人们，在它面前也自叹弗如。狗是一种侥幸存活下来的动物一一这也许是一个时代的错误。它勿需操劳，不必为生机四处转悠。瞧瞧，它成天趴在门边的擦鞋垫上晒太阳，心宽体胖，任苍蝇在身边喻喻乱飞，而它的主人一天到晚忙忙碌碌，为的就是让那尾巴仁慈而慷慨地晃悠几下。",
+    "footnotes": [
+      {
+        "term": "subsidiary",
+        "pos": "adj.",
+        "gloss": "辅助的，补充的"
+      },
+      {
+        "term": "aspirant",
+        "pos": "n.",
+        "gloss": "有抱负者，有野心者"
+      },
+      {
+        "term": "anachronism",
+        "pos": "n.",
+        "gloss": "时代错误"
+      }
+    ]
   },
   {
     "id": 208,
@@ -1700,7 +2063,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "抵押",
     "defEn": "Priests and ministers of an ancient Celtic religion which did not disdain! to employ the humble allurement” of human sacrifice. Very little is now known about the Druids and their faith. Pliny says their religion, 一 一 ~ originating in Britain, spread eastward as far as /@ < Persia. Caesar says those who desired to study its | RN VF ai\\ mysteries went to Britain. Caesar himself went to (Ad | HAN Britain, but does not appear to have obtained any \\) 4 及 a high preferment in the Druidical Church, although il aie) 1 | his talent for human sacrifice was considerable. iB I lly if j | Druids performed their religious rites in groves® , and BBA Sf hy knew nothing of church mortgages* and the season-ticket system of pew! rents. They were, in short, heathens and -- as they were once complacently” catalogued by a distinguished prelate’ of the Church of England -- Dissenters.",
-    "defCn": "古代凯尔特人的神父和和祭司，这一教派以人为祭品，并不觉得这是什么粗劣的手段。有关这类巫师及其信仰，现代人所知甚少。古罗马的普林尼“说这种宗教来自不列颠，后来往东流传到波斯。据凯撒大帝说那些好奇的人都跑到不列颠去了。凯撒也去过，不过他对凯尔特人的这种崇拜好像不太感冒，尽管他在人你方面也毫不逊色。凯尔特巫师喜欢在树丛中举行祭礼，他们尚不懂得向教友们发行抵押债券，也没想到征收教堂板使税。概言之，他们是异教徒，英国国教的一位主教曾洋洋得意得给他们取了名字 : 不信国教者。"
+    "defCn": "古代凯尔特人的神父和和祭司，这一教派以人为祭品，并不觉得这是什么粗劣的手段。有关这类巫师及其信仰，现代人所知甚少。古罗马的普林尼“说这种宗教来自不列颠，后来往东流传到波斯。据凯撒大帝说那些好奇的人都跑到不列颠去了。凯撒也去过，不过他对凯尔特人的这种崇拜好像不太感冒，尽管他在人你方面也毫不逊色。凯尔特巫师喜欢在树丛中举行祭礼，他们尚不懂得向教友们发行抵押债券，也没想到征收教堂板使税。概言之，他们是异教徒，英国国教的一位主教曾洋洋得意得给他们取了名字 : 不信国教者。",
+    "footnotes": [
+      {
+        "term": "disdain",
+        "pos": "vt.",
+        "gloss": "蔑视，鄙弃"
+      },
+      {
+        "term": "allurement",
+        "pos": "n.",
+        "gloss": "诱惑物，魅力"
+      }
+    ]
   },
   {
     "id": 211,
@@ -1716,7 +2091,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "决斗",
     "defEn": "A formal ceremony preliminary to the reconciliation of two enemies. Great skill is necessary to its satisfactory observance; if awkwardly performed the most unexpected and deplorable! consequences sometimes ensue. de}",
-    "defCn": "在两个敌对者握手言欢之前举行的正式仪式。一场令人满意的决斗需要的诀窍多极了，谁要是呆头呆脑、笨手笨脚，就可能承担惨不忍睹的意外结局。"
+    "defCn": "在两个敌对者握手言欢之前举行的正式仪式。一场令人满意的决斗需要的诀窍多极了，谁要是呆头呆脑、笨手笨脚，就可能承担惨不忍睹的意外结局。",
+    "footnotes": [
+      {
+        "term": "deplorable",
+        "pos": "adj.",
+        "gloss": "可叹的，糟糕的"
+      }
+    ]
   },
   {
     "id": 213,
@@ -1732,7 +2114,24 @@ const WORDS = [
     "pos": "vi",
     "cnWord": "吃",
     "defEn": "To perform successively (and successfully) the functions of mastication’, humectation”, and deglutition3.",
-    "defCn": "接连不断且熟练地施展嚼碎、淆混和下咽的功能。"
+    "defCn": "接连不断且熟练地施展嚼碎、淆混和下咽的功能。",
+    "footnotes": [
+      {
+        "term": "mastication",
+        "pos": "n.",
+        "gloss": "咀嚼"
+      },
+      {
+        "term": "humectation",
+        "pos": "n.",
+        "gloss": "濡湿"
+      },
+      {
+        "term": "deglutition",
+        "pos": "n.",
+        "gloss": "吞咽，咽下"
+      }
+    ]
   },
   {
     "id": 215,
@@ -1790,6 +2189,16 @@ const WORDS = [
         "term": "admonition",
         "pos": "n.",
         "gloss": "警告"
+      },
+      {
+        "term": "placable",
+        "pos": "adj.",
+        "gloss": "易抚慰的"
+      },
+      {
+        "term": "obolus",
+        "pos": "n.",
+        "gloss": "[拉]欧布鲁斯（古小硬币）"
       }
     ]
   },
@@ -1823,7 +2232,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "驱逐",
     "defEn": "An approved remedy for the disease of garrulity’. It is also much used in cases of extreme poverty.",
-    "defCn": "一种广受嘉许的治疗饶舌病的办法，人们也用它来治疗赤贫。"
+    "defCn": "一种广受嘉许的治疗饶舌病的办法，人们也用它来治疗赤贫。",
+    "footnotes": [
+      {
+        "term": "garrulity",
+        "pos": "n.",
+        "gloss": "饶舌，多嘴"
+      }
+    ]
   },
   {
     "id": 224,
@@ -1847,7 +2263,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "专家",
     "defEn": "A composition in verse, in which, without employing any of the methods of humor, the writer aims to produce in the reader's mind the dampest kind of dejection'. ek",
-    "defCn": "这是一种押韵的文字，作者在创作它时据弃了一切幽黑手法，干方百计想在读者心中唤起种种最为诅丧的心情。"
+    "defCn": "这是一种押韵的文字，作者在创作它时据弃了一切幽黑手法，干方百计想在读者心中唤起种种最为诅丧的心情。",
+    "footnotes": [
+      {
+        "term": "dejection",
+        "pos": "n.",
+        "gloss": "沮丧"
+      }
+    ]
   },
   {
     "id": 227,
@@ -1871,7 +2294,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "解放",
     "defEn": "A bondman”'s change from the tyranny of another to the despotism of himself.",
-    "defCn": "努力摆脱别人的暴政，建立起自己的独裁统治。"
+    "defCn": "努力摆脱别人的暴政，建立起自己的独裁统治。",
+    "footnotes": [
+      {
+        "term": "bondman",
+        "pos": "n.",
+        "gloss": "奴隶"
+      }
+    ]
   },
   {
     "id": 230,
@@ -1893,6 +2323,26 @@ const WORDS = [
         "term": "chloride",
         "pos": "n.",
         "gloss": "[化]氧化物"
+      },
+      {
+        "term": "prostrating",
+        "pos": "adj.",
+        "gloss": "衰竭的"
+      },
+      {
+        "term": "copious",
+        "pos": "adj.",
+        "gloss": "很多的，丰富的"
+      },
+      {
+        "term": "hydrated",
+        "pos": "adj.",
+        "gloss": "[化]含水的"
+      },
+      {
+        "term": "sodium",
+        "pos": "n.",
+        "gloss": "钠"
       }
     ]
   },
@@ -1910,7 +2360,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "化氯化物",
     "defEn": "A distemper' of youth, curable by small doses of repentance in connection with outward applications of experience. Byron, who recovered long enough to call it \"entuzy-muzy,\" had a relapse”, which carried him off° -- to Missolonghi. A. KRERER. SHHACHL, BAP RIA, WEB",
-    "defCn": "这是年轻人常得的一种疾病，内服小剂量的悔恨，外敷一些经验的又犯了，致使他跑到希腊的密索隆基，那里阳光灿烂，古典又浪漫，不过他最后病死在那里。"
+    "defCn": "这是年轻人常得的一种疾病，内服小剂量的悔恨，外敷一些经验的又犯了，致使他跑到希腊的密索隆基，那里阳光灿烂，古典又浪漫，不过他最后病死在那里。",
+    "footnotes": [
+      {
+        "term": "distemper",
+        "pos": "n.",
+        "gloss": "大瘟热，疾病"
+      }
+    ]
   },
   {
     "id": 234,
@@ -1918,7 +2375,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "信封",
     "defEn": "The coffin of a document; the scabbard* of a bill; the husk of a",
-    "defCn": "; 这是文件的棺材，账单的刀靖，汇款的外套，情书的睡袍。"
+    "defCn": "; 这是文件的棺材，账单的刀靖，汇款的外套，情书的睡袍。",
+    "footnotes": [
+      {
+        "term": "scabbard",
+        "pos": "n.",
+        "gloss": "鞘"
+      },
+      {
+        "term": "remittance",
+        "pos": "n.",
+        "gloss": "汇款"
+      }
+    ]
   },
   {
     "id": 235,
@@ -1926,7 +2395,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "嫉妒",
     "defEn": "Emulation® adapted to the meanest capacity. ely",
-    "defCn": "一种最无力的竞争。"
+    "defCn": "一种最无力的竞争。",
+    "footnotes": [
+      {
+        "term": "emulation",
+        "pos": "n.",
+        "gloss": "竞争"
+      }
+    ]
   },
   {
     "id": 236,
@@ -1942,7 +2418,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "美食家",
     "defEn": "An opponent of Epicurus, an abstemious' philosopher who, holding that pleasure should be the chief aim of man, wasted no time in gratification from the senses.",
-    "defCn": "伊壁鸠鲁 ? 的对头，一种讲究饮食的哲学家，他断定人生的主要有目标是肉体的享乐〈主要在嘴上 )，因此他不会为满足理性的需要而浪费光阴。"
+    "defCn": "伊壁鸠鲁 ? 的对头，一种讲究饮食的哲学家，他断定人生的主要有目标是肉体的享乐〈主要在嘴上 )，因此他不会为满足理性的需要而浪费光阴。",
+    "footnotes": [
+      {
+        "term": "abstemious",
+        "pos": "adj.",
+        "gloss": "有节制的，节约的"
+      }
+    ]
   },
   {
     "id": 238,
@@ -1958,7 +2441,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "墓志铭",
     "defEn": "An inscription on a tomb, showing that virtues acquired by death have a retroactive effect’. Following is a touching example: Here lie the bones of Parson Platt, Wise, pious, humble and ail that, Who showed us life as all should live it; Let that be said -- and God forgive it! ae",
-    "defCn": "写在墓碑上的文章，它表明死亡能带来死者本来没有的高尚品德，促人浩发忆古思今的幽情。现举一篇感人肺腑的墓志铭如下：\n帕森·普拉特的遗体静静地永眠在这里，\n智慧、虔诚、谦逊等所有美德融合于他一身，\n他的光辉一生教导我们：人就应该这样生活。\n我们这样说——上帝会宽恕我们的！"
+    "defCn": "写在墓碑上的文章，它表明死亡能带来死者本来没有的高尚品德，促人浩发忆古思今的幽情。现举一篇感人肺腑的墓志铭如下：\n帕森·普拉特的遗体静静地永眠在这里，\n智慧、虔诚、谦逊等所有美德融合于他一身，\n他的光辉一生教导我们：人就应该这样生活。\n我们这样说——上帝会宽恕我们的！",
+    "footnotes": [
+      {
+        "term": "retroactive effect",
+        "pos": "",
+        "gloss": "追溯效力"
+      }
+    ]
   },
   {
     "id": 240,
@@ -1974,7 +2464,24 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "深奥",
     "defEn": "Very particularly abstruse’ and consummately” occult’. The ancient philosophies were of two kinds, -- exoteric*, those that the philosophers themselves could partly understand, and esoteric, those that nobody could understand. It is the latter that have most profoundly affected modern thought and found greatest acceptance in our time.",
-    "defCn": "，就是极为玄乎，特别精深。古代的哲学家有两类，一 -类是通俗的，这类哲学家对自己所说的多少还了解一些 ; 一类是深奥的，这帮人谁也，弄不懂自己说了什么。好玩的是，正是后者对现代思想产生了最深远的影响，并为我们的时代所接纳。"
+    "defCn": "，就是极为玄乎，特别精深。古代的哲学家有两类，一 -类是通俗的，这类哲学家对自己所说的多少还了解一些 ; 一类是深奥的，这帮人谁也，弄不懂自己说了什么。好玩的是，正是后者对现代思想产生了最深远的影响，并为我们的时代所接纳。",
+    "footnotes": [
+      {
+        "term": "abstruse",
+        "pos": "adj.",
+        "gloss": "奥妙的，深奥的"
+      },
+      {
+        "term": "consummately",
+        "pos": "adv.",
+        "gloss": "至上地"
+      },
+      {
+        "term": "occult",
+        "pos": "adj.",
+        "gloss": "神秘的"
+      }
+    ]
   },
   {
     "id": 242,
@@ -1982,7 +2489,24 @@ const WORDS = [
     "pos": "n",
     "cnWord": "人种学",
     "defEn": "The science that treats of the various tribes of Man, as robbers, thieves, swindlers, dunces”, lunatics®, idiots and ethnologists’.",
-    "defCn": "捣鼓人类种族的一门学问，它把人分为强盗、小偷、骗子、笨蛋、白痴和人种学家。"
+    "defCn": "捣鼓人类种族的一门学问，它把人分为强盗、小偷、骗子、笨蛋、白痴和人种学家。",
+    "footnotes": [
+      {
+        "term": "dunce",
+        "pos": "n.",
+        "gloss": "劣学生，傻瓜"
+      },
+      {
+        "term": "lunatic",
+        "pos": "n.",
+        "gloss": "疯子"
+      },
+      {
+        "term": "ethnologist",
+        "pos": "n.",
+        "gloss": "民族学者"
+      }
+    ]
   },
   {
     "id": 243,
@@ -1998,7 +2522,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "福音派教徒",
     "defEn": "A bearer of good tidings, particularly (in a religious sense) such as assure us of our own salvation! and the damnation’ of our neighbors.",
-    "defCn": "这种人给我们捎来了幸福的消息，特别是在某种宗教意义上使我们断定——我们自己的灵魂将获得拯救，会进入天堂，而我们的邻人则将下地狱。"
+    "defCn": "这种人给我们捎来了幸福的消息，特别是在某种宗教意义上使我们断定——我们自己的灵魂将获得拯救，会进入天堂，而我们的邻人则将下地狱。",
+    "footnotes": [
+      {
+        "term": "salvation",
+        "pos": "n.",
+        "gloss": "拯救，救助"
+      },
+      {
+        "term": "damnation",
+        "pos": "n.",
+        "gloss": "诅咒"
+      }
+    ]
   },
   {
     "id": 245,
@@ -2078,7 +2614,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "妖精",
     "defEn": "A creature, variously fashioned and endowed’, that formerly inhabited the meadows and forests. It was nocturnal’ in its habits, and somewhat addicted to dancing and the theft of children. The fairies are now believed by naturalists to be extinct, though a clergyman of the Church of England saw three near Colchester as lately as 1855, while passing through a park after dining with the lord of the manor’. The sight greatly staggered* him, and he was so affected that his account of it was incoherent. In the year 1807 a troop of fairies visited a wood near Aix and carried off the daughter of a peasant, who had been seen to enter it with a bundle of clothing. The son of a wealthy bourgeois disappeared about the same time, but afterward returned. He had seen the abduction been in pursuit of the fairies. Justinian Gaux, a writer of the fourteenth century, avers that so great is the fairies' power of transformation that he saw one change itself into two opposing armies and fight a battle with great slaughter, and that the next day, after it had resumed its original shape and gone away, there were seven hundred bodies of the slain' which the villagers had to bury. He does not say if any of the wounded recovered. In the time of Henry III, of England, a law was made which prescribed the death penalty for \"Kyllynge, wowndynge, or mamynge\" a fairy, and it was universally respected. ABA SIM, THM. BARMAN, ABE 700 Her,",
-    "defCn": "，一类生物，她们的形体和京赋各不相同，从前她们多半活动在草地和树林里。习惯于在夜间出没，喜爱跳舞旦热衷于拐骗孩子。今天博物学家相信妖精已经绝迹，尽管英国的一位牧师在 1885 年还见过三个妖精，当时他在同一个庄园主晚餐之后穿过一个公园。妖精的出现真把他号坏了 ,他回忆事情的经过时前言不措后语。1807 年 ,一大群妖精光临. 了艾克斯附近的森林，拐走了一个农夫的女儿，有人看见她夹着一包衣服进了那座林子。与此同时，一个颈实人家的儿子也失踪了，不过后来他回来了，声称亲眼目睹了妖精拐走了农夫的女儿，他还追赶她们好一阵。14 世纪的一位作家查士本尼 * 高克斯断言，妖精们的威力无穷，她们善于各种形式的变幻。他本人曾看见妖精变成两队人马在交战，双方农夫们不得不把它们掩埋了。不过他没有说那些受伤的士兵是否康复了。在亨利三世时代，英国颁布了处死妖精的法律，这条法令在当时受到了人们的普遍尊重。"
+    "defCn": "，一类生物，她们的形体和京赋各不相同，从前她们多半活动在草地和树林里。习惯于在夜间出没，喜爱跳舞旦热衷于拐骗孩子。今天博物学家相信妖精已经绝迹，尽管英国的一位牧师在 1885 年还见过三个妖精，当时他在同一个庄园主晚餐之后穿过一个公园。妖精的出现真把他号坏了 ,他回忆事情的经过时前言不措后语。1807 年 ,一大群妖精光临. 了艾克斯附近的森林，拐走了一个农夫的女儿，有人看见她夹着一包衣服进了那座林子。与此同时，一个颈实人家的儿子也失踪了，不过后来他回来了，声称亲眼目睹了妖精拐走了农夫的女儿，他还追赶她们好一阵。14 世纪的一位作家查士本尼 * 高克斯断言，妖精们的威力无穷，她们善于各种形式的变幻。他本人曾看见妖精变成两队人马在交战，双方农夫们不得不把它们掩埋了。不过他没有说那些受伤的士兵是否康复了。在亨利三世时代，英国颁布了处死妖精的法律，这条法令在当时受到了人们的普遍尊重。",
+    "footnotes": [
+      {
+        "term": "endow",
+        "pos": "v.",
+        "gloss": "赋予"
+      },
+      {
+        "term": "nocturnal",
+        "pos": "adj.",
+        "gloss": "夜的，夜曲的"
+      }
+    ]
   },
   {
     "id": 255,
@@ -2094,7 +2642,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "时尚",
     "defEn": "Adespot' whom the wise ridicule and obey. A king there was who lost an eye, in some excess of passion; And straight his courtiers all did try to follow the new fashion. Each dropped one eyelid when before the throne he ventured, thinking What should they do? They were not hot to hazard such disaster; They dared not close an eye -- dared not see better than their master. Seeing them lachrymose! and glum, A leech’ consoled the weepers: He spread small rags with liquid gum And covered half their peepers’. The court all wore the stuff, the flame of royal anger dying. That's how court-plaster got its name unless I'm greatly lying. Naramy Oof WATS AIR, SARI, HH HAKAMAT MINKE, edt",
-    "defCn": "这是一个暴君，聪明人既嘲弄他，又服从他。从前有一个国王滥施感情，因此他瞎了一只眼睛，他的大臣们马上效仿，都去追随国王新开的时尚。每次朝见尊贵的国王，他们都把一只眼睛闭上，相信这样能取悦威严的国王，可国王发芍要把旺眼挪痊他的人杀光。，该如何是好 ? 没料到会营来如此大福，他们不敢再闭上一只眼，也1 不敢比主子看得更清楚。: 开一些破布，涂上树胶，然后粘住每个大臣的一只眼。| 从此宫中老幼都贴上了那宝贝，国王的怒火逐渐熄灭，橡皮章药就: 这样来到世上，我要是胡说一定不得好报。纳拉米 + 胡夫"
+    "defCn": "这是一个暴君，聪明人既嘲弄他，又服从他。从前有一个国王滥施感情，因此他瞎了一只眼睛，他的大臣们马上效仿，都去追随国王新开的时尚。每次朝见尊贵的国王，他们都把一只眼睛闭上，相信这样能取悦威严的国王，可国王发芍要把旺眼挪痊他的人杀光。，该如何是好 ? 没料到会营来如此大福，他们不敢再闭上一只眼，也1 不敢比主子看得更清楚。: 开一些破布，涂上树胶，然后粘住每个大臣的一只眼。| 从此宫中老幼都贴上了那宝贝，国王的怒火逐渐熄灭，橡皮章药就: 这样来到世上，我要是胡说一定不得好报。纳拉米 + 胡夫",
+    "footnotes": [
+      {
+        "term": "despot",
+        "pos": "n.",
+        "gloss": "专制君主，暴君"
+      }
+    ]
   },
   {
     "id": 257,
@@ -2102,7 +2657,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "都要大吃一通",
     "defEn": "A festival. A religious celebration usually signalized by gluttony’ and drunkenness, frequently in honor of some holy person distinguished for abstemiousness®. In the Roman Catholic Church feasts are \"movable\" and full. In their earliest development these entertainments took the form of feasts for the dead; such were held by the Greeks, under the name Nemeseia, by the Aztecs and Peruvians, as in modern times they are popular with the Chinese; though it is believed that the ancient dead, like the modern, were light eaters. Among the many feasts of the Romans was the Novemdiale, which was held, according to Livy, whenever stones fell from heaven.",
-    "defCn": "节日喜庆的内容，是一种宗教庆典，经常是通过大吃大喝、酒足饭饱来庆贺的 , 目的是为了纪念某个节欲而闻名的圣人。在罗马天主教中，盛宴分为“固定”和“流动”两种，不过，在酒足饭饱之前，主持仪式的神父们始终坐在餐桌边。在初期，诸如此类的娱乐表现为奉死者进行的宴会，古希腊人举行这样的活动，阿兹特克人 ?和秘鲁人也是如此，现代的中国人同样精于此道。据信，古代的死者和现代的死者一样，都是吃不了多少东西的。古罗马花样众多的盛宴中有一种叫作Novemdiale，根据李维 ?的说法 , 无论什么时候从天上掉下陨石，罗马人都要大吃一通。2 阿效特克(Aztec)印第安人于公元 14 16 世纪之间统治着墨西哥中部及南部。在纳瓦特尔语中，阿效特克是“从Azatlan来的人”的意思。根据传说，阿兹特克人的祖先是从北方一个叫做Azatlan的岛屿来的，他们根据太阳神的指示往南来到阿纳华克谷地(Anahuac valley)的德斯科科湖(Lake Texcoco); 当他们来到湖中央的岛屿时，他们看到一只四着蛇的老应停风在仙人掌上，这个意像告诉他们这里就是他们新的家园。阿兹特克宗教的另一大组成部分就是活人每礼。祭祀时，和祭司将牺牲者放置在一块圆形的凸面石上，用尖刀取出他仍在跳动的心脏，阿兹特克人相信善良之神会从人类的血液和心脏中汲取力量，从而阻止政恶之神作恶。在规模较大的球祀中战士会作为牺牲，这对他们来说是一个极大的荣耀 ;而在小规模的祭祀中一般将犯人当作牺牲。3 李维(公元前 $9 一公元 17 年 )，古罗马历史学家。"
+    "defCn": "节日喜庆的内容，是一种宗教庆典，经常是通过大吃大喝、酒足饭饱来庆贺的 , 目的是为了纪念某个节欲而闻名的圣人。在罗马天主教中，盛宴分为“固定”和“流动”两种，不过，在酒足饭饱之前，主持仪式的神父们始终坐在餐桌边。在初期，诸如此类的娱乐表现为奉死者进行的宴会，古希腊人举行这样的活动，阿兹特克人 ?和秘鲁人也是如此，现代的中国人同样精于此道。据信，古代的死者和现代的死者一样，都是吃不了多少东西的。古罗马花样众多的盛宴中有一种叫作Novemdiale，根据李维 ?的说法 , 无论什么时候从天上掉下陨石，罗马人都要大吃一通。2 阿效特克(Aztec)印第安人于公元 14 16 世纪之间统治着墨西哥中部及南部。在纳瓦特尔语中，阿效特克是“从Azatlan来的人”的意思。根据传说，阿兹特克人的祖先是从北方一个叫做Azatlan的岛屿来的，他们根据太阳神的指示往南来到阿纳华克谷地(Anahuac valley)的德斯科科湖(Lake Texcoco); 当他们来到湖中央的岛屿时，他们看到一只四着蛇的老应停风在仙人掌上，这个意像告诉他们这里就是他们新的家园。阿兹特克宗教的另一大组成部分就是活人每礼。祭祀时，和祭司将牺牲者放置在一块圆形的凸面石上，用尖刀取出他仍在跳动的心脏，阿兹特克人相信善良之神会从人类的血液和心脏中汲取力量，从而阻止政恶之神作恶。在规模较大的球祀中战士会作为牺牲，这对他们来说是一个极大的荣耀 ;而在小规模的祭祀中一般将犯人当作牺牲。3 李维(公元前 $9 一公元 17 年 )，古罗马历史学家。",
+    "footnotes": [
+      {
+        "term": "gluttony",
+        "pos": "n.",
+        "gloss": "暴食，贪食"
+      }
+    ]
   },
   {
     "id": 258,
@@ -2206,7 +2768,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "疯子",
     "defEn": "A person who pervades' the domain of intellectual speculation and diffuses himself through the channels of moral activity. He is omnific”, omniform?, omnipercipient, omniscience*, omnipotent®. He it was who invented letters, printing, the railroad, the steamboat, the telegraph, the platitude and the circle of the sciences. He created patriotism and taught the ， nations war -- founded theology, philosophy, law, medicine and Chicago. He : established monarchical and republican government. He is from everlasting® : to everlasting -- such as creation's dawn beheld he fooleth now. In the morning of time he sang upon primitive hills, and in the noonday of existence headed the procession of being. His grandmotherly hand was warmly tucked-in the set sun of civilization, and in the twilight he prepares Man's evening meal of milk-and-morality and turns down the covers of the universal grave. And after the rest of us shall have retired for the night of eternal oblivion’ he will sit up to write a history of human civilization.",
-    "defCn": "这种人活跃于人类的知识领域，通过道德活动的各种途经四处出击。他厉害得很，具备各种形态，无所不知，无所不能。正是他发明了字母、印刷本、铁路、共汽船、电报、陈词滥调以及科学的各个分支。是他发明了爱国主义 , 使各个国家学会打仗一一创立神学、哲学、法律、医学和芝加哥的也是他。是他缔造了君主制和共和制两种政治体制。古往今来 , 他青春永驻一一从创世的晨曦到今天 , 他不停地要弄他的威风。洪荒初开的早晨，他站在野蛮的山头上歌唱。世界易盛的中午，他带领万物正步插进。是他用老祖母一般的手指温柔地抚摸文明的落日 ,在红黄的夕照之下为人类准备了牛奶与道德的晚餐，然后揭开坟墓的被福让人类安息。当我们在永恒的遗忘之乡长眠之后，他将挑灯夜战，撰写一，部人类文明的史书。"
+    "defCn": "这种人活跃于人类的知识领域，通过道德活动的各种途经四处出击。他厉害得很，具备各种形态，无所不知，无所不能。正是他发明了字母、印刷本、铁路、共汽船、电报、陈词滥调以及科学的各个分支。是他发明了爱国主义 , 使各个国家学会打仗一一创立神学、哲学、法律、医学和芝加哥的也是他。是他缔造了君主制和共和制两种政治体制。古往今来 , 他青春永驻一一从创世的晨曦到今天 , 他不停地要弄他的威风。洪荒初开的早晨，他站在野蛮的山头上歌唱。世界易盛的中午，他带领万物正步插进。是他用老祖母一般的手指温柔地抚摸文明的落日 ,在红黄的夕照之下为人类准备了牛奶与道德的晚餐，然后揭开坟墓的被福让人类安息。当我们在永恒的遗忘之乡长眠之后，他将挑灯夜战，撰写一，部人类文明的史书。",
+    "footnotes": [
+      {
+        "term": "pervade",
+        "pos": "v.",
+        "gloss": "弥漫，遍布"
+      }
+    ]
   },
   {
     "id": 271,
@@ -2230,7 +2799,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "来补偿",
     "defEn": "A gift of God bestowed upon debtors in compensation for their destitution! of conscience.",
-    "defCn": "这是上帝赐予负债人的礼物，他们的良心上有和欠缺，上帝就用健忘来补偿。"
+    "defCn": "这是上帝赐予负债人的礼物，他们的良心上有和欠缺，上帝就用健忘来补偿。",
+    "footnotes": [
+      {
+        "term": "destitution",
+        "pos": "n.",
+        "gloss": "缺乏"
+      }
+    ]
   },
   {
     "id": 274,
@@ -2238,7 +2814,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "宽恕",
     "defEn": "A stratagem? to throw an offender off his guard and catch him red-handed’ in his next offence.",
-    "defCn": "一种计谋，用来完全消除冒犯者的警觉，在他下次进犯时能把他接得血肉模糊。"
+    "defCn": "一种计谋，用来完全消除冒犯者的警觉，在他下次进犯时能把他接得血肉模糊。",
+    "footnotes": [
+      {
+        "term": "stratagem",
+        "pos": "n.",
+        "gloss": "战略，计谋"
+      },
+      {
+        "term": "red-handed",
+        "pos": "adj.",
+        "gloss": "沾满血的(作案当场)"
+      }
+    ]
   },
   {
     "id": 275,
@@ -2348,7 +2936,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "匡礼",
     "defEn": "A pageant” whereby we attest our respect for the dead by enriching the undertaker, and strengthen our grief by an expenditure that deepens our groans and doubles our tears.",
-    "defCn": "1 卡尔文是“胡格诺派”的创始人。这位著名的宗教改革家，由于倡导新的宗教改#, 在当时的法国，受到国王和天主教会的不断迫害，因而他被迫逃往瑞士。不久，他就以日内瓦为中心，创立了一个新的宗教教派，即卡尔文教派，它的影响日益增See ee手工业者及对教会和国王不满的南部贵族纷纷加入了之情 , 用足以加剧我们痛苦并使我们流双倍眼泪的费用来加深我们的悲"
+    "defCn": "1 卡尔文是“胡格诺派”的创始人。这位著名的宗教改革家，由于倡导新的宗教改#, 在当时的法国，受到国王和天主教会的不断迫害，因而他被迫逃往瑞士。不久，他就以日内瓦为中心，创立了一个新的宗教教派，即卡尔文教派，它的影响日益增See ee手工业者及对教会和国王不满的南部贵族纷纷加入了之情 , 用足以加剧我们痛苦并使我们流双倍眼泪的费用来加深我们的悲",
+    "footnotes": [
+      {
+        "term": "pageant",
+        "pos": "n.",
+        "gloss": "盛会，露天表演"
+      }
+    ]
   },
   {
     "id": 287,
@@ -2449,6 +3044,11 @@ const WORDS = [
         "term": "moderation",
         "pos": "n.",
         "gloss": "慢化，减速，延时作用"
+      },
+      {
+        "term": "dyspepsia",
+        "pos": "n.",
+        "gloss": "[医]消化不良"
       }
     ]
   },
@@ -2530,7 +3130,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "习惯",
     "defEn": "A shackle! for the free.",
-    "defCn": "为自由而设的镀铸。"
+    "defCn": "为自由而设的镀铸。",
+    "footnotes": [
+      {
+        "term": "shackle",
+        "pos": "n.",
+        "gloss": "手铐，脚镣，桎梏"
+      }
+    ]
   },
   {
     "id": 308,
@@ -2538,7 +3145,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "于",
     "defEn": "One of two equal parts into which a thing may be divided, or considered as divided. In the fourteenth century a heated discussion arose among theologists and philosophers as to whether Omniscience could part an object into three halves; and the pious Father Aldrovinus publicly prayed in the cathedral at Rouen that God would demonstrate the affirmative of the proposition in some signal and unmistakable way, and particularly (if it should please Him) upon the body of that hardy blasphemer’, Manutius Procinus, who maintained the negative. Procinus, however, was spared to die of the bite of a viper’.",
-    "defCn": "，可以分成或假设已分成的相等的两份中的一份。早在 14 世纪时，. 神学家和哲学家就展开过一场激烈地舌战，他们争吵的中心就是 : 全能的上帝能否把一个物体分成三个一半。虔信的阿尔德罗维纳斯神父在鲁昂的教堂布道时毫不掩饰地对信徒们说 :“毋庸置疑，上帝完全能用一种看得见、果断的方式把一个物体劈成三个一半，特别是〈假如上帝喜欢的话 )在那个敢恶的渎神者马努蒂乌斯。普罗西努斯的身上证明这一，点。”后来普罗西努斯被毒蛇咬死了，未能做成实验。"
+    "defCn": "，可以分成或假设已分成的相等的两份中的一份。早在 14 世纪时，. 神学家和哲学家就展开过一场激烈地舌战，他们争吵的中心就是 : 全能的上帝能否把一个物体分成三个一半。虔信的阿尔德罗维纳斯神父在鲁昂的教堂布道时毫不掩饰地对信徒们说 :“毋庸置疑，上帝完全能用一种看得见、果断的方式把一个物体劈成三个一半，特别是〈假如上帝喜欢的话 )在那个敢恶的渎神者马努蒂乌斯。普罗西努斯的身上证明这一，点。”后来普罗西努斯被毒蛇咬死了，未能做成实验。",
+    "footnotes": [
+      {
+        "term": "blasphemer",
+        "pos": "n.",
+        "gloss": "亵渎者"
+      },
+      {
+        "term": "viper",
+        "pos": "n.",
+        "gloss": "毒蛇"
+      }
+    ]
   },
   {
     "id": 309,
@@ -2546,7 +3165,24 @@ const WORDS = [
     "pos": "n",
     "cnWord": "晕环",
     "defEn": "Properly, a luminous ring encircling an astronomical body, but not infrequently confounded with \"aureola’,” or \"nimbus’,\" a somewhat similar phenomenon worn as a head-dress by divinities and saints. The halo is a purely optical illusion, produced by moisture in the air, in the manner of a rainbow; but the aureola is conferred as a sign of superior sanctity, in the same way as a bishop's mitre’, or the Pope's tiara’. In the painting of the Nativity, by Szedgkin, a pious artist of Pesth, not only do the Virgin and the Child wear the nimbus, but an ass nibbling hay from the sacred manger is similarly decorated and, to his lasting honor be it said, appears to bear his unaccustomed dignity with a truly saintly grace.",
-    "defCn": "确切地说，晕环指的是环绕星球的一种发亮的圆环，但它经常被胡乱地和“光环”等混用，光环是神或圣人脑袋上项着的一圈光轮。晕环不过是一种错觉 , 是由水气反射光线而形成的 , 就像天空中的彩虹一样。光环都是超凡入圣的标记 ,就象红衣主教的主教冠或罗马教皇的三层冕一样。佩斯的一位狂热的功家一一袭纪进曾画过一幅表现耶酥降生的画，在他笔下，不仅圣母和圣子头上有光环，连那头在非凡的马槽哨干草的驴子，居然驴头上也有光环放着光芒。为这位画家永垂不朽的荣誉考虑，还有必要添上一句，那头驴子的神情肃穆，恰如其分地表达了画家自己鹤立鸡群的庄重与圣洁。"
+    "defCn": "确切地说，晕环指的是环绕星球的一种发亮的圆环，但它经常被胡乱地和“光环”等混用，光环是神或圣人脑袋上项着的一圈光轮。晕环不过是一种错觉 , 是由水气反射光线而形成的 , 就像天空中的彩虹一样。光环都是超凡入圣的标记 ,就象红衣主教的主教冠或罗马教皇的三层冕一样。佩斯的一位狂热的功家一一袭纪进曾画过一幅表现耶酥降生的画，在他笔下，不仅圣母和圣子头上有光环，连那头在非凡的马槽哨干草的驴子，居然驴头上也有光环放着光芒。为这位画家永垂不朽的荣誉考虑，还有必要添上一句，那头驴子的神情肃穆，恰如其分地表达了画家自己鹤立鸡群的庄重与圣洁。",
+    "footnotes": [
+      {
+        "term": "aureola",
+        "pos": "n.",
+        "gloss": "圣像光环"
+      },
+      {
+        "term": "mitre",
+        "pos": "n.",
+        "gloss": "主教冠"
+      },
+      {
+        "term": "tiara",
+        "pos": "n.",
+        "gloss": "教皇三重冠"
+      }
+    ]
   },
   {
     "id": 310,
@@ -2562,7 +3198,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "手帕",
     "defEn": "A small square of silk or linen, used in various ignoble! offices about the face and especially serviceable at funerals to conceal the lack of tears. The handkerchief is of recent invention; our ancestors knew nothing of it and intrusted its duties to the sleeve. Shakespeare's introducing it into the play of Othello is an anachronism: Desdemona dried her nose with her skirt, as Dr. Mary Walker and other reformers have done with their coattails in our own day -- an evidence that revolutions sometimes go backward.",
-    "defCn": "一块正方形的绸布或亚麻布，在各种尴坎或不体面的场合，人们党上用它来遮脸或擦脸，特别是在葬礼上，用它来掩饰流不出来的眼泪是再称职不过的。手帕是最近才横空出世的，咱们的祖宗对它毫不了解，他们让袖子行使现在手绢的功能。莎士比亚把手帕引入《奥赛罗》”一剧把年代弄错了。当年苦丝狄梦娜本来是用裙子拱鼻子的，就像在我们这个年代玛丽。沃克博士和其他改革家用燕尾服的两个尾巴拱鼻子一样一一革命有时候是在背后进行的，这就是明证。"
+    "defCn": "一块正方形的绸布或亚麻布，在各种尴坎或不体面的场合，人们党上用它来遮脸或擦脸，特别是在葬礼上，用它来掩饰流不出来的眼泪是再称职不过的。手帕是最近才横空出世的，咱们的祖宗对它毫不了解，他们让袖子行使现在手绢的功能。莎士比亚把手帕引入《奥赛罗》”一剧把年代弄错了。当年苦丝狄梦娜本来是用裙子拱鼻子的，就像在我们这个年代玛丽。沃克博士和其他改革家用燕尾服的两个尾巴拱鼻子一样一一革命有时候是在背后进行的，这就是明证。",
+    "footnotes": [
+      {
+        "term": "ignoble",
+        "pos": "adj.",
+        "gloss": "不光彩的"
+      },
+      {
+        "term": "anachronism",
+        "pos": "n.",
+        "gloss": "时代错误"
+      }
+    ]
   },
   {
     "id": 312,
@@ -2570,7 +3218,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "剑子手",
     "defEn": "An officer of the law charged with duties of the highest dignity and utmost gravity, and held in hereditary disesteem by a populace having a criminal ancestry. In some of the American States his functions are now i, HRZASRIAD, GET BAKE MSW. performed by an electrician, as in New Jersey, where executions by electricity have recently been ordered -- the first instance known to this lexicographer ' of anybody questioning the expediency ” of hanging Jerseymen.",
-    "defCn": "2 奥赛罗是威尼斯公国的一员勇将。他与元老的女儿苦丝狄林娜相爱。但由于他是黑人，婚事未被允许。两人只好私下成婚。奥赛罗手下有一个阴险的旗官伊阿古，一心想除掉奥赛罗。他先是向元老告密，不料却促成了两人的婚事。他又挑拨奥赛罗与苔丝狄梦娜的感情，说另一名副将凯西奥与苦丝狄梦娜关系不同寻常，并伪造了所谓定情信物等。奥赛罗信以为真，在愤怒中拘死了自己的妻子。当他得知真相剑子手这是执行法律庄严使命的官员，其职责比其他任何人都要来得宝贵。当然，有犯罪血统的大伙都厌恶他，实际上他背负着一种世传的愤恨。在美国一些州，剑子手已被更先进的电工取而代之，如新泽西州，有关机构最近已经下文用电力处决罪犯。"
+    "defCn": "2 奥赛罗是威尼斯公国的一员勇将。他与元老的女儿苦丝狄林娜相爱。但由于他是黑人，婚事未被允许。两人只好私下成婚。奥赛罗手下有一个阴险的旗官伊阿古，一心想除掉奥赛罗。他先是向元老告密，不料却促成了两人的婚事。他又挑拨奥赛罗与苔丝狄梦娜的感情，说另一名副将凯西奥与苦丝狄梦娜关系不同寻常，并伪造了所谓定情信物等。奥赛罗信以为真，在愤怒中拘死了自己的妻子。当他得知真相剑子手这是执行法律庄严使命的官员，其职责比其他任何人都要来得宝贵。当然，有犯罪血统的大伙都厌恶他，实际上他背负着一种世传的愤恨。在美国一些州，剑子手已被更先进的电工取而代之，如新泽西州，有关机构最近已经下文用电力处决罪犯。",
+    "footnotes": [
+      {
+        "term": "lexicographer",
+        "pos": "n.",
+        "gloss": "词典编纂者"
+      },
+      {
+        "term": "expediency",
+        "pos": "n.",
+        "gloss": "权宜、私利"
+      }
+    ]
   },
   {
     "id": 313,
@@ -2610,7 +3270,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "人头税",
     "defEn": "; A capitation’ tax, or poll-tax. In ancient times there lived a king whose tax-collectors could not wring from all his subjects gold enough to make the royal way less rough. So The tax-collectors in a row appeared before the throne to pray their master to . devise some way to swell the revenue. \"So great,\" said they, \"are the demands of state a tithe’ of all that we collect will scarcely meet them. Pray reflect: how, if one-tenth we must resign, can we exist on t'other nine?” The monarch asked them in reply: \"Has it occurred to you to try the advantage of economy?\" \"It has,\" the spokesman said: \"we sold all of our gray garrotes* of gold; with plated-ware we now compress the necks of those whom we assess. Plain iron forceps we employ to mitigate? the miser's joy who hoards, with greed that never tires, that which your Majesty requires.\" deep lines of thought were seen to plow their way across the royal brow. King of Men,\" the spokesman said, \"If you'll impose upon each head a tax, the augmented revenue we'll cheerfully divide with you.\" As flashes of the sun illume the parted storm-cloud's sullen gloom, the king smiled grimly. \"T decree that it be so -- and, not to be in generosity outdone, declare you, each and every one, exempted from the operation of this new law of capitation. But lest the people censure me because they're bound and you are free, leave you now while you confer with my most trusted minister.\" The monarch from the throne-room walked and straightway in among them stalked a silent man, with brow concealed, Bare-armed -- his gleaming axe revealed! GJ. Heros, RANKER RSM.” MURR EH GA OEM HY",
-    "defCn": "按照人头计算来抽税。\n古代有一位国王，他的税务官不能从老百姓那里征得足够的税去修好王家大道。他们说：\"国家要求的十一税我们再也无法筹集到了。请想一想，如果我们必须舍弃这十分之一，那么如何来留住剩下的十分之九呢？\"国王以问作答：\"你们如何来保护政府的利益？\"税务官的代表说：\"我们卖掉勒索来的黄金，再加上那些压扁的金银餐具，我们运用铁腕来减轻那些守财奴们的从不满足的贪欲，以满足陛下的要求。\"一阵深思掠过国王的眉梢，\"你们真是拼了命了，没有问题，给我一个建议吧！\"\"噢，万民之王，\"税务官代表叫道，\"如果你按照人头来征税，增加税收的话，我们将很乐意与您分成。\"从几块浓重的乌云的缝隙当中闪出了阳光的光芒，国王狰狞地笑道：\"我会按照你们的要求颁布法令的——但不要做得太过分。我宣布你们中的每一个人都免于征收人头税，但恐怕他们会责难我。他们受到盘剥你却免于征税。一个好办法是由你们自己去逃税。我要走了，我最信赖的大臣会与你们商谈。\"国王离开宝座，径直从他们中间穿过，他的眉头隐含着某种东西，唯一显露的是他闪光的斧子。"
+    "defCn": "按照人头计算来抽税。\n古代有一位国王，他的税务官不能从老百姓那里征得足够的税去修好王家大道。他们说：\"国家要求的十一税我们再也无法筹集到了。请想一想，如果我们必须舍弃这十分之一，那么如何来留住剩下的十分之九呢？\"国王以问作答：\"你们如何来保护政府的利益？\"税务官的代表说：\"我们卖掉勒索来的黄金，再加上那些压扁的金银餐具，我们运用铁腕来减轻那些守财奴们的从不满足的贪欲，以满足陛下的要求。\"一阵深思掠过国王的眉梢，\"你们真是拼了命了，没有问题，给我一个建议吧！\"\"噢，万民之王，\"税务官代表叫道，\"如果你按照人头来征税，增加税收的话，我们将很乐意与您分成。\"从几块浓重的乌云的缝隙当中闪出了阳光的光芒，国王狰狞地笑道：\"我会按照你们的要求颁布法令的——但不要做得太过分。我宣布你们中的每一个人都免于征收人头税，但恐怕他们会责难我。他们受到盘剥你却免于征税。一个好办法是由你们自己去逃税。我要走了，我最信赖的大臣会与你们商谈。\"国王离开宝座，径直从他们中间穿过，他的眉头隐含着某种东西，唯一显露的是他闪光的斧子。",
+    "footnotes": [
+      {
+        "term": "capitation",
+        "pos": "n.",
+        "gloss": "人头税"
+      }
+    ]
   },
   {
     "id": 318,
@@ -2626,7 +3293,29 @@ const WORDS = [
     "pos": "n",
     "cnWord": "心脏",
     "defEn": "An automatic, muscular blood-pump. Figuratively, this useful organ is said to be the esat of emotions and sentiments -- a very pretty fancy which, , however, is nothing but a survival of a once universal belief. It is now evolved from food by chemical action of the gastricl fluid. The exact process by which a beefsteak becomes a feeling -- tender or not, according to the age of the animal from which it was cut; the successive stages of elaboration through which a caviar’ sandwich is transmuted to a quaint fancy and reappears as a pungent epigram; the marvelous functional methods of converting a hard-boiled egg into religious contrition, or a cream-puff into a sigh of sensibility -- these things have been patiently ascertained by M. Pasteur, and by him expounded with convincing lucidity. In a scientific work entitled, I believe, Delectatio Demonorum this view of the sentiments receives a striking illustration; and for further light consult Professor Dam's famous treatise on Love as a Product of Alimentary! Maceration’. (Ria) FH.",
-    "defCn": "一种用肌肉制成的自动抽血泵。人们视它为情感的家园——这不过是一种美妙的胡思乱想，可是在以前，这可是广为流布的观念。现代科学表明，胃才是人类情感的繁殖地，食物在胃液的化学作用之下转化成七情六欲。一块牛排化成一道情绪——情绪是否新鲜取决于所吃的牛的年岁大小——这一转变的精确过程到底是怎么一回事？鱼子酱、三明治化成一片奇怪的幻象，脱口而出的一句辛辣的格言，这繁复的转化需要经历哪几个阶段？一个煮得太老的鸡蛋结果变成了一种宗教上的悔恨交加，或者一个奶油点心变成了一声缠绵温柔的叹息，这些奇妙的变化是怎么产生的？科学大师巴斯德先生已经用清晰明了的语言耐心地为我们作了解答。有一本名为《魔鬼的享乐》的科学著述有趣地讲述了消化与情感的关系。要想对肠胃与情感的关系作进一步的了解，可参考丹姆教授的杰出论文《爱——浸透营养的产儿》。"
+    "defCn": "一种用肌肉制成的自动抽血泵。人们视它为情感的家园——这不过是一种美妙的胡思乱想，可是在以前，这可是广为流布的观念。现代科学表明，胃才是人类情感的繁殖地，食物在胃液的化学作用之下转化成七情六欲。一块牛排化成一道情绪——情绪是否新鲜取决于所吃的牛的年岁大小——这一转变的精确过程到底是怎么一回事？鱼子酱、三明治化成一片奇怪的幻象，脱口而出的一句辛辣的格言，这繁复的转化需要经历哪几个阶段？一个煮得太老的鸡蛋结果变成了一种宗教上的悔恨交加，或者一个奶油点心变成了一声缠绵温柔的叹息，这些奇妙的变化是怎么产生的？科学大师巴斯德先生已经用清晰明了的语言耐心地为我们作了解答。有一本名为《魔鬼的享乐》的科学著述有趣地讲述了消化与情感的关系。要想对肠胃与情感的关系作进一步的了解，可参考丹姆教授的杰出论文《爱——浸透营养的产儿》。",
+    "footnotes": [
+      {
+        "term": "gastric",
+        "pos": "adj.",
+        "gloss": "胃部的"
+      },
+      {
+        "term": "caviar",
+        "pos": "n.",
+        "gloss": "鱼子酱"
+      },
+      {
+        "term": "contrition",
+        "pos": "n.",
+        "gloss": "悔悟"
+      },
+      {
+        "term": "lucidity",
+        "pos": "n.",
+        "gloss": "清晰易懂"
+      }
+    ]
   },
   {
     "id": 320,
@@ -2650,7 +3339,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "大麻",
     "defEn": "A plant from whose fibrous bark! is made an article of neckwear which is frequently put on after public speaking in the open air and prevents the wearer from taking cold.",
-    "defCn": "这是一种植物，人们用它树皮中所含的纤维做成围巾。这种围巾常常在露天演讲完毕后围在演说者的颈部以避他伤风着凉。"
+    "defCn": "这是一种植物，人们用它树皮中所含的纤维做成围巾。这种围巾常常在露天演讲完毕后围在演说者的颈部以避他伤风着凉。",
+    "footnotes": [
+      {
+        "term": "bark",
+        "pos": "n.",
+        "gloss": "树皮"
+      }
+    ]
   },
   {
     "id": 323,
@@ -2674,7 +3370,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "历史学家",
     "defEn": "A broad-gauge” gossip.",
-    "defCn": "一个没有偏见的饶舌者。"
+    "defCn": "一个没有偏见的饶舌者。",
+    "footnotes": [
+      {
+        "term": "broad-gauge",
+        "pos": "adj.",
+        "gloss": "见识宽泛的"
+      }
+    ]
   },
   {
     "id": 326,
@@ -2682,7 +3385,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "历史",
     "defEn": "An account mostly false, of events mostly unimportant, which are brought about by rulers mostly knaves', and soldiers mostly fools.",
-    "defCn": "它记载的多数内容都是荒诞无稽，无足轻重。它记录的统治者多数是坏人，士兵则多半是傻瓜。"
+    "defCn": "它记载的多数内容都是荒诞无稽，无足轻重。它记录的统治者多数是坏人，士兵则多半是傻瓜。",
+    "footnotes": [
+      {
+        "term": "knave",
+        "pos": "n.",
+        "gloss": "流氓，坏人"
+      }
+    ]
   },
   {
     "id": 327,
@@ -2690,7 +3400,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "属于洛克菲勒的",
     "defEn": "A bird remarkable for the catholicity” of its appetite and serving to illustrate that of ours. Among the Mahometans and Jews, the hog is not in ， its voice. It is chiefly as a songster that the fowl is esteemed; the cage of him in full chorus has been known to draw tears from two persons at once. The scientific name of this dicky-bird is Porcus Rockefelleri. Mr. Rockefeller did not discover the hog, but it is considered his by right of resemblance.",
-    "defCn": "，这是一种以食量大而著称的鸟 , 有时我们用它来形容一个人的好寺口。在伊斯兰教徒和狐太人心里，猪肉是不宜食用的，但猪以其优雅的仪表、美丽的鸟毛和甜美的嗓音获得了普遍的喜爱。这种家全主要是作为一名歌唱家而深受大伙的拥戴，它在大笼子里放声了旷唱，确实感人至深，足以使两人漠然泪下。这种鸟的学名叫洛克菲勒猪，但它并不是洛克菲勒先生发现的，由于它同洛克菲勒有众多相似之处，所以被认为是属于洛克菲勒的。"
+    "defCn": "，这是一种以食量大而著称的鸟 , 有时我们用它来形容一个人的好寺口。在伊斯兰教徒和狐太人心里，猪肉是不宜食用的，但猪以其优雅的仪表、美丽的鸟毛和甜美的嗓音获得了普遍的喜爱。这种家全主要是作为一名歌唱家而深受大伙的拥戴，它在大笼子里放声了旷唱，确实感人至深，足以使两人漠然泪下。这种鸟的学名叫洛克菲勒猪，但它并不是洛克菲勒先生发现的，由于它同洛克菲勒有众多相似之处，所以被认为是属于洛克菲勒的。",
+    "footnotes": [
+      {
+        "term": "catholicity",
+        "pos": "n.",
+        "gloss": "广泛性"
+      }
+    ]
   },
   {
     "id": 328,
@@ -2698,7 +3415,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "杀人者",
     "defEn": "The slaying of one human being by another. There are four kinds of homocide: felonious’, excusable, justifiable, and praiseworthy, but it makes no great difference to the person slain whether he fell by one kind or another -- the classification is for advantage of the lawyers.",
-    "defCn": "一个人杀死另一个。可以分为四种类型 : 罪该万死的、情有可原的，无可非议的和值得赞许的，对于被杀者而言，无论死于哪种类型结果都是一样的一一但对律师而言，这样的分类却能使他们拿到更多的钱。"
+    "defCn": "一个人杀死另一个。可以分为四种类型 : 罪该万死的、情有可原的，无可非议的和值得赞许的，对于被杀者而言，无论死于哪种类型结果都是一样的一一但对律师而言，这样的分类却能使他们拿到更多的钱。",
+    "footnotes": [
+      {
+        "term": "felonious",
+        "pos": "adj.",
+        "gloss": "重罪的"
+      }
+    ]
   },
   {
     "id": 329,
@@ -2712,6 +3436,11 @@ const WORDS = [
         "term": "homiletics",
         "pos": "n.",
         "gloss": "说教术"
+      },
+      {
+        "term": "congregation",
+        "pos": "n.",
+        "gloss": "会众、教徒群体"
       }
     ]
   },
@@ -2721,7 +3450,19 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "尊敬的",
     "defEn": "Afflicted with an impediment in one's reach. In legislative bodies it is customary to mention all members as honorable; as, \"the honorable gentleman is a scurvy cur.\"",
-    "defCn": "因想有所动作而又有所顾忌让人头痛不已的一种叫法。司法机关习惯于把所有与政府有关的人都称为“尊敬的”如“那位尊敬的绅士实在是条赖皮狗”。"
+    "defCn": "因想有所动作而又有所顾忌让人头痛不已的一种叫法。司法机关习惯于把所有与政府有关的人都称为“尊敬的”如“那位尊敬的绅士实在是条赖皮狗”。",
+    "footnotes": [
+      {
+        "term": "impediment",
+        "pos": "n.",
+        "gloss": "阻碍"
+      },
+      {
+        "term": "cur",
+        "pos": "n.",
+        "gloss": "恶狗、卑劣之人"
+      }
+    ]
   },
   {
     "id": 331,
@@ -2753,7 +3494,24 @@ const WORDS = [
     "pos": "n",
     "cnWord": "房屋",
     "defEn": "A hollow edifice erected for the habitation of man, rat, mouse, beetle, cockroach!, fly, mosquito, flea, bacillus” and microbe’. ， House of Correction, a place of reward for political and personal ， service, and for the detention of offenders and appropriations. House of God, a building with a steeple and a mortgage“ on it. House-dog, a pestilent® beast kept on domestic premises to insult persons passing by and appail the hardy visitor. House-maid, a younger person of the opposing sex employed to be variously disagreeable and ingeniously unclean in the station in which it has pleased God to place her. Ay RUPE RAR ETN AES",
-    "defCn": "这是一种中空的建筑，用来供人、老鼠、甲虫、蜂螂、苍蝇、蚊子、跳蚤和病菌居住的。教养院是奖励政绩和个人建树的好去处，也是拘留违法乱纪分子与挪用公款者的地方。教堂是一种有着尖尖的屋顶，用作抵押的建筑物。看家狗是一种养在家里的凶猛动物，其目的是侮辱从门前经过的女仆是一个雇来做杂务的年轻女子，在上帝赐给她的位置上，她实在是车人嫌，脏得也够可以。"
+    "defCn": "这是一种中空的建筑，用来供人、老鼠、甲虫、蜂螂、苍蝇、蚊子、跳蚤和病菌居住的。教养院是奖励政绩和个人建树的好去处，也是拘留违法乱纪分子与挪用公款者的地方。教堂是一种有着尖尖的屋顶，用作抵押的建筑物。看家狗是一种养在家里的凶猛动物，其目的是侮辱从门前经过的女仆是一个雇来做杂务的年轻女子，在上帝赐给她的位置上，她实在是车人嫌，脏得也够可以。",
+    "footnotes": [
+      {
+        "term": "cockroach",
+        "pos": "n.",
+        "gloss": "蟑螂"
+      },
+      {
+        "term": "bacillus",
+        "pos": "n.",
+        "gloss": "杆菌"
+      },
+      {
+        "term": "microbe",
+        "pos": "n.",
+        "gloss": "微生物"
+      }
+    ]
   },
   {
     "id": 335,
@@ -2785,7 +3543,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "人类",
     "defEn": "The human race, collectively, exclusive of the anthropoid! poets.",
-    "defCn": "指所有的人，这是一个集体名词，但不包括那些像猿猴一样的诗人。"
+    "defCn": "指所有的人，这是一个集体名词，但不包括那些像猿猴一样的诗人。",
+    "footnotes": [
+      {
+        "term": "anthropoid",
+        "pos": "adj.",
+        "gloss": "类人猿般的"
+      }
+    ]
   },
   {
     "id": 339,
@@ -2801,7 +3566,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "飓风",
     "defEn": "An atmospheric demonstration once very common but now generally abandoned for the tornado and cyclone. The hurricane is still in popular use in the West Indies and is preferred by certain old-fashioned sea-captains. It is also used in the construction of the upper decks of steamboats, but generally speaking, the hurricane's usefulness has outlasted” it. hurry, 7. The dispatch of bunglers'.",
-    "defCn": "原来是一种很常见的空气示威运动，现在已被龙卷风和台风返走。不过在西印度群岛还有它的存身之地，一些老派的船长特别钟爱他。它经常参与对汽船甲板的改造 , 不过总而言之 , 帜风的寿命远远超过汽船。仓促呆头呆脑的敏捷。"
+    "defCn": "原来是一种很常见的空气示威运动，现在已被龙卷风和台风返走。不过在西印度群岛还有它的存身之地，一些老派的船长特别钟爱他。它经常参与对汽船甲板的改造 , 不过总而言之 , 帜风的寿命远远超过汽船。仓促呆头呆脑的敏捷。",
+    "footnotes": [
+      {
+        "term": "outlast",
+        "pos": "vt.",
+        "gloss": "比…持久"
+      }
+    ]
   },
   {
     "id": 341,
@@ -2833,7 +3605,24 @@ const WORDS = [
     "pos": "n",
     "cnWord": "偶像破坏者",
     "defEn": "A breaker of idols, the worshipers whereof are imperfectly gratified by the performance, and most strenuously protest that he unbuildeth but doth not reedify', that he pulleth down but pileth not up. For the poor things would have other idols in place of those he thwacketh upon the mazzard and dispelleth. But the iconoclast saith: \"Ye shall have none at all, for ye need them not; and if the rebuilder fooleth round hereabout, behold I will depress the head of him and sit thereon till he squawk’ it.\"",
-    "defCn": "一个砸倒介像的人。偶像崇拜者对他的行动很不满，激愤地指责他只会破坏，不会建设。原来这群可怜的人渴望用别的什么偶像代替被他打掉脑袋的那些偶像。偶像破坏者说 :“你们以后将不再有任何偶像，因为你们用不着了。谁要是胆敢在这里立偶像，我就把他的头按下去，一屁股坐上去，让他蝗啤乱叫。”"
+    "defCn": "一个砸倒介像的人。偶像崇拜者对他的行动很不满，激愤地指责他只会破坏，不会建设。原来这群可怜的人渴望用别的什么偶像代替被他打掉脑袋的那些偶像。偶像破坏者说 :“你们以后将不再有任何偶像，因为你们用不着了。谁要是胆敢在这里立偶像，我就把他的头按下去，一屁股坐上去，让他蝗啤乱叫。”",
+    "footnotes": [
+      {
+        "term": "reedify",
+        "pos": "v.",
+        "gloss": "重建"
+      },
+      {
+        "term": "mazzard",
+        "pos": "n.",
+        "gloss": "脑袋"
+      },
+      {
+        "term": "squawk",
+        "pos": "v.",
+        "gloss": "尖叫、抱怨"
+      }
+    ]
   },
   {
     "id": 345,
@@ -2841,7 +3630,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "重建改筑",
     "defEn": "A member of a large and powerful tribe whose influence in human affairs has always been dominant and controlling. The Idiot's activity is not confined to any special field of thought or action, but \"pervades and regulates the whole.” He has the last word in everything; his decision is unappealable. He sets the fashions and opinion of taste, dictates the limitations of speech and circumscribes' conduct with a deadline.",
-    "defCn": "一个了不得的种族中的一员。白痴一族在人类事务中的影响历来是起决定作用的。白辣的活动不受到任何特定思想和行动范畴的束缚，相反，它“充斥着人类的全部活动并决定一切。”一切都由他说了算，他的决定不可申诉。他确立了时尚和品位，规定了讲话的种种限制，给人，们的行为设定了界限。"
+    "defCn": "一个了不得的种族中的一员。白痴一族在人类事务中的影响历来是起决定作用的。白辣的活动不受到任何特定思想和行动范畴的束缚，相反，它“充斥着人类的全部活动并决定一切。”一切都由他说了算，他的决定不可申诉。他确立了时尚和品位，规定了讲话的种种限制，给人，们的行为设定了界限。",
+    "footnotes": [
+      {
+        "term": "unappealable",
+        "pos": "adj.",
+        "gloss": "不可上诉的"
+      },
+      {
+        "term": "circumscribe",
+        "pos": "v.",
+        "gloss": "限制"
+      }
+    ]
   },
   {
     "id": 346,
@@ -2849,7 +3650,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "懒惰",
     "defEn": "A model farm where the devil experiments with seeds of new sins and : promotes the growth of staple” vices.",
-    "defCn": "，这是一处专供人效仿的农场 , 魔鬼播下了新式的罪恶种子以促进恶行的大面积推广。"
+    "defCn": "，这是一处专供人效仿的农场 , 魔鬼播下了新式的罪恶种子以促进恶行的大面积推广。",
+    "footnotes": [
+      {
+        "term": "staple",
+        "pos": "adj.",
+        "gloss": "主要的"
+      }
+    ]
   },
   {
     "id": 347,
@@ -2865,7 +3673,19 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "显赫的",
     "defEn": "Suitably placed for the shafts of malice, envy and detraction.",
-    "defCn": "刚好作为泄愤的靶子，让怨恨、嫉妒和诽谤一箭箭地穿过。"
+    "defCn": "刚好作为泄愤的靶子，让怨恨、嫉妒和诽谤一箭箭地穿过。",
+    "footnotes": [
+      {
+        "term": "malice",
+        "pos": "n.",
+        "gloss": "恶意"
+      },
+      {
+        "term": "detraction",
+        "pos": "n.",
+        "gloss": "诽谤"
+      }
+    ]
   },
   {
     "id": 349,
@@ -2881,7 +3701,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "低能",
     "defEn": "A kind of divine inspiration, or sacred fire affecting censorious’ critics ) EK.",
-    "defCn": "这是神赐予的一种感觉 , 或者说是激励批评家对本词典吹毛求钼的"
+    "defCn": "这是神赐予的一种感觉 , 或者说是激励批评家对本词典吹毛求钼的",
+    "footnotes": [
+      {
+        "term": "censorious",
+        "pos": "adj.",
+        "gloss": "爱挑剔的"
+      }
+    ]
   },
   {
     "id": 351,
@@ -2889,7 +3716,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "移民",
     "defEn": "， An unenlightened” person who thinks one country better than another.",
-    "defCn": "这是一个脑袋不开穿的家伙，他误以为一个国家比另一个国家要"
+    "defCn": "这是一个脑袋不开穿的家伙，他误以为一个国家比另一个国家要",
+    "footnotes": [
+      {
+        "term": "unenlightened",
+        "pos": "adj.",
+        "gloss": "无知的，无偏见的"
+      }
+    ]
   },
   {
     "id": 352,
@@ -2913,7 +3747,14 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "公正的",
     "defEn": "Unable to perceive any promise of personal advantage from espousing’ either side of a controversy or adopting either of two conflicting opinions.",
-    "defCn": "对发生争执的双方或相对立的两种看法进行一番观察，看不出对自己有什么好处，就采取中立态度，对任何一方都支持。"
+    "defCn": "对发生争执的双方或相对立的两种看法进行一番观察，看不出对自己有什么好处，就采取中立态度，对任何一方都支持。",
+    "footnotes": [
+      {
+        "term": "espouse",
+        "pos": "vt.",
+        "gloss": "嫁娶，支持"
+      }
+    ]
   },
   {
     "id": 355,
@@ -2929,7 +3770,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "不虔诚",
     "defEn": "Your irreverence’ toward my deity.",
-    "defCn": "对我的神表示不敬。"
+    "defCn": "对我的神表示不敬。",
+    "footnotes": [
+      {
+        "term": "irreverence",
+        "pos": "n.",
+        "gloss": "不敬"
+      },
+      {
+        "term": "deity",
+        "pos": "n.",
+        "gloss": "神灵"
+      }
+    ]
   },
   {
     "id": 357,
@@ -2937,7 +3790,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "按手礼",
     "defEn": "The act of blessing or consecrating by the laying on of hands -- a ceremony common to many ecclesiastical systems, but performed with the frankest sincerity by the sect known as Thieves. . swear till all is blue at such an imposition. Do.\" Pollo Doncas BBRE, REST.”",
-    "defCn": "把手放上去表示祝福或献祭——这在许多教派里很常见，不过\"偷盗派\"在行按手礼时表现得最为率真。\n牧师、神父和阿訇说：\"行按手礼，把你的金币和属地献给上帝，虔诚发誓，双手合十。\""
+    "defCn": "把手放上去表示祝福或献祭——这在许多教派里很常见，不过\"偷盗派\"在行按手礼时表现得最为率真。\n牧师、神父和阿訇说：\"行按手礼，把你的金币和属地献给上帝，虔诚发誓，双手合十。\"",
+    "footnotes": [
+      {
+        "term": "ecclesiastical",
+        "pos": "adj.",
+        "gloss": "教会的"
+      }
+    ]
   },
   {
     "id": 358,
@@ -2945,7 +3805,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "冒名顶替者",
     "defEn": "Arival aspirant’ to public honors. a ie",
-    "defCn": "在追名逐利时撞到一起的对头。"
+    "defCn": "在追名逐利时撞到一起的对头。",
+    "footnotes": [
+      {
+        "term": "aspirant",
+        "pos": "n.",
+        "gloss": "追逐名利者"
+      }
+    ]
   },
   {
     "id": 359,
@@ -2961,7 +3828,14 @@ const WORDS = [
     "pos": "adv",
     "cnWord": "不详地",
     "defEn": "In an unpromising manner, the auspices being unfavorable. Among the Romans it was customary before undertaking any important action or enterprise to obtain from the augurs!, or state prophets, some hint of its probable outcome; and one of their favorite and most trustworthy modes of divination consisted in observing the flight of birds -- the omens” thence derived being called auspices. Newspaper reporters and certain miscreant° lexicographers have decided that the word -- always in the plural -- shall mean \"patronage\" or \"management\"; as, \"The hilarities* were auspicated5 by the Knights of Hunger.\"",
-    "defCn": "预兆不详，似有凶险。古罗马人每逢大事，都要先请占卜师或先知们预测凶险。他们最喜欢也最有用的占卜方式是观察鸟儿的飞翔一一由比得到的预兆称为“auspices”。但不少护劣的词典编纂家都将此词赋予“赞助”或“经营”的意思，记者大人们更以此意用在新闻报道中，如) augur站(十罗马用观察飞鸟行动等方法预仆未来的 )占下师，预言者“这次狂欢节是在“腹中空空骑士团”的赞助下进行的”等等。"
+    "defCn": "预兆不详，似有凶险。古罗马人每逢大事，都要先请占卜师或先知们预测凶险。他们最喜欢也最有用的占卜方式是观察鸟儿的飞翔一一由比得到的预兆称为“auspices”。但不少护劣的词典编纂家都将此词赋予“赞助”或“经营”的意思，记者大人们更以此意用在新闻报道中，如) augur站(十罗马用观察飞鸟行动等方法预仆未来的 )占下师，预言者“这次狂欢节是在“腹中空空骑士团”的赞助下进行的”等等。",
+    "footnotes": [
+      {
+        "term": "auspices",
+        "pos": "n.",
+        "gloss": "预兆"
+      }
+    ]
   },
   {
     "id": 361,
@@ -2975,6 +3849,11 @@ const WORDS = [
         "term": "fallacious",
         "pos": "adj.",
         "gloss": "错误的，靠不住的，虚妄的"
+      },
+      {
+        "term": "gauge",
+        "pos": "n.",
+        "gloss": "标准尺，规格"
       }
     ]
   },
@@ -2984,7 +3863,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "势不两立",
     "defEn": "In matrimony’ a similarity of tastes, particularly the taste for domination.",
-    "defCn": "在夫妻间，它实际上指一种相同的兴趣爱好，尤其是指那种想控制对方的爱好。"
+    "defCn": "在夫妻间，它实际上指一种相同的兴趣爱好，尤其是指那种想控制对方的爱好。",
+    "footnotes": [
+      {
+        "term": "matrimony",
+        "pos": "n.",
+        "gloss": "婚姻"
+      },
+      {
+        "term": "domination",
+        "pos": "n.",
+        "gloss": "支配欲"
+      }
+    ]
   },
   {
     "id": 363,
@@ -3000,7 +3891,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "在职者",
     "defEn": "A person of the liveliest interest to the outcumbents.",
-    "defCn": "，这是一个对职责之外的事情有着最强烈兴趣的人。"
+    "defCn": "，这是一个对职责之外的事情有着最强烈兴趣的人。",
+    "footnotes": [
+      {
+        "term": "outcumbent",
+        "pos": "n.",
+        "gloss": "落选者"
+      }
+    ]
   },
   {
     "id": 365,
@@ -3024,7 +3922,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "消化不良",
     "defEn": "A disease which the patient and his friends frequently mistake for deep religious conviction and concern for the salvation of mankind. As the simple Red Man of the western wild put it, with, it must be confessed, a certain force: \"Plenty well, no pray; big bellyache’, heap God.\"",
-    "defCn": "; 这是一种病 , 患者和他的朋友通常错误地把它和深沉的宗教信仰以及对拯救人类的关心混为一谈。西部荒原里头脑简单，举止粗野的红种人说得好 :“平时乐呵呵，哪里想祷告，一旦肚子痛，忙把上帝找。”"
+    "defCn": "; 这是一种病 , 患者和他的朋友通常错误地把它和深沉的宗教信仰以及对拯救人类的关心混为一谈。西部荒原里头脑简单，举止粗野的红种人说得好 :“平时乐呵呵，哪里想祷告，一旦肚子痛，忙把上帝找。”",
+    "footnotes": [
+      {
+        "term": "salvation",
+        "pos": "n.",
+        "gloss": "救赎"
+      }
+    ]
   },
   {
     "id": 368,
@@ -3056,7 +3961,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "蜡教徒",
     "defEn": "In New York, one who does not believe in the Christian religion; in Constantinople!, one who does. In politics, a visionary quo given in exchange for a substantial quid.",
-    "defCn": "在纽约，指不信基督教的人 ;在君士坦丁堡，指信基督教的人。影响力在政治上，影响力就是能用想像的一分钱换得真实的一块钱的能"
+    "defCn": "在纽约，指不信基督教的人 ;在君士坦丁堡，指信基督教的人。影响力在政治上，影响力就是能用想像的一分钱换得真实的一块钱的能",
+    "footnotes": [
+      {
+        "term": "Constantinople",
+        "pos": "n.",
+        "gloss": "君士坦丁堡"
+      }
+    ]
   },
   {
     "id": 372,
@@ -3072,7 +3984,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "伤害",
     "defEn": "| An offense next in degree of enormity to a slight.",
-    "defCn": "这是一种冒犯，就其程度而言要轻于茂视。"
+    "defCn": "这是一种冒犯，就其程度而言要轻于茂视。",
+    "footnotes": [
+      {
+        "term": "enormity",
+        "pos": "n.",
+        "gloss": "恶劣程度"
+      },
+      {
+        "term": "slight",
+        "pos": "n.",
+        "gloss": "轻视、冒犯"
+      }
+    ]
   },
   {
     "id": 374,
@@ -3088,7 +4012,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "讨论商议",
     "defEn": "The state or condition of a criminal whose counsel’ has fixed the jury.",
-    "defCn": "一个罪犯的辩护律师把陪审团搞定之后被宣判的结果。"
+    "defCn": "一个罪犯的辩护律师把陪审团搞定之后被宣判的结果。",
+    "footnotes": [
+      {
+        "term": "counsel",
+        "pos": "n.",
+        "gloss": "辩护律师"
+      },
+      {
+        "term": "jury",
+        "pos": "n.",
+        "gloss": "陪审团"
+      }
+    ]
   },
   {
     "id": 376,
@@ -3128,7 +4064,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "亲密",
     "defEn": "| A relation into which fools are providentially' drawn for their mutual | destruction.",
-    "defCn": "大货们由于老天的凌合缔结这段良缘 ,其目的是为了让他们相互毁"
+    "defCn": "大货们由于老天的凌合缔结这段良缘 ,其目的是为了让他们相互毁",
+    "footnotes": [
+      {
+        "term": "providentially",
+        "pos": "adv.",
+        "gloss": "冥冥之中"
+      }
+    ]
   },
   {
     "id": 381,
@@ -3160,7 +4103,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "苏格兰人的爱国主义精神",
     "defEn": "The patriotism of a Scotchman. T= z ~~\" 74) xe a. =, ti ee ae 3§ om ee is a consonant in English, but some nations use it as a vowel -- than which nothing could be more absurd. Its original form, which has been but slightly modified, was that of the tail of a subdued! dog, and it was not a letter but a character, standing for a Latin verb, jacere, \"to throw,\" because when a stone is thrown at a dog the dog's tail assumes that shape. This is the origin of the letter, as expounded by the renowned’ Dr. Jocolpus Bumer, of the University of Belgrade, who established his conclusions on the subject in a work of three quarto’ volumes and committed suicide on being reminded that the j in the Roman alphabet had originally no curl. JES PMA EE, (A Ee 4 fe 70 —§_ FP",
-    "defCn": "苏格兰人的爱国主义精神。有比这更乱套的事情了。1 的原始形状〈固然经过稍许修饰 )是一条被打败的狗的大拉的尾巴，开始它并非一个字母，而是一个缩略语，代表拉丁语的动词jacere，意思是“扔”% 因为朝狗扔了一块石头，所以它的尾巴就会呈现出J形。以上就是这个字母的起源，贝尔格菜德大学的教授约格普斯。布墨博士的三卷大部头著作立释了这个结论。后来有人提醒他，罗马字母中的了最初是没有弯钩的，弄得这位淹博的学者只好自杀了事。"
+    "defCn": "苏格兰人的爱国主义精神。有比这更乱套的事情了。1 的原始形状〈固然经过稍许修饰 )是一条被打败的狗的大拉的尾巴，开始它并非一个字母，而是一个缩略语，代表拉丁语的动词jacere，意思是“扔”% 因为朝狗扔了一块石头，所以它的尾巴就会呈现出J形。以上就是这个字母的起源，贝尔格菜德大学的教授约格普斯。布墨博士的三卷大部头著作立释了这个结论。后来有人提醒他，罗马字母中的了最初是没有弯钩的，弄得这位淹博的学者只好自杀了事。",
+    "footnotes": [
+      {
+        "term": "Scotchman",
+        "pos": "n.",
+        "gloss": "苏格兰人"
+      }
+    ]
   },
   {
     "id": 385,
@@ -3176,7 +4126,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "弄臣",
     "defEn": "An officer formerly attached to a king's household, whose business it was to amuse the court by ludicrous! actions and utterances, the absurdity being attested by his motley costume. The king himself being attired” with dignity, it took the world some centuries to discover that his own conduct and decrees were sufficiently ridiculous for the amusement not only of his court but of all mankind. The jester’ was commonly called a fool, but the poets and romancers have ever delighted to represent him as a singularly* wise and witty person. In the circus of to-day the melancholy ghost of the court fool effects the dejection of humbler audiences with the same jests wherewith in life he gloomed the marble hall, panged’ the patrician’ sense of humor and tapped the tank of royal tears. atl REMKEEAAN AER, HES RABE Se Pe WREATHS SRE. BAER RNS SH Risse",
-    "defCn": "这是过去王宫内的一种官员，其任务是用滑稽荒唐的言语和动作逗笑王室成员，这种人通常穿着好笑的小丑的花衣。国王本人自然是冠冕堂皇、威风凛凛，但几个世纪过去后，人们发现国王的行动和圣旨才可笑，不仅让他宫中老少忍不住大笑，而且足以让整个人类觉得荒唐至极。弄臣常被看作是傻瓜，但诗人们和浪漫故事的作家却常常喜欢把他描绘成一个极其聪慧之人。在今天的马戏团里，当年弄臣的幽灵仍在用同样的笑话为时下的老百姓逗趣。想当年弄臣的荒唐事与俏皮话曾使宫殿昏暗无光，使贵族在幽默中感到隐隐作痛，使王公们在狂笑中涕泪横流。"
+    "defCn": "这是过去王宫内的一种官员，其任务是用滑稽荒唐的言语和动作逗笑王室成员，这种人通常穿着好笑的小丑的花衣。国王本人自然是冠冕堂皇、威风凛凛，但几个世纪过去后，人们发现国王的行动和圣旨才可笑，不仅让他宫中老少忍不住大笑，而且足以让整个人类觉得荒唐至极。弄臣常被看作是傻瓜，但诗人们和浪漫故事的作家却常常喜欢把他描绘成一个极其聪慧之人。在今天的马戏团里，当年弄臣的幽灵仍在用同样的笑话为时下的老百姓逗趣。想当年弄臣的荒唐事与俏皮话曾使宫殿昏暗无光，使贵族在幽默中感到隐隐作痛，使王公们在狂笑中涕泪横流。",
+    "footnotes": [
+      {
+        "term": "ludicrous",
+        "pos": "adj.",
+        "gloss": "滑稽可笑的"
+      }
+    ]
   },
   {
     "id": 387,
@@ -3184,7 +4141,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "正义",
     "defEn": "A commodity which is a more or less adulterated’ condition the State sells to the citizen as a reward for his allegiance’, taxes and personal service. BO. BARS. f= -NS es at kill, ve. To create a vacancy without nominating a successor. kilt, 7. A costume sometimes worn by Scotchmen in America and Americans in Scotland. kleptomaniac, 7. Arich thief. {iT BS SET ma See, — 3 {@] we “a 有 3 \"2.8 . Or, VET, Se ee ow a le® labor, 7. One of the processes by which A acquires property for B. A part of the earth's surface, considered as property. The theory that land is property subject to private ownership and control is the foundation of modern society, and is eminently worthy of the superstructure. Carried to its logical conclusion, it means that some have the right to prevent others from living; for the right to own implies the right exclusively to occupy; and in fact laws of trespass’ are enacted wherever property in land is recognized. It follows that if the whole area of terra firma’ is owned by A, B and C, there will be no place for D, E, F and G to be born, or, born as trespassers, to exist. A life on the ocean wave, A home on the rolling deep, For the spark the nature gave Thave there the right to keep. They give me the cat-o'-nine Whenever I go ashore. . I'm a natural commodore’! : Dodle",
-    "defCn": "这是一种或多或少的挨假的日用品 , 国家把它卖给公民以奖励他的制造空位但却不任命继承人。这是在美国的苏格兰人和在苏格兰的美国人偶尔穿一下的服饰。一个生活富裕的小偷。Ie Tee ij六时 |劳动这是甲为乙获取财富的多种途径之一。大地: 大地是地表的一部分，被看作是一种财产。土地是私有财产并由个，人支配的理论是现代文明的基石，与上层建筑珠联璧合。这种理论的逻辑推论是，有些人有权不让他人生活，因为“私有”就意味着独享，意味着不能和别人共同拥有。实际上哪里有土地私有制，哪里就有禁止进入私人土地的法律。如果整个大地被A、B、C三人全部占有，那么D、E、F、G等人就连降生的地方都没有，或者出生了，就成了非法侵入他人土地的犯罪分子，总之，这些人只能生活在别的什么空间里。我的家上下摇晃，老天给了我特别的恩典，我将海洋当成我的土地。我踏上陆地的边缘，那帮家伙用皮革差点把我搂扁，那么，好 ! 波光闪动的海上一一你们不要来，我可是海洋之王 !多德尔"
+    "defCn": "这是一种或多或少的挨假的日用品 , 国家把它卖给公民以奖励他的制造空位但却不任命继承人。这是在美国的苏格兰人和在苏格兰的美国人偶尔穿一下的服饰。一个生活富裕的小偷。Ie Tee ij六时 |劳动这是甲为乙获取财富的多种途径之一。大地: 大地是地表的一部分，被看作是一种财产。土地是私有财产并由个，人支配的理论是现代文明的基石，与上层建筑珠联璧合。这种理论的逻辑推论是，有些人有权不让他人生活，因为“私有”就意味着独享，意味着不能和别人共同拥有。实际上哪里有土地私有制，哪里就有禁止进入私人土地的法律。如果整个大地被A、B、C三人全部占有，那么D、E、F、G等人就连降生的地方都没有，或者出生了，就成了非法侵入他人土地的犯罪分子，总之，这些人只能生活在别的什么空间里。我的家上下摇晃，老天给了我特别的恩典，我将海洋当成我的土地。我踏上陆地的边缘，那帮家伙用皮革差点把我搂扁，那么，好 ! 波光闪动的海上一一你们不要来，我可是海洋之王 !多德尔",
+    "footnotes": [
+      {
+        "term": "adulterated",
+        "pos": "adj.",
+        "gloss": "掺入次级品的"
+      },
+      {
+        "term": "allegiance",
+        "pos": "n.",
+        "gloss": "忠贞，效忠"
+      }
+    ]
   },
   {
     "id": 388,
@@ -3192,7 +4161,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "拉奥孔",
     "defEn": "A famous piece of antique sculpture Ds representing a priest of that name and his two sons 4 S in the folds of two enormous serpents’. The skill ne and diligence with which the old man and lads es support the serpents and keep them up to their : 让 work have been justly regarded as one of the ef 六 AR? noblest artistic illustrations’ of the mastery’ of te Wy t human intelligence over brute inertia’. 7",
-    "defCn": "这是一个非常有名的古代雕塑作品 ,表现的是一个祭司和他的两个儿子被两条巨蟒缠住的情形。老祭司和两个小伙子勤快而熟练地打起两条蛇，使得它们得以胜任它们的工作，这一极富感染力的高尚形象，生动地证明了人的智力大大地超乎于爬虫们的懒惰和迟钝。"
+    "defCn": "这是一个非常有名的古代雕塑作品 ,表现的是一个祭司和他的两个儿子被两条巨蟒缠住的情形。老祭司和两个小伙子勤快而熟练地打起两条蛇，使得它们得以胜任它们的工作，这一极富感染力的高尚形象，生动地证明了人的智力大大地超乎于爬虫们的懒惰和迟钝。",
+    "footnotes": [
+      {
+        "term": "serpent",
+        "pos": "n.",
+        "gloss": "巨蛇"
+      }
+    ]
   },
   {
     "id": 389,
@@ -3208,7 +4184,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "笑",
     "defEn": "An interior convulsion’, producing a distortion of the features and accompanied by inarticulate’ noises. It is infectious and, though intermittent, incurable. Liability to attacks of laughter is one of the characteristics distinguishing man from the animals -- these being not only inaccessible to the provocation of his example, but impregnable’ to the microbes’ having original jurisdiction® in bestowal’ of the disease. Whether laughter could be imparted to animals by inoculation® from the human patient is a question that has not been answered by experimentation. laurel, 7. The /aurus, a vegetable dedicated to Apollo, and formerly defoliated' to wreathe’ the brows of victors and such poets as had influence at court.",
-    "defCn": "这是一阵发自体内的冶挛，发作时会使面部扭曲，同时发出一串含糊不清的噪声。尽管这是一种间歇性的毛病，但它会传染，而且不太好治。易受到笑的侵袭是人不同于动物的特征之一一一不仅人的笑无法影响动物，连那些让人染上笑病的细菌的无法影响动物。至于这种病是否能从人身上接种到动物身上，有关实验还没有得出结论。桂冠供奉在太阳神阿波罗头上的一种树叶 , 扎成王冠形状的树叶轿戴在胜利者的头上，或让那些在朝廷中令人倾倒的诗人项在脑袋上。"
+    "defCn": "这是一阵发自体内的冶挛，发作时会使面部扭曲，同时发出一串含糊不清的噪声。尽管这是一种间歇性的毛病，但它会传染，而且不太好治。易受到笑的侵袭是人不同于动物的特征之一一一不仅人的笑无法影响动物，连那些让人染上笑病的细菌的无法影响动物。至于这种病是否能从人身上接种到动物身上，有关实验还没有得出结论。桂冠供奉在太阳神阿波罗头上的一种树叶 , 扎成王冠形状的树叶轿戴在胜利者的头上，或让那些在朝廷中令人倾倒的诗人项在脑袋上。",
+    "footnotes": [
+      {
+        "term": "convulsion",
+        "pos": "n.",
+        "gloss": "痉挛"
+      },
+      {
+        "term": "inarticulate",
+        "pos": "adj.",
+        "gloss": "口齿不清的"
+      }
+    ]
   },
   {
     "id": 391,
@@ -3216,7 +4204,14 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "合法的",
     "defEn": "Compatible with the will of a judge having jurisdiction.",
-    "defCn": "和法官的想法一致。"
+    "defCn": "和法官的想法一致。",
+    "footnotes": [
+      {
+        "term": "jurisdiction",
+        "pos": "n.",
+        "gloss": "审判权"
+      }
+    ]
   },
   {
     "id": 392,
@@ -3224,7 +4219,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "律师",
     "defEn": "One skilled in circumvention? of the law.",
-    "defCn": "一个精通法律漏洞的人。"
+    "defCn": "一个精通法律漏洞的人。",
+    "footnotes": [
+      {
+        "term": "circumvention",
+        "pos": "n.",
+        "gloss": "陷害，欺骗"
+      }
+    ]
   },
   {
     "id": 393,
@@ -3256,7 +4258,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "遗产",
     "defEn": "A gift from one who is legging it out of this vale’ of tears. | lexicographer, 7. ， A pestilent? fellow who, under the pretense of recording some : particular stage in the development of a language, does what he can to arrest ! its growth, stiffen its flexibility and mechanize’ its methods. For your ; lexicographer, having written his dictionary, comes to be considered \"as one having authority,\" whereas his function is only to make a record, not to give a law. The natural servility’ of the human understanding having invested him with judicial power, surrenders its right of reason and submits itself to a chronicle as if it were a statue. Let the dictionary (for example) mark a good word as \"obsolete\" or \"obsolescent\" and few men thereafter venture to use it, whatever their need of it and however desirable its restoration to favor -- whereby the process of improverishment is accelerated and speech decays. On the contrary, recognizing the truth that language must grow by innovation if it grow at all, makes new words and uses the old in an unfamiliar sense, has no following and is tartly reminded that “it isn't in the dictionary\" -- although down to the time of the first lexicographer (Heaven forgive him!) no author ever had used a word that was in the dictionary. In the golden prime and high noon of English speech; when from the lips of the great Elizabethans fell words that made their own meaning and carried it in their very sound; when a Shakespeare and a Bacon were possible, and the language now rapidly perishing at one end and slowly renewed at the other was in vigorous growth and hardy preservation -- sweeter than honey and stronger than a lion -- the lexicographer was a person unknown, the dictionary a creation which his Creator had not created him to create.",
-    "defCn": "，这人正勿匆地趟过泪水，奔向某人锁赠的礼物。词典编纂家这是一种让人厌恶的家伙 , 他看起来是在记录语言进步的一些特殊阶段，实质上是在阻碍语言的前进，令它呆板、伟硬。词典编纂家一旦弄出一本词典，就会被看作是“权威”，其实他只起到了抄录的作用，他毫无制定法规的权力。可惜人类理解力的本能奴性给了他一种裁判是非的无上权威。他们含弃自我的理智力量，顶礼膜拜这位书记员抄下的流水帐，例然那是不能抗拒的法律。比如，假如词典说革一个词是废弃不用了的，那么很少有人有胆识再去用它，不管他们多么需要这个词一一语言因此变得越来越枯竭 , 死板。与此不同的是 ,一些雄才大略的作家，他们知道语言只有进行变革才会进步，因此，他们不仅敢于给旧词赋予新义，而且还大胆创造新站。抱憾的是，不但无人追随其后，还常有人不屑地告诫他们 :“词典里哪有这种用法。”殊不知在第一个词典编纂家啤叹落地之前〈愿主宽恕他 !)，作家们早已写就了鸿篇巨著，他们所用的词又出自哪里昵 ? 今天的英语正在迅速走向呆滞、腐朽，令人触目惊心，而在英语的黄金时代，在伊丽莎白一世时代的伟大作家发出宏伟声音的日子里，在产生莎士比亚、培根的岁月中，英语生机勃勃，苗壮成长一一甘甜如密，强悍如狮一一那时还没有人知道词典编纂家为何物，上帝从来就没造出一种人来编什么劳什子词典。"
+    "defCn": "，这人正勿匆地趟过泪水，奔向某人锁赠的礼物。词典编纂家这是一种让人厌恶的家伙 , 他看起来是在记录语言进步的一些特殊阶段，实质上是在阻碍语言的前进，令它呆板、伟硬。词典编纂家一旦弄出一本词典，就会被看作是“权威”，其实他只起到了抄录的作用，他毫无制定法规的权力。可惜人类理解力的本能奴性给了他一种裁判是非的无上权威。他们含弃自我的理智力量，顶礼膜拜这位书记员抄下的流水帐，例然那是不能抗拒的法律。比如，假如词典说革一个词是废弃不用了的，那么很少有人有胆识再去用它，不管他们多么需要这个词一一语言因此变得越来越枯竭 , 死板。与此不同的是 ,一些雄才大略的作家，他们知道语言只有进行变革才会进步，因此，他们不仅敢于给旧词赋予新义，而且还大胆创造新站。抱憾的是，不但无人追随其后，还常有人不屑地告诫他们 :“词典里哪有这种用法。”殊不知在第一个词典编纂家啤叹落地之前〈愿主宽恕他 !)，作家们早已写就了鸿篇巨著，他们所用的词又出自哪里昵 ? 今天的英语正在迅速走向呆滞、腐朽，令人触目惊心，而在英语的黄金时代，在伊丽莎白一世时代的伟大作家发出宏伟声音的日子里，在产生莎士比亚、培根的岁月中，英语生机勃勃，苗壮成长一一甘甜如密，强悍如狮一一那时还没有人知道词典编纂家为何物，上帝从来就没造出一种人来编什么劳什子词典。",
+    "footnotes": [
+      {
+        "term": "vale",
+        "pos": "n.",
+        "gloss": "山谷，尘世"
+      }
+    ]
   },
   {
     "id": 397,
@@ -3264,7 +4273,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "说谎者",
     "defEn": "A lawyer with a roving! commission’.",
-    "defCn": "一个四处承揽代理业务的律师。"
+    "defCn": "一个四处承揽代理业务的律师。",
+    "footnotes": [
+      {
+        "term": "roving",
+        "pos": "adj.",
+        "gloss": "四处奔走的"
+      },
+      {
+        "term": "commission",
+        "pos": "n.",
+        "gloss": "代理业务"
+      }
+    ]
   },
   {
     "id": 398,
@@ -3280,7 +4301,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "生活",
     "defEn": "， A spiritual pickle? preserving the body from decay. We live in daily apprehension of its loss; yet when lost it is not missed. The question, \"Is life worth living?\" has been much discussed; particularly by those who think it is not, many of whom have written at great length in support of their view and by careful observance of the laws of health enjoyed for long terms of years the honors of successful controversy. SRO, “ed, DI-BAKE, WMRPRBER. “HW PRE",
-    "defCn": "这是一种精神盐水，在它的腌泡下肉体可以免于腐烂。我们活着，和否值得 ?”这个问题一直争论不体，特别是那些持香定态度的人，他们的语气最为尖刻一一他们长篇大论地撰文前述自己的观点，同时恪守养生之道来延年益寿，享受获胜之后的荣华富贵。"
+    "defCn": "这是一种精神盐水，在它的腌泡下肉体可以免于腐烂。我们活着，和否值得 ?”这个问题一直争论不体，特别是那些持香定态度的人，他们的语气最为尖刻一一他们长篇大论地撰文前述自己的观点，同时恪守养生之道来延年益寿，享受获胜之后的荣华富贵。",
+    "footnotes": [
+      {
+        "term": "pickle",
+        "pos": "n.",
+        "gloss": "腌汁"
+      }
+    ]
   },
   {
     "id": 400,
@@ -3304,7 +4332,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "肝",
     "defEn": "A large red organ thoughtfully provided by nature to be bilious with. The sentiments and emotions which every literary anatomist! now knows to haunt the heart were anciently believed to infest the liver; and even Gascoygne, speaking of the emotional side of human nature, calls it “our hepaticall parte.\" It was at one time considered the seat of life; hence its name -- liver, the thing we live with. The liver is heaven's best gift to the goose; without it that bird would be unable to supply us with the Strasbourg pate. at",
-    "defCn": "这是造物主智慧地赐予的一种巨大的红色器官 , 有了它就会火气旺盛，性情火爆。现在每个舞文弄墨的解剖家都明白，人的七情六欲都发自内心，不过古人却肯定肝是它们的栖息地，盖斯科因在讲到人类的情感时，甚至直截了当地称之为“我们的肝”。肝曾一度被认为是性命的居所，因此才有了Liver一词，意思是“我们赖以活命的东西 >。肝是上帝送给忽的最美妙的礼物，假如没有它，这种鸟就无法为我们提供斯特拉斯堡鹅肝馅饼，那可是美味佳肴。"
+    "defCn": "这是造物主智慧地赐予的一种巨大的红色器官 , 有了它就会火气旺盛，性情火爆。现在每个舞文弄墨的解剖家都明白，人的七情六欲都发自内心，不过古人却肯定肝是它们的栖息地，盖斯科因在讲到人类的情感时，甚至直截了当地称之为“我们的肝”。肝曾一度被认为是性命的居所，因此才有了Liver一词，意思是“我们赖以活命的东西 >。肝是上帝送给忽的最美妙的礼物，假如没有它，这种鸟就无法为我们提供斯特拉斯堡鹅肝馅饼，那可是美味佳肴。",
+    "footnotes": [
+      {
+        "term": "bilious",
+        "pos": "adj.",
+        "gloss": "肝火旺盛的"
+      }
+    ]
   },
   {
     "id": 403,
@@ -3343,7 +4378,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "饶舌",
     "defEn": "A disorder which renders the sufferer unable to curb! his tongue when you wish to talk. fh RF DS A",
-    "defCn": "一种嘴里的毛病，它使患者管不住自己的舌头，在你想说两句时偏"
+    "defCn": "一种嘴里的毛病，它使患者管不住自己的舌头，在你想说两句时偏",
+    "footnotes": [
+      {
+        "term": "curb",
+        "pos": "v.",
+        "gloss": "克制"
+      }
+    ]
   },
   {
     "id": 407,
@@ -3367,7 +4409,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "权杖",
     "defEn": "A staff of office signifying authority. Its form, that of a heavy club, indicates its original purpose and use in dissuading from dissent.",
-    "defCn": "政府部门使用的一种表示权威的棒子。它沉甸甸的外观表明它是用来消除不同意见的。"
+    "defCn": "政府部门使用的一种表示权威的棒子。它沉甸甸的外观表明它是用来消除不同意见的。",
+    "footnotes": [
+      {
+        "term": "dissent",
+        "pos": "n.",
+        "gloss": "反对意见"
+      }
+    ]
   },
   {
     "id": 410,
@@ -3375,7 +4424,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "诡计",
     "defEn": "The method employed by one's opponents in baffling one's open and honorable efforts to do the right thing.",
-    "defCn": "这是我们的对手用来阻挠我们正大光明地去从事正义事业的方法。"
+    "defCn": "这是我们的对手用来阻挠我们正大光明地去从事正义事业的方法。",
+    "footnotes": [
+      {
+        "term": "baffle",
+        "pos": "v.",
+        "gloss": "阻挠"
+      }
+    ]
   },
   {
     "id": 411,
@@ -3399,7 +4455,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "魔术",
     "defEn": "An art of converting superstition? into coin. There are other arts serving the same high purpose, but the discreet lexicographer does not name them.",
-    "defCn": "一种能把巫术变成金币的艺术。另外还有一些其他的手段能够达到同样的目的，不过本作者不能大放厥词。"
+    "defCn": "一种能把巫术变成金币的艺术。另外还有一些其他的手段能够达到同样的目的，不过本作者不能大放厥词。",
+    "footnotes": [
+      {
+        "term": "superstition",
+        "pos": "n.",
+        "gloss": "迷信"
+      }
+    ]
   },
   {
     "id": 414,
@@ -3407,7 +4470,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "磁体",
     "defEn": "Something acted upon by magnetism!.",
-    "defCn": "受磁力作用的东西。"
+    "defCn": "受磁力作用的东西。",
+    "footnotes": [
+      {
+        "term": "magnetism",
+        "pos": "n.",
+        "gloss": "磁力"
+      }
+    ]
   },
   {
     "id": 415,
@@ -3431,7 +4501,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "鹊",
     "defEn": "A bird whose thievish disposition suggested to someone that it might be taught to talk.",
-    "defCn": "这种鸟偷摸成性的癖好让某些人相信教会它谈话是可能的。"
+    "defCn": "这种鸟偷摸成性的癖好让某些人相信教会它谈话是可能的。",
+    "footnotes": [
+      {
+        "term": "thievish",
+        "pos": "adj.",
+        "gloss": "爱偷窃的"
+      }
+    ]
   },
   {
     "id": 418,
@@ -3439,7 +4516,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "帮莫名其妙的",
     "defEn": "A young person of the unfair sex addicted to clewless’ conduct and views that madden to crime. The genus has a wide geographical distribution, being found wherever sought and deplored wherever found. The maiden is not altogether unpleasing to the eye, nor (without her piano and her views) insupportable to the ear, though in respect to comeliness distinctly inferior to the rainbow, and, with regard to the part of her that is audible, bleating’ out of the field by the canary -- which, also, is more portable. A lovelorn maiden she sat and sang -- This quaint, sweet song sang she; And a muscle fair to see! ， Of a team to be! On the gridiron he shali shine, A monarch by right divine, And never to roast on it -- me!\" . Opoline Jones AER EY eB RM",
-    "defCn": "一个不诚实的女性。这类女性喜欢一些莫名其妙的观点，爱做一些不可理喻的事情，甚至因此犯罪。这种女性散布在各地，在哪里都能找到，不论在什么地方找到都让人扼腕叹息。即使就美貌而言少女赶不上彩虹，即使她的嗓音比不上麦地里的金丝省一一金丝雀比她轻春得多，不过，并不是所有的少女都让人看不顺眼，也不是所有少女的观点和她演奏的钢雁都不堪入耳。坐在那里把甜密的悲歌喝 :“噢，那个美男我无法不想，他在足球场上横冲直撞。一身肌肉如此发达 !他可是足球队长，几乎是球场之王，相思把我害惨，都成了这副模样 .”欧普林“' 琼斯"
+    "defCn": "一个不诚实的女性。这类女性喜欢一些莫名其妙的观点，爱做一些不可理喻的事情，甚至因此犯罪。这种女性散布在各地，在哪里都能找到，不论在什么地方找到都让人扼腕叹息。即使就美貌而言少女赶不上彩虹，即使她的嗓音比不上麦地里的金丝省一一金丝雀比她轻春得多，不过，并不是所有的少女都让人看不顺眼，也不是所有少女的观点和她演奏的钢雁都不堪入耳。坐在那里把甜密的悲歌喝 :“噢，那个美男我无法不想，他在足球场上横冲直撞。一身肌肉如此发达 !他可是足球队长，几乎是球场之王，相思把我害惨，都成了这副模样 .”欧普林“' 琼斯",
+    "footnotes": [
+      {
+        "term": "clewless",
+        "pos": "adj.",
+        "gloss": "莫名其妙的"
+      }
+    ]
   },
   {
     "id": 419,
@@ -3455,7 +4539,14 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "马尔萨斯论的",
     "defEn": "Pertaining' to Malthus and his doctrines. Malthus believed in artificially limiting population, but found that it could not be done by talking. One of the most practical exponents of the Malthusian idea was Herod of Judea, though all the famous soldiers have been of the same way of thinking. mammalia, 77.p/. A family of vertebrate animals whose females in a state of nature suckle their young, but when civilized and enlightened put them out to nurse, or use the bottle.",
-    "defCn": "有关马尔萨斯和他的理论的。马尔萨斯认为用人工的方法就可以控制人口的增长，但空谈并不能达到这个目的。犹太王希罗德是这一理论的最忠实的执行者，当然所有杰出的战士也有着同样的思维方式。"
+    "defCn": "有关马尔萨斯和他的理论的。马尔萨斯认为用人工的方法就可以控制人口的增长，但空谈并不能达到这个目的。犹太王希罗德是这一理论的最忠实的执行者，当然所有杰出的战士也有着同样的思维方式。",
+    "footnotes": [
+      {
+        "term": "pertaining",
+        "pos": "adj.",
+        "gloss": "与…相关的"
+      }
+    ]
   },
   {
     "id": 421,
@@ -3471,7 +4562,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "男人",
     "defEn": "An animal so lost in rapturous” contemplation of what he thinks he is as to overlook what he indubitably ought to be. His chief occupation is extermination of other animals and his own species, which, however, multiplies with such insistent rapidity as to infest the whole habitable earth : fh aT ACR ABR, AMR AR SCAD LITA BL. and Canada. .",
-    "defCn": "一种完全沉迷于狂想之中的动物，他在思考自己是谁，却二记了目己应该是谁。他的首要职业就是消灭同类和其他动物，然而，他的同类却迅速繁衍，蔓延到地球上所有可以居住的地方，甚至包括加拿大。"
+    "defCn": "一种完全沉迷于狂想之中的动物，他在思考自己是谁，却二记了目己应该是谁。他的首要职业就是消灭同类和其他动物，然而，他的同类却迅速繁衍，蔓延到地球上所有可以居住的地方，甚至包括加拿大。",
+    "footnotes": [
+      {
+        "term": "rapturous",
+        "pos": "adj.",
+        "gloss": "狂喜的"
+      },
+      {
+        "term": "indubitably",
+        "pos": "adv.",
+        "gloss": "毋庸置疑地"
+      }
+    ]
   },
   {
     "id": 423,
@@ -3503,7 +4606,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "漫步",
     "defEn": "To proceed sinuously' and aimlessly. The word is the ancient name of a river about one hundred and fifty miles south of Troy, which turned and twisted in the effort to get out of hearing when the Greeks and Trojans boasted of their prowess.",
-    "defCn": "漫步目的，蚁虹曲折地行走。这个词是特洛伊城以南约 150 英里的一条河的古名，这条河蚁晓曲折以躲开希腊人和特洛伊人争雄的嘲杂"
+    "defCn": "漫步目的，蚁虹曲折地行走。这个词是特洛伊城以南约 150 英里的一条河的古名，这条河蚁晓曲折以躲开希腊人和特洛伊人争雄的嘲杂",
+    "footnotes": [
+      {
+        "term": "sinuously",
+        "pos": "adv.",
+        "gloss": "蜿蜒曲折地"
+      }
+    ]
   },
   {
     "id": 427,
@@ -3527,7 +4637,14 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "虚情假意的",
     "defEn": "Addicted to rhetoric.",
-    "defCn": "沉迷于修饰的。"
+    "defCn": "沉迷于修饰的。",
+    "footnotes": [
+      {
+        "term": "rhetoric",
+        "pos": "n.",
+        "gloss": "华丽辞藻"
+      }
+    ]
   },
   {
     "id": 430,
@@ -3551,7 +4668,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "大都会",
     "defEn": "A stronghold! of provincialism?.",
-    "defCn": "偏见的大本营。"
+    "defCn": "偏见的大本营。",
+    "footnotes": [
+      {
+        "term": "stronghold",
+        "pos": "n.",
+        "gloss": "堡垒"
+      },
+      {
+        "term": "provincialism",
+        "pos": "n.",
+        "gloss": "狭隘乡土观念"
+      }
+    ]
   },
   {
     "id": 433,
@@ -3559,7 +4688,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "理解力",
     "defEn": "A mysterious form of matter secreted? by the brain. Its chief activity consists in the endeavor to ascertain its own nature, the futility of the attempt being due to the fact that it has nothing but itself to know itself with. From the Latin mens, a fact unknown to that honest shoe-seller, who, | \"Mens conscia recti,\" emblazoned’ his own front with the words \"Men's, women's and children’s conscia recti.\" women's and children's conscia rectis”。",
-    "defCn": "，理解力! 这是由大脑分泌的一种神秘的东西 , 它的主要工作就是努力搞清楚自己的本质，但每次都是以失败而告终，因为它无法利用自己以外的东西来弄清自己。一位老实的鞋商不知道拉丁文的“mens”表示“心 >，他看到自己的对手，一位有学问的鞋商在店门口挂了一块照片，上面写着“Mensconscia rectis”% 于是就在自己的店门口挂起另一块招牌 ,上面写着“Men's，5 直译为坦诚的心，表示公平买卖。5 他将mens与men’s混为一谈 , 这就变成了“男人、女人、小孩的心里都各有一套”，弄巧成拙。"
+    "defCn": "，理解力! 这是由大脑分泌的一种神秘的东西 , 它的主要工作就是努力搞清楚自己的本质，但每次都是以失败而告终，因为它无法利用自己以外的东西来弄清自己。一位老实的鞋商不知道拉丁文的“mens”表示“心 >，他看到自己的对手，一位有学问的鞋商在店门口挂了一块照片，上面写着“Mensconscia rectis”% 于是就在自己的店门口挂起另一块招牌 ,上面写着“Men's，5 直译为坦诚的心，表示公平买卖。5 他将mens与men’s混为一谈 , 这就变成了“男人、女人、小孩的心里都各有一套”，弄巧成拙。",
+    "footnotes": [
+      {
+        "term": "secrete",
+        "pos": "v.",
+        "gloss": "分泌"
+      }
+    ]
   },
   {
     "id": 434,
@@ -3575,7 +4711,14 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "次要的",
     "defEn": "Less objectionable’.",
-    "defCn": "更不那么让人讨厌的。"
+    "defCn": "更不那么让人讨厌的。",
+    "footnotes": [
+      {
+        "term": "objectionable",
+        "pos": "adj.",
+        "gloss": "令人反感的"
+      }
+    ]
   },
   {
     "id": 436,
@@ -3583,7 +4726,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "轻罪",
     "defEn": "An infraction? of the law having less dignity than a felony’ and constituting no claim to admittance into the best criminal society. By misdemeanors he essays to climb into the aristocracy of crime. O, woe was him! -- with manner chill and grand And “railway magnates\" jeered his low condition. He robbed a bank to make himself respected. They still rebuffed him, for he was detected. be KT! pei BEAK HK!",
-    "defCn": "这是对法律的轻微触犯，远不能像重罪那样获得显赫的地位，因此小罪犯没有资格进入〈犯罪的 )上流社会。想通过对法律的小小不赦来跨入同类的上层社会。“工业巨头”拒绝他伸出的手，“金融大王”对他不予理皮，“铁路大亨”茂视他低微的社会地位。他角而走险去抢银行以抬高社会地位，，但他们依旧排挤他，因为他的行为已经被人察觉。"
+    "defCn": "这是对法律的轻微触犯，远不能像重罪那样获得显赫的地位，因此小罪犯没有资格进入〈犯罪的 )上流社会。想通过对法律的小小不赦来跨入同类的上层社会。“工业巨头”拒绝他伸出的手，“金融大王”对他不予理皮，“铁路大亨”茂视他低微的社会地位。他角而走险去抢银行以抬高社会地位，，但他们依旧排挤他，因为他的行为已经被人察觉。",
+    "footnotes": [
+      {
+        "term": "infraction",
+        "pos": "n.",
+        "gloss": "违规"
+      },
+      {
+        "term": "felony",
+        "pos": "n.",
+        "gloss": "重罪"
+      }
+    ]
   },
   {
     "id": 437,
@@ -3631,7 +4786,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "纪念碑",
     "defEn": "A structure intended to commemorate! something which either needs no commemoration or cannot be commemorated. The bones of Agammemnon are a show, ， And ruined is his royal monument, but Agammemnon's fame suffers no diminution in consequence. The monument custom has its reductiones ad absurdum in monuments \"to the unknown dead\" -- that is to say, monuments to perpetuate the memory of those who have left no memory. Bt RCP POTS,",
-    "defCn": "损毁的只是他那宏伟的纪念碑。但阿伽门农的英名并未因此而毁损半分。树碑立传这个风俗实际上是让“不知名的去世者”蒙着人间，一一它实际上是说，纪念碑让人永远记住这些人并不值得记住。2 阿伽门农〈《Agamemnon，意为“坚定不移”)，希腊迈锡尼国王，希腊诸王之王。特洛伊战争是因为他想称霸爱琴海，他的弟弟墨涅拉俄斯的妻子海偷被帕里斯拐走只是导火线，在战争中，他也成为了希腊联军的统帅。"
+    "defCn": "损毁的只是他那宏伟的纪念碑。但阿伽门农的英名并未因此而毁损半分。树碑立传这个风俗实际上是让“不知名的去世者”蒙着人间，一一它实际上是说，纪念碑让人永远记住这些人并不值得记住。2 阿伽门农〈《Agamemnon，意为“坚定不移”)，希腊迈锡尼国王，希腊诸王之王。特洛伊战争是因为他想称霸爱琴海，他的弟弟墨涅拉俄斯的妻子海偷被帕里斯拐走只是导火线，在战争中，他也成为了希腊联军的统帅。",
+    "footnotes": [
+      {
+        "term": "commemorate",
+        "pos": "v.",
+        "gloss": "纪念"
+      }
+    ]
   },
   {
     "id": 443,
@@ -3639,7 +4801,14 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "合乎道德的",
     "defEn": "Conforming to a local and mutable!’ standard of right. Having the quality of general expediency. It is sayd there be a raunge of mountaynes in the Easte, on one syde of the which certayn conducts are immorall, yet on the other syde they are holden in good esteeme; wherebye the mountayneer is much conveenyenced, for it is given to him to goe downe eyther way and act as it shall suite his moode, withouten offence. Gooke's Meditations",
-    "defCn": "与当地反复无常的是非标准保持一个调子，就是合乎道德的。这通常是有利可图的。据称在东方有一条雄壮的山脉 ,在山脉这边的某些行为是被视为放荡的，在另一边则被看作是合乎道德的，因此住在山项上的居民视自己心情的好坏走向山的两边，为所欲为却合乎礼仪。《十客的沉思》"
+    "defCn": "与当地反复无常的是非标准保持一个调子，就是合乎道德的。这通常是有利可图的。据称在东方有一条雄壮的山脉 ,在山脉这边的某些行为是被视为放荡的，在另一边则被看作是合乎道德的，因此住在山项上的居民视自己心情的好坏走向山的两边，为所欲为却合乎礼仪。《十客的沉思》",
+    "footnotes": [
+      {
+        "term": "mutable",
+        "pos": "adj.",
+        "gloss": "易变的，性情不定"
+      }
+    ]
   },
   {
     "id": 444,
@@ -3709,7 +4878,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "野马",
     "defEn": "An indocile! horse of the western plains. In English society, the American wife of an English nobleman.",
-    "defCn": "美国西部荒原的一种物例不逊的马，在英国社会，指的是英国贵族的美国妻子。"
+    "defCn": "美国西部荒原的一种物例不逊的马，在英国社会，指的是英国贵族的美国妻子。",
+    "footnotes": [
+      {
+        "term": "indocile",
+        "pos": "adj.",
+        "gloss": "难驯服的"
+      }
+    ]
   },
   {
     "id": 451,
@@ -3725,7 +4901,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "玉液",
     "defEn": "A drink served at banquets of the Olympian deities. The secret of its preparation is lost, but the modern Kentuckians believe that they come pretty near to a knowledge of its chief ingredient. Juno drank a cup of nectar, But the draught did not affect her. Juno drank a cup of rye -- Then she bad herself good-bye.",
-    "defCn": "这是奥林匹斯山上诸神在宴会上饮用的一种甘美的饮料 ,其制作的秘方早已失传 , 但现代肯塔基州的人相信他们对其主要成分已了解得八九不离十了。天后朱诺喝下一杯玉液琼染，可这玩意儿平息不了好的渴，于是她喝下一杯黑麦威士忌，结果一杯下肚她已酬得不行。"
+    "defCn": "这是奥林匹斯山上诸神在宴会上饮用的一种甘美的饮料 ,其制作的秘方早已失传 , 但现代肯塔基州的人相信他们对其主要成分已了解得八九不离十了。天后朱诺喝下一杯玉液琼染，可这玩意儿平息不了好的渴，于是她喝下一杯黑麦威士忌，结果一杯下肚她已酬得不行。",
+    "footnotes": [
+      {
+        "term": "deity",
+        "pos": "n.",
+        "gloss": "神明"
+      }
+    ]
   },
   {
     "id": 453,
@@ -3733,7 +4916,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "满意",
     "defEn": "The piece de resistance in the American political problem. unsatisfactory solution.",
-    "defCn": "这是美国政治问题大宴席的一道主菜。共和党人用代表黑人，然后列出他们的等式 : 让n= 白人。不过，这个等式得出的结果并不让人"
+    "defCn": "这是美国政治问题大宴席的一道主菜。共和党人用代表黑人，然后列出他们的等式 : 让n= 白人。不过，这个等式得出的结果并不让人",
+    "footnotes": [
+      {
+        "term": "piece de resistance",
+        "pos": "",
+        "gloss": "法语：主菜、核心议题"
+      }
+    ]
   },
   {
     "id": 454,
@@ -3773,7 +4963,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "涅槃",
     "defEn": "the wise, particularly to those wise enough to understand it. nobleman Nature's provision for wealthy American minds ambitious to incur social distinction and suffer high life. ; noise A stench! in the ear. Undomesticated music. The chief product and authenticating” sign of civilization.",
-    "defCn": "这是佛祖赏赐给聪明人的一种极其快乐的解脱尘世的技巧，那些能弄懂的聪明人尤其能获得这种恩赐。"
+    "defCn": "这是佛祖赏赐给聪明人的一种极其快乐的解脱尘世的技巧，那些能弄懂的聪明人尤其能获得这种恩赐。",
+    "footnotes": [
+      {
+        "term": "annihilation",
+        "pos": "n.",
+        "gloss": "寂灭、解脱"
+      }
+    ]
   },
   {
     "id": 459,
@@ -3797,7 +4994,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "誓言",
     "defEn": "In law, a solemn appeal to the Deity, made binding upon the conscience by a penalty for perjury’. ae",
-    "defCn": "在打宫司时，有关人员对神的哀求，它通过对作伪证进行惩罚来束缚人的良心。"
+    "defCn": "在打宫司时，有关人员对神的哀求，它通过对作伪证进行惩罚来束缚人的良心。",
+    "footnotes": [
+      {
+        "term": "perjury",
+        "pos": "n.",
+        "gloss": "伪誓，伪证"
+      },
+      {
+        "term": "Deity",
+        "pos": "n.",
+        "gloss": "上帝"
+      }
+    ]
   },
   {
     "id": 462,
@@ -3805,7 +5014,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "健忘",
     "defEn": "The state or condition in which the wicked cease from struggling and the dreary’ are at rest. Fame's eternal dumping ground. Cold storage for high hopes. A place where ambitious authors meet their works without pride and their betters without envy. A dormitory without an alarm clock.",
-    "defCn": "这这样一种状态下，政恶之人不再折腾，忧郁之人也得到了安静。这是荣誉永久的垃圾场，也是冻结强烈愿望的冰库。在这里，雄心勃勃的作家在拿起自己的作品时不再感到骄傲 ,看到他人的好作品时也不再姥妒。这是一个没有闹钟的集体宿舍。"
+    "defCn": "这这样一种状态下，政恶之人不再折腾，忧郁之人也得到了安静。这是荣誉永久的垃圾场，也是冻结强烈愿望的冰库。在这里，雄心勃勃的作家在拿起自己的作品时不再感到骄傲 ,看到他人的好作品时也不再姥妒。这是一个没有闹钟的集体宿舍。",
+    "footnotes": [
+      {
+        "term": "dreary",
+        "pos": "adj.",
+        "gloss": "沉闷痛苦的"
+      }
+    ]
   },
   {
     "id": 463,
@@ -4029,7 +5245,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "手相",
     "defEn": "The 947th method (according to Mimbleshaw's classification) of obtaining money by false pretences. It consists in \"reading character\" in the wrinkles made by closing the hand. The pretence is not altogether false; character can really be read very accurately in this way, for the wrinkles in every hand submitted plainly spell the word \"dupe.\" The imposture! consists in not reading it aloud.",
-    "defCn": "这是用欣骗的手段来获取钱财的第 947 种办法 ,其做法是从一个人密如蛛网的掌纹上看出这个人的性格与命运。手相术并不是没有一点道理，它确实能破解一个人的性格与命运，因为从手掌的每一条纹路都能编出一套骗人的鬼话。这种骗术只有悄悄进行才能奏效。"
+    "defCn": "这是用欣骗的手段来获取钱财的第 947 种办法 ,其做法是从一个人密如蛛网的掌纹上看出这个人的性格与命运。手相术并不是没有一点道理，它确实能破解一个人的性格与命运，因为从手掌的每一条纹路都能编出一套骗人的鬼话。这种骗术只有悄悄进行才能奏效。",
+    "footnotes": [
+      {
+        "term": "imposture",
+        "pos": "n.",
+        "gloss": "欺诈，冒牌"
+      }
+    ]
   },
   {
     "id": 491,
@@ -4037,7 +5260,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "阎王殿",
     "defEn": "Literally, the Place of All the Demons. Most of them have escaped into politics and finance, and the place is now used as a lecture hall by the Audible Reformer. When disturbed by his voice the ancient echoes clamor’ appropriate responses most gratifying to his pride of distinction. AFR, REAR RE. IE BAT TRUE . MENS EIA BATT Seg, AIS) 2 ARE AE a et Bl SESPAVTE RY, ARRAS eit A ROE SA Z",
-    "defCn": "此地，进入了政治和经济领域，这个地方现在成了说话动人的改革者的"
+    "defCn": "此地，进入了政治和经济领域，这个地方现在成了说话动人的改革者的",
+    "footnotes": [
+      {
+        "term": "clamor",
+        "pos": "n.",
+        "gloss": "喧闹，叫嚷"
+      }
+    ]
   },
   {
     "id": 492,
@@ -4125,7 +5355,14 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "逍遥派",
     "defEn": "Walking about. Relating to the philosophy of Aristotle, who, while expounding it, moved from place to place in order to avoid his pupil's objections. A needless precaution -- they knew no more of the matter than he.",
-    "defCn": "这是一个喜欢走来走去的派别。这与创立者亚利士多德 ? 有关。亚> 亚利士多德是古代世界最伟大的哲学家和科学家，他创立了几乎丰富了每个哲学领域的形式过辑学，对科学做出了许多贡献。利士多德在阐述他的学说时喜欢从一个地方走到另一个地方 , 为的是租避学生的反问。这种提防真是多此一举一一他们懂的东西并不比他多。"
+    "defCn": "这是一个喜欢走来走去的派别。这与创立者亚利士多德 ? 有关。亚> 亚利士多德是古代世界最伟大的哲学家和科学家，他创立了几乎丰富了每个哲学领域的形式过辑学，对科学做出了许多贡献。利士多德在阐述他的学说时喜欢从一个地方走到另一个地方 , 为的是租避学生的反问。这种提防真是多此一举一一他们懂的东西并不比他多。",
+    "footnotes": [
+      {
+        "term": "Aristotle",
+        "pos": "",
+        "gloss": "亚利士多德是古代世界最伟大的哲学家和科学家"
+      }
+    ]
   },
   {
     "id": 503,
@@ -4133,7 +5370,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "不届不挠",
     "defEn": "A lowly virtue whereby mediocrity achieves an inglorious' success. night, persevering to bawl. \"Remember the fable of tortoise and hare --The one at the goal while the other is -- where?\" Why, back there in Dreamland, renewing his lease of life, all his muscles preserving the peace, the goal and the rival forgotten alike, and the ， long fatigue of the needless hike. His spirit a-squat in the grass and the dew of the dogless Land beyond the Stew, he sleeps, like a saint in a holy place, a : winner of all that is good in a race. Sukker Uffro",
-    "defCn": "这是一种低等的品质，平良的人凭借它取得并不光彩的成功。“坚持，坚持 !”说教者大喊大叫，他日夜不停地叫 :“请记住龟免赛跑的意义，一个已经安然到达，另一个在哪里 ?”噢 ! 他在甜蜜的梦乡，他在那里可以快活地游荡，神清气炎，身体舒畅，比赛干嘛，对手是谁，早已抛到脑后，没有长途跋涉的疲惫，他的灵魂蹲中在草地的露珠上，那里没有猎狗和烦恼，他的睡态活像圣人坐在神圣的庙堂，善于比赛的人才是胜利者。"
+    "defCn": "这是一种低等的品质，平良的人凭借它取得并不光彩的成功。“坚持，坚持 !”说教者大喊大叫，他日夜不停地叫 :“请记住龟免赛跑的意义，一个已经安然到达，另一个在哪里 ?”噢 ! 他在甜蜜的梦乡，他在那里可以快活地游荡，神清气炎，身体舒畅，比赛干嘛，对手是谁，早已抛到脑后，没有长途跋涉的疲惫，他的灵魂蹲中在草地的露珠上，那里没有猎狗和烦恼，他的睡态活像圣人坐在神圣的庙堂，善于比赛的人才是胜利者。",
+    "footnotes": [
+      {
+        "term": "inglorious",
+        "pos": "adj.",
+        "gloss": "不名誉的，不体面的，可耻的"
+      },
+      {
+        "term": "homilist",
+        "pos": "n.",
+        "gloss": "布道者，说教者"
+      }
+    ]
   },
   {
     "id": 504,
@@ -4141,7 +5390,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "悲观主义",
     "defEn": "A philosophy forced upon the convictions of the observer by the disheartening’ prevalence of the optimist with his scarecrow’ hope and his unsightly smile.",
-    "defCn": "乐观主义拿着虚假的希望四处招摇，带着令人不快的微笑左右逢源。这种令人沮丧的情形使悲观主义应运而生，并强加在信奉者的身上。"
+    "defCn": "乐观主义拿着虚假的希望四处招摇，带着令人不快的微笑左右逢源。这种令人沮丧的情形使悲观主义应运而生，并强加在信奉者的身上。",
+    "footnotes": [
+      {
+        "term": "disheartening",
+        "pos": "adj.",
+        "gloss": "使人沮丧的"
+      },
+      {
+        "term": "scarecrow",
+        "pos": "n.",
+        "gloss": "稻草人，衣衫褴褛的人"
+      }
+    ]
   },
   {
     "id": 505,
@@ -4213,7 +5474,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "虔诚",
     "defEn": "Reverence for the Supreme Being, based upon His supposed resemblance to man. The pig is taught by sermons and epistles To think the God of Swine has snout and bristles’. ik FUSCA LPKRA BW KL,",
-    "defCn": "这是人们对上帝的尊崇，它建立在“上帝和人相似”的信念之上。猪接受了布道和使徒书的指导，"
+    "defCn": "这是人们对上帝的尊崇，它建立在“上帝和人相似”的信念之上。猪接受了布道和使徒书的指导，",
+    "footnotes": [
+      {
+        "term": "bristle",
+        "pos": "n.",
+        "gloss": "刚毛，猪鬃"
+      }
+    ]
   },
   {
     "id": 514,
@@ -4253,7 +5521,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "抄袭",
     "defEn": "A literary coincidence compounded of a discreditable’ priority? and an honorable subsequence. poR",
-    "defCn": "这是语言艺术的一种巧合，它以丢脸开始，荣誉告终。"
+    "defCn": "这是语言艺术的一种巧合，它以丢脸开始，荣誉告终。",
+    "footnotes": [
+      {
+        "term": "discreditable",
+        "pos": "adj.",
+        "gloss": "丢脸的"
+      },
+      {
+        "term": "priority",
+        "pos": "n.",
+        "gloss": "(时间、顺序上的)先，前"
+      }
+    ]
   },
   {
     "id": 519,
@@ -4269,7 +5549,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "瘟疫",
     "defEn": "In ancient times a general punishment of the innocent for admonition of their ruler, as in the familiar instance of Pharaoh the Immune. The plague as we of to-day have the happiness to know it is merely Nature's fortuitous! manifestation of her purposeless objectionableness. To bother about the best method of accomplishing an accidental result.",
-    "defCn": "在古代，这是对无辜百姓的一种最广泛的惩罚，其目的是警告他们，的国王，但埃及的法老总是能够逃脱它，摩西奶请上帝降灾于法老，这下埃及的百姓可遭了殊，但法老依然安然无盖。今天我们庆幸地得知，原来它不过是大自然偶尔毫无目的的一种“恼怒”计划结局本来是无法确定的，但却还要复思苦想地找到通向它的捷径。"
+    "defCn": "在古代，这是对无辜百姓的一种最广泛的惩罚，其目的是警告他们，的国王，但埃及的法老总是能够逃脱它，摩西奶请上帝降灾于法老，这下埃及的百姓可遭了殊，但法老依然安然无盖。今天我们庆幸地得知，原来它不过是大自然偶尔毫无目的的一种“恼怒”计划结局本来是无法确定的，但却还要复思苦想地找到通向它的捷径。",
+    "footnotes": [
+      {
+        "term": "fortuitous",
+        "pos": "adj.",
+        "gloss": "偶然的，幸运的"
+      }
+    ]
   },
   {
     "id": 521,
@@ -4285,7 +5572,14 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "柏拉图式的",
     "defEn": "Pertaining to’ the philosophy of Socrates. Platonic Love is a fool's name for the affection between a disability and a frost.",
-    "defCn": "这是苏格拉底哲学的附庸 , 所谓的柏拉图式的爱情是给处于性无能和性冷淡乾坎中的傻瓜取的绰号。"
+    "defCn": "这是苏格拉底哲学的附庸 , 所谓的柏拉图式的爱情是给处于性无能和性冷淡乾坎中的傻瓜取的绰号。",
+    "footnotes": [
+      {
+        "term": "pertain",
+        "pos": "vi.",
+        "gloss": "(与to连用)属于；关于"
+      }
+    ]
   },
   {
     "id": 523,
@@ -4301,7 +5595,14 @@ const WORDS = [
     "pos": "v",
     "cnWord": "讨好",
     "defEn": "To lay the foundation for a superstructure’ of imposition.",
-    "defCn": "为建好以后进行敲诈的上层建筑，先打牢这座大厦的基础。"
+    "defCn": "为建好以后进行敲诈的上层建筑，先打牢这座大厦的基础。",
+    "footnotes": [
+      {
+        "term": "superstructure",
+        "pos": "n.",
+        "gloss": "(建筑物,铁路等的)上部构造，上层建筑"
+      }
+    ]
   },
   {
     "id": 525,
@@ -4309,7 +5610,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "全民公决",
     "defEn": "A popular vote to ascertain” the will of the sovereign.",
-    "defCn": "投上平民的一票去卉清楚领袖的决心。"
+    "defCn": "投上平民的一票去卉清楚领袖的决心。",
+    "footnotes": [
+      {
+        "term": "ascertain",
+        "pos": "vt.",
+        "gloss": "确定，探知"
+      }
+    ]
   },
   {
     "id": 526,
@@ -4325,7 +5633,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "元长",
     "defEn": "An army of words escorting a corporal’ of thought.",
-    "defCn": "一大批词语的军队护送一个思想的下士。"
+    "defCn": "一大批词语的军队护送一个思想的下士。",
+    "footnotes": [
+      {
+        "term": "corporal",
+        "pos": "n.",
+        "gloss": "<美>下士"
+      }
+    ]
   },
   {
     "id": 528,
@@ -4333,7 +5648,19 @@ const WORDS = [
     "pos": "v",
     "cnWord": "掠夺",
     "defEn": "To take the property of another without observing the decent and customary reticences' of theft. To effect a change of ownership with the candid’ concomitance of a brass band. To wrest the wealth of A from B and leave C lamenting a vanishing opportunity.",
-    "defCn": "拿走他人的财产却不像小偷常做的那样体面地保持沉默。公开把他人的财产据为己有，同时让一个铜管乐队为自己助兴。从B那里强行抢走属于A的财富，让C为自己坐失良机而痛惜不已。"
+    "defCn": "拿走他人的财产却不像小偷常做的那样体面地保持沉默。公开把他人的财产据为己有，同时让一个铜管乐队为自己助兴。从B那里强行抢走属于A的财富，让C为自己坐失良机而痛惜不已。",
+    "footnotes": [
+      {
+        "term": "reticence",
+        "pos": "n.",
+        "gloss": "沉默寡言"
+      },
+      {
+        "term": "candid",
+        "pos": "adj.",
+        "gloss": "无偏见的，公正的；坦白的，率直的"
+      }
+    ]
   },
   {
     "id": 529,
@@ -4389,7 +5716,24 @@ const WORDS = [
     "pos": "n",
     "cnWord": "术赎罪的补偿的",
     "defEn": "A house of atonement, or expiatory chapel, fitted with several stools of repentance, as distinguished from monogamy, which has but one.",
-    "defCn": "这是一座忏悔的房子或赎罪的教堂，里面摆着好几条悔罪的跪凳。它与一夫一妻制的不同之处在于，后者只放了一只跪凳。"
+    "defCn": "这是一座忏悔的房子或赎罪的教堂，里面摆着好几条悔罪的跪凳。它与一夫一妻制的不同之处在于，后者只放了一只跪凳。",
+    "footnotes": [
+      {
+        "term": "atonement",
+        "pos": "n.",
+        "gloss": "赎罪，弥补"
+      },
+      {
+        "term": "expiatory",
+        "pos": "adj.",
+        "gloss": "赎罪的，补偿的"
+      },
+      {
+        "term": "monogamy",
+        "pos": "n.",
+        "gloss": "一夫一妻制"
+      }
+    ]
   },
   {
     "id": 536,
@@ -4397,7 +5741,19 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "便携式的",
     "defEn": "Exposed to a mutable” ownership through vicissitudes’ of possession.",
-    "defCn": "便于更换主人。"
+    "defCn": "便于更换主人。",
+    "footnotes": [
+      {
+        "term": "mutable",
+        "pos": "adj.",
+        "gloss": "易变的，性情不定的"
+      },
+      {
+        "term": "vicissitudes",
+        "pos": "n.",
+        "gloss": "兴衰；枯荣；变迁"
+      }
+    ]
   },
   {
     "id": 537,
@@ -4405,7 +5761,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "实证主义",
     "defEn": "A philosophy that denies our knowledge of the Real and affirms our ignorance of the Apparent. Its longest exponent’ is Comte, its broadest Mill and its thickest Spencer.",
-    "defCn": "这是一种可以否认我们对真实可以了解，证实我们明显无知的哲学。对此阑述时间最长的当属孔德 *，说得最明白的是穆勒 *，说得最粳粕的是斯宾塞 7国著名的哲学家，社会学、实证主义的创始人。© 约翰。穆勒(John Stuart Mill，1806 一 1873)，英国心理学家、哲学家和经济学家。?7 灰伯特。斯宾塞〈Herbert Spencer，1820 一 1903)，英国哲学家。他为人所共知的就是“社会达尔文主义之父”所提出一套的学说把进化理论适者生存应用在社会学上尤其是教育及阶级斗争。"
+    "defCn": "这是一种可以否认我们对真实可以了解，证实我们明显无知的哲学。对此阑述时间最长的当属孔德 *，说得最明白的是穆勒 *，说得最粳粕的是斯宾塞 7国著名的哲学家，社会学、实证主义的创始人。© 约翰。穆勒(John Stuart Mill，1806 一 1873)，英国心理学家、哲学家和经济学家。?7 灰伯特。斯宾塞〈Herbert Spencer，1820 一 1903)，英国哲学家。他为人所共知的就是“社会达尔文主义之父”所提出一套的学说把进化理论适者生存应用在社会学上尤其是教育及阶级斗争。",
+    "footnotes": [
+      {
+        "term": "exponent",
+        "pos": "n.",
+        "gloss": "解释者，说明者"
+      }
+    ]
   },
   {
     "id": 538,
@@ -4421,7 +5784,24 @@ const WORDS = [
     "pos": "n",
     "cnWord": "命定论",
     "defEn": "The doctrine that all things occur according to programme. This doctrine should not be confused with that of foreordination', which means that all things are programmed, but does not affirm their occurrence, that being only an implication from other doctrines by which this is entailed’. The difference is great enough to have deluged’ Christendom with ink, to say nothing of the gore’. With the distinction of the two doctrines kept well in mind, and a reverent belief in both, one may hope to escape perdition” if spared.",
-    "defCn": "这是一种理论，它主张所有的事情都按上帝的设计出现。不要把命定论和宿命论混为一谈，后者认为所有的事情都是上帝计划好的，但并不确定它们一定会发生。这两者的差异大极了，它使笔战在基督教世界泛滥成灾，而流血冲突更是数不胜数。应该切记这两种理论的不同，同时信奉它们，假如这个世界足够宽容的话，就有希望逃脱毁灭。"
+    "defCn": "这是一种理论，它主张所有的事情都按上帝的设计出现。不要把命定论和宿命论混为一谈，后者认为所有的事情都是上帝计划好的，但并不确定它们一定会发生。这两者的差异大极了，它使笔战在基督教世界泛滥成灾，而流血冲突更是数不胜数。应该切记这两种理论的不同，同时信奉它们，假如这个世界足够宽容的话，就有希望逃脱毁灭。",
+    "footnotes": [
+      {
+        "term": "foreordination",
+        "pos": "n.",
+        "gloss": "宿命，预定，注定"
+      },
+      {
+        "term": "entail",
+        "pos": "vt.",
+        "gloss": "使必需，使蒙受"
+      },
+      {
+        "term": "deluge",
+        "pos": "v.",
+        "gloss": "使泛滥"
+      }
+    ]
   },
   {
     "id": 540,
@@ -4453,7 +5833,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "偏见",
     "defEn": "A vagrant’ opinion without visible means of support.",
-    "defCn": "，一种缺乏明显依据的游离不定的见解。"
+    "defCn": "，一种缺乏明显依据的游离不定的见解。",
+    "footnotes": [
+      {
+        "term": "vagrant",
+        "pos": "adj.",
+        "gloss": "漂泊的"
+      }
+    ]
   },
   {
     "id": 544,
@@ -4461,7 +5848,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "修道院院长",
     "defEn": "A church officer having a superior degree of holiness and a fat preferment. One of Heaven's aristocracy”. A gentleman of God.",
-    "defCn": "一个有着神圣优越地位和肥缺的教会官员，天堂的一名精英，我主的一位绅士。"
+    "defCn": "一个有着神圣优越地位和肥缺的教会官员，天堂的一名精英，我主的一位绅士。",
+    "footnotes": [
+      {
+        "term": "aristocracy",
+        "pos": "n.",
+        "gloss": "贵族，贵族政府，贵族统治"
+      }
+    ]
   },
   {
     "id": 545,
@@ -4499,6 +5893,16 @@ const WORDS = [
         "term": "compositor",
         "pos": "n.",
         "gloss": "排字工人，排字员"
+      },
+      {
+        "term": "malefactor",
+        "pos": "n.",
+        "gloss": "犯罪分子"
+      },
+      {
+        "term": "unintelligible",
+        "pos": "adj.",
+        "gloss": "难解的，无法了解的，莫明其妙的"
       }
     ]
   },
@@ -4508,7 +5912,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "财产",
     "defEn": "Any material thing, having no particular value, that may be held by A against the cupidity of B. Whatever gratifies the passion for possession in one and disappoints it in all others. The object of man's brief rapacity’ and long indifference.",
-    "defCn": "任何物质，并没有特别的价值，不过A持有它是为了刺激B的贪欲，它可是满足一个人的拥有欲而使其他人失望的任何事物。它是人们短期疯狂追求的目标，从长远看来又是无关紧要的东西。"
+    "defCn": "任何物质，并没有特别的价值，不过A持有它是为了刺激B的贪欲，它可是满足一个人的拥有欲而使其他人失望的任何事物。它是人们短期疯狂追求的目标，从长远看来又是无关紧要的东西。",
+    "footnotes": [
+      {
+        "term": "rapacity",
+        "pos": "n.",
+        "gloss": "贪婪，掠夺"
+      }
+    ]
   },
   {
     "id": 550,
@@ -4524,7 +5935,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "装正经",
     "defEn": "A bawd” hiding behind the back of her demeanor’.",
-    "defCn": "一个立着贞节牌坊的寻子。"
+    "defCn": "一个立着贞节牌坊的寻子。",
+    "footnotes": [
+      {
+        "term": "bawd",
+        "pos": "n.",
+        "gloss": "鸨母，娼主"
+      },
+      {
+        "term": "demeanor",
+        "pos": "n.",
+        "gloss": "行为，风度"
+      }
+    ]
   },
   {
     "id": 552,
@@ -4548,7 +5971,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "法定人数",
     "defEn": "A sufficient number of members of a deliberative’ body to have their own way and their own way of having it. In the United States Senate a quorum? consists of the chairman of the Committee on Finance and a messenger from the White House; in the House of Representatives, of the Speaker and the devil.",
-    "defCn": "一群经过密谋的家伙在议会中能够自行其是、为所和欲为的人数，当然，这个人数要尽可能的多。在参议院，它必须由财政委员会主席和白宫 ?信使参与，在众议院，它则必须包括演说家和混蛋。> 白宫位于宾夕法尼亚大街 1600 号 ,是美国总统府。除第一代总统华盛顿外的历任美国元首都曾在此居住和工作。白宫已经过多次整修，目前共有房间 132 间。有绿厅、蓝厅、红厅、国宴厅、条约厅、东厅和图书馆等。白宫底层及一楼供人参观，"
+    "defCn": "一群经过密谋的家伙在议会中能够自行其是、为所和欲为的人数，当然，这个人数要尽可能的多。在参议院，它必须由财政委员会主席和白宫 ?信使参与，在众议院，它则必须包括演说家和混蛋。> 白宫位于宾夕法尼亚大街 1600 号 ,是美国总统府。除第一代总统华盛顿外的历任美国元首都曾在此居住和工作。白宫已经过多次整修，目前共有房间 132 间。有绿厅、蓝厅、红厅、国宴厅、条约厅、东厅和图书馆等。白宫底层及一楼供人参观，",
+    "footnotes": [
+      {
+        "term": "deliberative",
+        "pos": "adj.",
+        "gloss": "协商的"
+      }
+    ]
   },
   {
     "id": 555,
@@ -4620,7 +6050,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "流氓活动",
     "defEn": "Stupidity militant. The activity of a clouded intellect.",
-    "defCn": "这是一种强硬而愚蠢的活动。"
+    "defCn": "这是一种强硬而愚蠢的活动。",
+    "footnotes": [
+      {
+        "term": "militant",
+        "pos": "adj.",
+        "gloss": "好战的，积极从事或支持使用武力的"
+      }
+    ]
   },
   {
     "id": 564,
@@ -4628,7 +6065,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "响尾蛇",
     "defEn": "Our prostrate! brother, Homo ventrambulans.",
-    "defCn": "我们铀外前进的兄弟。我们人类则是一条竖着的“响头蛇”“?。"
+    "defCn": "我们铀外前进的兄弟。我们人类则是一条竖着的“响头蛇”“?。",
+    "footnotes": [
+      {
+        "term": "prostrate",
+        "pos": "adj.",
+        "gloss": "降伏的，俯卧的"
+      }
+    ]
   },
   {
     "id": 565,
@@ -4644,7 +6088,24 @@ const WORDS = [
     "pos": "n",
     "cnWord": "现实",
     "defEn": "The dream of a mad philosopher. That which would remain in the cupel? if one should assay a phantom’, The nucleus’ of a vacuum.",
-    "defCn": "现实是一个哲学疯子的梦，如果有人想要化验幻觉的成分，那么现实就是剩在卉锅里的残污。它是空虚的基础。"
+    "defCn": "现实是一个哲学疯子的梦，如果有人想要化验幻觉的成分，那么现实就是剩在卉锅里的残污。它是空虚的基础。",
+    "footnotes": [
+      {
+        "term": "cupel",
+        "pos": "n.",
+        "gloss": "(鉴定贵金属用的)烤钵，灰皿，提银炉"
+      },
+      {
+        "term": "phantom",
+        "pos": "n.",
+        "gloss": "幻影，幻觉"
+      },
+      {
+        "term": "nucleus",
+        "pos": "n.",
+        "gloss": "核子"
+      }
+    ]
   },
   {
     "id": 567,
@@ -4652,7 +6113,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "理性",
     "defEn": "To weight probabilities in the scales of desire. reason, 72. Propensitatel of prejudice.",
-    "defCn": "?响尾蛇靠尾部某个器官发出的声音来引诱猎物以达到捕食的目的，人则靠头部那个发声的器官吃掉猫物。推理在欲望的天平上称量各种可能性。理由"
+    "defCn": "?响尾蛇靠尾部某个器官发出的声音来引诱猎物以达到捕食的目的，人则靠头部那个发声的器官吃掉猫物。推理在欲望的天平上称量各种可能性。理由",
+    "footnotes": [
+      {
+        "term": "propensitate",
+        "pos": "n.",
+        "gloss": "[古]癖好，爱好"
+      }
+    ]
   },
   {
     "id": 568,
@@ -4660,7 +6128,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "叛乱者",
     "defEn": "A proponent” of a new misrule who has failed to establish it.",
-    "defCn": "‘这些人想要建立一种新的暴政，但却没有成功。"
+    "defCn": "‘这些人想要建立一种新的暴政，但却没有成功。",
+    "footnotes": [
+      {
+        "term": "proponent",
+        "pos": "n.",
+        "gloss": "建议者，支持者"
+      }
+    ]
   },
   {
     "id": 569,
@@ -4676,7 +6151,14 @@ const WORDS = [
     "pos": "v",
     "cnWord": "重新考虑",
     "defEn": "To seek a justification’ for a decision already made.",
-    "defCn": "为已经作出的决定寻找一个正当的理由。"
+    "defCn": "为已经作出的决定寻找一个正当的理由。",
+    "footnotes": [
+      {
+        "term": "justification",
+        "pos": "n.",
+        "gloss": "认为正当，正当理由"
+      }
+    ]
   },
   {
     "id": 571,
@@ -4684,7 +6166,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "补偿",
     "defEn": "Reparation without satisfaction. Among the Anglo-Saxon a subject conceiving himself wronged by the king was permitted, on proving his injury, to beat a brazen' image of the royal offender with a switch that was afterward applied to his own naked back. The latter rite was performed by the public hangman, and it assured moderation in the plaintiff's choice of a switch.",
-    "defCn": "一种让人心有不甘的赔偿。在查格鲁 -萨克森时代，如果某个臣民自认为被国王钨枉了，那么在证实了自己的虹必之后，他有权用鞭子抽打国王的铜像，当然事后他也要被同一根鞭子抽打一顿。后一种鞭打仪式是由专业剑子手主持的，这就确保了臣民们在选择半子的时候能悠着点。"
+    "defCn": "一种让人心有不甘的赔偿。在查格鲁 -萨克森时代，如果某个臣民自认为被国王钨枉了，那么在证实了自己的虹必之后，他有权用鞭子抽打国王的铜像，当然事后他也要被同一根鞭子抽打一顿。后一种鞭打仪式是由专业剑子手主持的，这就确保了臣民们在选择半子的时候能悠着点。",
+    "footnotes": [
+      {
+        "term": "brazen",
+        "pos": "adj.",
+        "gloss": "黄铜制的，厚颜无耻的"
+      },
+      {
+        "term": "plaintiff",
+        "pos": "n.",
+        "gloss": "[律]起诉人，原告"
+      }
+    ]
   },
   {
     "id": 572,
@@ -4708,7 +6202,29 @@ const WORDS = [
     "pos": "n",
     "cnWord": "拒绝",
     "defEn": "Denial of something desired; as an elderly maiden's hand in marriage, to a rich and handsome suitor; a valuable franchise! to a rich corporation, by an alderman’; absolution’ to an impenitent* king, by a priest, and so forth. Refusals are graded in a descending scale of finality thus: the refusal absolute, the refusal condition, the refusal tentative and the refusal feminine. The last is called by some casuists the refusal assentive.",
-    "defCn": ": 拒绝拒绝某种自己想要的东西 ; 诸如老处女拒绝潇洒而有钱的追求者，一家大公司拒绝参议员赐予的无法估算的特权 , 一个死不悔改的国王拒绝牧师对他罪行的赦免等等。从结果来看，按照程度递减来排列可以分为以下几类 : 绝对的拒绝、有条件的拒绝、暂时性拒绝以及女人的拒绝。有些诡辩家把最后一种拒绝方式称之为断然拒绝。"
+    "defCn": ": 拒绝拒绝某种自己想要的东西 ; 诸如老处女拒绝潇洒而有钱的追求者，一家大公司拒绝参议员赐予的无法估算的特权 , 一个死不悔改的国王拒绝牧师对他罪行的赦免等等。从结果来看，按照程度递减来排列可以分为以下几类 : 绝对的拒绝、有条件的拒绝、暂时性拒绝以及女人的拒绝。有些诡辩家把最后一种拒绝方式称之为断然拒绝。",
+    "footnotes": [
+      {
+        "term": "franchise",
+        "pos": "n.",
+        "gloss": "[美](政府授予个人、公司或社团的)特权，特许"
+      },
+      {
+        "term": "alderman",
+        "pos": "n.",
+        "gloss": "市府参事，市议员"
+      },
+      {
+        "term": "absolution",
+        "pos": "n.",
+        "gloss": "免罪，赦免"
+      },
+      {
+        "term": "impenitent",
+        "pos": "adj.",
+        "gloss": "不悔悟的，顽固的"
+      }
+    ]
   },
   {
     "id": 575,
@@ -4730,6 +6246,21 @@ const WORDS = [
         "term": "sacristan",
         "pos": "n.",
         "gloss": "教堂圣器收藏室的管理人，教堂的看守人"
+      },
+      {
+        "term": "receptacle",
+        "pos": "n.",
+        "gloss": "容器"
+      },
+      {
+        "term": "custodian",
+        "pos": "n.",
+        "gloss": "管理人"
+      },
+      {
+        "term": "anathematize",
+        "pos": "v.",
+        "gloss": "开除教籍，诅咒"
       }
     ]
   },
@@ -4755,7 +6286,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "副本",
     "defEn": "A reproduction of a work of art, by the artist that made the original. It is so called to distinguish it from a \"copy,\" which is made by another artist. When the two are mae’ with equal skill the replica is the more valuable, for it is supposed to be more beautiful than it looks.",
-    "defCn": "这是专门指那些由原作者本人复制的艺术品，由另一个艺术家所做的复印件被称为“厅郧”两者截然不同，即使两者制作工艺相同 ,“副本”依旧更为值钱，因为人们认为它看起来更美妙。"
+    "defCn": "这是专门指那些由原作者本人复制的艺术品，由另一个艺术家所做的复印件被称为“厅郧”两者截然不同，即使两者制作工艺相同 ,“副本”依旧更为值钱，因为人们认为它看起来更美妙。",
+    "footnotes": [
+      {
+        "term": "mae",
+        "pos": "adj.,n.,adv.",
+        "gloss": "<苏格兰>=more"
+      }
+    ]
   },
   {
     "id": 580,
@@ -4771,7 +6309,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "安魂曲",
     "defEn": "Amass for the dead which the minor poets assure us the winds sing o'er the graves of their favorites. Sometimes, by way of providing a varied entertainment, they sing a dirge’.",
-    "defCn": "这是为死者举行的仪式的一部分 , 一些不太有名的诗人让我们深信一一风儿在他们最深爱的人的坟头啼喝。有时，为了给这个仪式增加一些不同寻常的乐趣，诗人们会亲自上阵唱上一曲挽歌。"
+    "defCn": "这是为死者举行的仪式的一部分 , 一些不太有名的诗人让我们深信一一风儿在他们最深爱的人的坟头啼喝。有时，为了给这个仪式增加一些不同寻常的乐趣，诗人们会亲自上阵唱上一曲挽歌。",
+    "footnotes": [
+      {
+        "term": "dirge",
+        "pos": "n.",
+        "gloss": "挽歌，哀悼歌"
+      }
+    ]
   },
   {
     "id": 582,
@@ -4803,7 +6348,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "体面",
     "defEn": "The offspring of a liaison’ between a bald head and a bank account.",
-    "defCn": "当秃头和银行账户亲密地结合在一起，就产生了体面。"
+    "defCn": "当秃头和银行账户亲密地结合在一起，就产生了体面。",
+    "footnotes": [
+      {
+        "term": "liaison",
+        "pos": "n.",
+        "gloss": "联络，联系"
+      }
+    ]
   },
   {
     "id": 586,
@@ -4819,7 +6371,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "缓刑",
     "defEn": "A suspension of hostilities against a sentenced assassin, to enable the Executive to determine whether the murder may not have been done by the prosecuting attorney’. Any break in the continuity of a disagreeable expectation.",
-    "defCn": "暂时不处决已被判罪的暗杀者，以便长官确定谋杀是不是由检察官策划的。让人难熬的期待突然中断，这也是一种缓刑。"
+    "defCn": "暂时不处决已被判罪的暗杀者，以便长官确定谋杀是不是由检察官策划的。让人难熬的期待突然中断，这也是一种缓刑。",
+    "footnotes": [
+      {
+        "term": "prosecuting attorney",
+        "pos": "n.",
+        "gloss": "检察官"
+      }
+    ]
   },
   {
     "id": 588,
@@ -4827,7 +6386,24 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "辉煌的",
     "defEn": "Like a simple American citizen beduking himself in his lodge, or affirming his consequence in the Scheme of Things as an elemental unit of a parade. The Knights of Dominion were so resplendent’ in their velvet-and-gold ， that their masters would hardly have known them.",
-    "defCn": "就好比一个头脑简单的美国公民躺在他寄居的窝棚里，设想并断定，自己在广场阅兵方阵里作为其中一员的重要性。披金戴银的骑士侍从显得如此辉煌，摘得他们的主人差点没认出《阶层档案》"
+    "defCn": "就好比一个头脑简单的美国公民躺在他寄居的窝棚里，设想并断定，自己在广场阅兵方阵里作为其中一员的重要性。披金戴银的骑士侍从显得如此辉煌，摘得他们的主人差点没认出《阶层档案》",
+    "footnotes": [
+      {
+        "term": "resplendent",
+        "pos": "adj.",
+        "gloss": "辉煌的，灿烂的，光辉的，华丽的"
+      },
+      {
+        "term": "detachable",
+        "pos": "adj.",
+        "gloss": "可分开的，可分离的"
+      },
+      {
+        "term": "astrology",
+        "pos": "n.",
+        "gloss": "占星术，占星学"
+      }
+    ]
   },
   {
     "id": 589,
@@ -4857,6 +6433,11 @@ const WORDS = [
         "term": "benefactor",
         "pos": "n.",
         "gloss": "捐助者，赠送者，赞助人"
+      },
+      {
+        "term": "philanthropist",
+        "pos": "n.",
+        "gloss": "慈善家"
       }
     ]
   },
@@ -4882,7 +6463,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "局示录",
     "defEn": "A famous book in which St. John the Divine concealed all that he knew. The revealing is done by the commentators’, who know nothing.",
-    "defCn": "这是由圣徒约翰写的一本名作 , 他在这本书里掩盖了他所知道的一切。启示是由一穿不通的注释者完成的。"
+    "defCn": "这是由圣徒约翰写的一本名作 , 他在这本书里掩盖了他所知道的一切。启示是由一穿不通的注释者完成的。",
+    "footnotes": [
+      {
+        "term": "commentator",
+        "pos": "n.",
+        "gloss": "评论员，讲解员"
+      }
+    ]
   },
   {
     "id": 595,
@@ -4898,7 +6486,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "棍卜者",
     "defEn": "One who uses a divining-rod in prospecting” for precious metals in the pocket of a fool. HbA",
-    "defCn": "这家伙看似用一根魔棍在地上探测贵金属 , 但实际上却用这根棍子在傻瓜的口袋里探测金子。"
+    "defCn": "这家伙看似用一根魔棍在地上探测贵金属 , 但实际上却用这根棍子在傻瓜的口袋里探测金子。",
+    "footnotes": [
+      {
+        "term": "prospect",
+        "pos": "vi.",
+        "gloss": "寻找，勘探"
+      }
+    ]
   },
   {
     "id": 597,
@@ -4906,7 +6501,29 @@ const WORDS = [
     "pos": "n",
     "cnWord": "眼泪",
     "defEn": "A mystic beverage secretly used by our most popular novelists and poets to regulate the imagination and narcotize! the conscience. It is said to be rich in both obtundite” and lethargine® , and is brewed’ in a midnight fog by a fat witch of the Dismal Swamp. AR.",
-    "defCn": "这是一种神秘的饮料 , 我们这个时代最受欢迎的小说家和诗人常常用它秘密地搅和人们的想像，麻醇他们的良心。据称它有止痛和嗜睡的"
+    "defCn": "这是一种神秘的饮料 , 我们这个时代最受欢迎的小说家和诗人常常用它秘密地搅和人们的想像，麻醇他们的良心。据称它有止痛和嗜睡的",
+    "footnotes": [
+      {
+        "term": "narcotize",
+        "pos": "vt.",
+        "gloss": "麻醉，使昏迷"
+      },
+      {
+        "term": "obtundent",
+        "pos": "n.",
+        "gloss": "【医】缓和剂，止痛剂"
+      },
+      {
+        "term": "lethargy",
+        "pos": "n.",
+        "gloss": "昏睡；懒散"
+      },
+      {
+        "term": "brew",
+        "pos": "v.",
+        "gloss": "酿造，酝酿"
+      }
+    ]
   },
   {
     "id": 598,
@@ -4938,7 +6555,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "传奇",
     "defEn": "Fiction that owes no allegiance to the God of Things as They Are. In the novel the writer's thought is tethered’ to probability, as a domestic horse to the hitching-post, but in romance it ranges at will over the entire region of the imagination -- free, lawless, immune to bit and rein. Your novelist is a poor creature, as Carlyle might say -- a mere reporter. He may invent his characters and plot, but he must not imagine anything taking place that might not occur, albeit his entire narrative is candidly a lic. Why he imposes this hard condition on himself, and \"drags at each remove a lengthening chain\" of his own forging he can explain in ten thick volumes without illuminating by so much as a candle's ray the black profound of his own ignorance of the matter. There are great novels, for great writers have \"laid waste their powers\" to write them, but it remains true that far and away the most fascinating fiction that we have is \"The Thousand and One Nights.\" ALLL PERE OHH Me RHETT, (URE I big Fee RE PIAL NAT ARE, BI le i Fa ALMA PEAR ES ETA Ae “TEA TY ATT a”",
-    "defCn": "这是一种不用按照上帝创造万物的本来面目而虚构的故事。在小说中，作家的思路被所谓的真实性所束缚，就像一匹被拴在马桩子上的马一样。而在传奇作品中，作家的思路可以穷尽想像的一切空间——自由自在，无拘无束，不受任何限制。小说家是一种很可怜的东西，正如卡莱尔所说，只不过是一个传声筒而已。他也许能创造出一些人物和情节，但决不会异想天开去写某些所谓现实中不可能发声的事件，即使他的作品整个就是一个实实在在的谎言。置于他为何要折腾自己，\"每一步拖着\"自己锻造的\"越来越长的铁链\"，他可以写上十大本著作加上注释；遗憾的是这些巨著散发的智慧还抵不上一根蜡烛的光亮，当然更不用妄想去照亮那黑暗的深渊了；他为何要自讨苦吃，连他自己都觉得莫名其妙。世界上确实有一些卓越的小说，因为这些不同凡响的作家在写它们的时候\"注入了他们的精髓\"。世界上最富魅力的传奇故事当属《一千零一夜》。"
+    "defCn": "这是一种不用按照上帝创造万物的本来面目而虚构的故事。在小说中，作家的思路被所谓的真实性所束缚，就像一匹被拴在马桩子上的马一样。而在传奇作品中，作家的思路可以穷尽想像的一切空间——自由自在，无拘无束，不受任何限制。小说家是一种很可怜的东西，正如卡莱尔所说，只不过是一个传声筒而已。他也许能创造出一些人物和情节，但决不会异想天开去写某些所谓现实中不可能发声的事件，即使他的作品整个就是一个实实在在的谎言。置于他为何要折腾自己，\"每一步拖着\"自己锻造的\"越来越长的铁链\"，他可以写上十大本著作加上注释；遗憾的是这些巨著散发的智慧还抵不上一根蜡烛的光亮，当然更不用妄想去照亮那黑暗的深渊了；他为何要自讨苦吃，连他自己都觉得莫名其妙。世界上确实有一些卓越的小说，因为这些不同凡响的作家在写它们的时候\"注入了他们的精髓\"。世界上最富魅力的传奇故事当属《一千零一夜》。",
+    "footnotes": [
+      {
+        "term": "tether",
+        "pos": "vt.",
+        "gloss": "(用绳、铁链)拴系；限定，束缚"
+      }
+    ]
   },
   {
     "id": 602,
@@ -4946,7 +6570,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "绳于",
     "defEn": "An obsolescent appliance for reminding assassins that they too are mortal. It is put about the neck and remains in place one's whole life long. It has been largely superseded by a more complex electrical device worn upon ， another part of the person; and this is rapidly giving place to an apparatus known as the preachment’.",
-    "defCn": "这是一种正在被废弃不用的工具 , 曾经被用来警告刺客一一他们也，是会死的。它通常会套在刺客的脖子上，而且一直会套在那里，延续整整一个时代。现代绞索已大批地被一种复杂得多的电子装置替代了 ,这套用具是套在人体的其他部位。不过，这个新玩意儿很快就会被淘汰，因为一种叫“说教”的机器正在兴起。1《一千零一夜》是古代阿拉伯民间故事集，在西方被称为《阿拉伯之夜》，我国却有一个独特的称呼 :《天方夜谭》。它是世界上最具生命力、最负盛名、拥有最多读者和影响最大的作品之一 : 同时，它以民间文学的朴素身份却能跻身于世界古典名著之列，也堪称是世界文学史上的一大奇迹。《一千零一夜》的故事，很早就在阿拉伯地区的民间口头流传，约在公元八九世纪之交出现了早期的手抄本，到了 12世纪，埃及人首先使用了《一千零一夜》的书名，但直到 15 世纪末、16 世纪初才基本定型。《一千零一夜》的故事一经产生，便广为流传，在十字军东征时期就传到了欧洲。《一千零一夜》对后世文学也产生了深远的影响。"
+    "defCn": "这是一种正在被废弃不用的工具 , 曾经被用来警告刺客一一他们也，是会死的。它通常会套在刺客的脖子上，而且一直会套在那里，延续整整一个时代。现代绞索已大批地被一种复杂得多的电子装置替代了 ,这套用具是套在人体的其他部位。不过，这个新玩意儿很快就会被淘汰，因为一种叫“说教”的机器正在兴起。1《一千零一夜》是古代阿拉伯民间故事集，在西方被称为《阿拉伯之夜》，我国却有一个独特的称呼 :《天方夜谭》。它是世界上最具生命力、最负盛名、拥有最多读者和影响最大的作品之一 : 同时，它以民间文学的朴素身份却能跻身于世界古典名著之列，也堪称是世界文学史上的一大奇迹。《一千零一夜》的故事，很早就在阿拉伯地区的民间口头流传，约在公元八九世纪之交出现了早期的手抄本，到了 12世纪，埃及人首先使用了《一千零一夜》的书名，但直到 15 世纪末、16 世纪初才基本定型。《一千零一夜》的故事一经产生，便广为流传，在十字军东征时期就传到了欧洲。《一千零一夜》对后世文学也产生了深远的影响。",
+    "footnotes": [
+      {
+        "term": "preachment",
+        "pos": "n.",
+        "gloss": "说教"
+      }
+    ]
   },
   {
     "id": 603,
@@ -4969,7 +6600,29 @@ const WORDS = [
     "pos": "n",
     "cnWord": "肥头党",
     "defEn": "A member of the Parliamentarian party in the English civil war -- so called from his habit of wearing his hair short, whereas his enemy, the Cavalier, wore his long. There were other points of difference between them, but the fashion in hair was the fundamental cause of quarrel. The Cavaliers were royalists because the king, an indolent” fellow, found it more convenient to let his hair grow than to wash 2 Beam = his neck. This the Roundheads, who were eres Saks mostly barbers and soap-boilers, deemed an = Fa ss injury to trade, and the royal neck was Pat : therefore the object of their particular Ae : indignation. Descendants of the belligerents® : : Beas now wear their hair all alike, but the fires of ~~ 人 animosity’ enkindled5 in that ancient strife Ee ae ez smoulder’ to this day beneath the snows of British civility.",
-    "defCn": "这是英国内乱时期的议会派分子一一他之所以得此雅号是因为他喜欢留短发，而他的对手骑士派则正好相反，喜欢留长发。这两帮人还有其他的不同之处，不过头发的长短是引起他们誓死拼杀的根本原因。骑士派是保皇党党员 , 因为国王殿下一一一个偷懒的伙计一一发现听任头发自由生长比洗刷脖子更为省劲。肥头党一一他们大部分是理发师和肥皂制造商一一觉得这种对长法的嗜好会毁掉自己的买卖，因此大为光火地把予头指向国王的脖子。到了今天，肥头党人和骑士党人这两个多家的后代的发型看不出有什么差别了 ,可在那不易让人察觉的英格兰式的礼仪的薄薄雪层之下，昔日仇恨的火焰仍在熊熊燃烧。"
+    "defCn": "这是英国内乱时期的议会派分子一一他之所以得此雅号是因为他喜欢留短发，而他的对手骑士派则正好相反，喜欢留长发。这两帮人还有其他的不同之处，不过头发的长短是引起他们誓死拼杀的根本原因。骑士派是保皇党党员 , 因为国王殿下一一一个偷懒的伙计一一发现听任头发自由生长比洗刷脖子更为省劲。肥头党一一他们大部分是理发师和肥皂制造商一一觉得这种对长法的嗜好会毁掉自己的买卖，因此大为光火地把予头指向国王的脖子。到了今天，肥头党人和骑士党人这两个多家的后代的发型看不出有什么差别了 ,可在那不易让人察觉的英格兰式的礼仪的薄薄雪层之下，昔日仇恨的火焰仍在熊熊燃烧。",
+    "footnotes": [
+      {
+        "term": "indolent",
+        "pos": "adj.",
+        "gloss": "懒惰的"
+      },
+      {
+        "term": "belligerent",
+        "pos": "adj.",
+        "gloss": "好战的，交战的"
+      },
+      {
+        "term": "animosity",
+        "pos": "n.",
+        "gloss": "仇恨，憎恶"
+      },
+      {
+        "term": "enkindle",
+        "pos": "vt.",
+        "gloss": "点燃，使燃烧"
+      }
+    ]
   },
   {
     "id": 605,
@@ -4985,7 +6638,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "朗姆酒",
     "defEn": "Generically’, fiery liquors that produce madness in total abstainers’.",
-    "defCn": "总的来说，这是指那些让戒酒者想得发狂的各种烈性酒。"
+    "defCn": "总的来说，这是指那些让戒酒者想得发狂的各种烈性酒。",
+    "footnotes": [
+      {
+        "term": "generically",
+        "pos": "adv.",
+        "gloss": "一般地"
+      },
+      {
+        "term": "abstainer",
+        "pos": "n.",
+        "gloss": "节制者，戒酒者"
+      }
+    ]
   },
   {
     "id": 607,
@@ -5009,7 +6674,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "安息日",
     "defEn": "A weekly festival having its origin in the fact that God made the world in six days and was arrested on the seventh. Among the Jews observance of the day was enforced by a Commandment of which this is the Christian version: \"Remember the seventh day to make thy neighbor keep it wholly.\" To the Creator it seemed fit and expedient that the Sabbath should be the last day of the week, but the Early Fathers of the Church held other views. So great is the sanctity of the day that even where the Lord holds a doubtful and precarious jurisdiction over those who go down to (and down into) the sea it is reverently recognized, as is manifest in the following deep-water version of the Fourth Commandment: Six days shalt thou labor and do all thou art able, And on the seventh holystone' the deck and scrape the cable. Decks are no longer holystoned, but the cable still supplies the captain with opportunity to attest a pious respect for the divine ordinance.",
-    "defCn": "这是每周一次的节日。上帝在六天之内创造了世界，然后在第七天被捕了，安息日就是为了纪念这件事 '。在犹太人那里，恪守安息日的规定是“摩西十诚”中的一条，这条戒律按照基督的说法就是 :“记住安息日，要迫使你的邻居完全恪守安息日之式。”对上帝来说，把安息日定为一个星期的最后一天似乎更恰当一些 , 但是基督教的早期教父们却认为应该是一个星期的第一天。这是一个极其庄严的日子，就连下海劳作的地方一一上帝是否真正控制这些人的命运还说不定一一安息日都是受到人们的和敬晴的，有大海般奥妙无穷的“摩西第四戒律”为证 ;在六天之内你可以为你做的一切干个不停。在第七天则应用沙石打磨甲板并把错链刷控干净。现在的甲板不再用沙石打磨了，但错链仍需擦洗，这使船长有机会表达自己对那庄严仪式的虔诚之心。"
+    "defCn": "这是每周一次的节日。上帝在六天之内创造了世界，然后在第七天被捕了，安息日就是为了纪念这件事 '。在犹太人那里，恪守安息日的规定是“摩西十诚”中的一条，这条戒律按照基督的说法就是 :“记住安息日，要迫使你的邻居完全恪守安息日之式。”对上帝来说，把安息日定为一个星期的最后一天似乎更恰当一些 , 但是基督教的早期教父们却认为应该是一个星期的第一天。这是一个极其庄严的日子，就连下海劳作的地方一一上帝是否真正控制这些人的命运还说不定一一安息日都是受到人们的和敬晴的，有大海般奥妙无穷的“摩西第四戒律”为证 ;在六天之内你可以为你做的一切干个不停。在第七天则应用沙石打磨甲板并把错链刷控干净。现在的甲板不再用沙石打磨了，但错链仍需擦洗，这使船长有机会表达自己对那庄严仪式的虔诚之心。",
+    "footnotes": [
+      {
+        "term": "holystone",
+        "pos": "vi.",
+        "gloss": "用沙石磨(甲板)"
+      }
+    ]
   },
   {
     "id": 610,
@@ -5017,7 +6689,14 @@ const WORDS = [
     "pos": "adj",
     "cnWord": "神圣的",
     "defEn": "Dedicated to some religious purpose; having a divine character; inspiring solemn thoughts or emotions; as, the Dalai Lama of Thibet; the Moogum of M'bwango; the temple of Apes in Ceylon’; the Cow in India; the Crocodile, the Cat and the Onion of ancient Egypt; the Mufti of Moosh; the hair of the dog that bit Noah, etc. Colombo)",
-    "defCn": ": 据《圣经》记载，上帝在六天内创造了世界，在第七天就休息了。“休息”一词在英语中为rest，而“逮捕”一词为arrest，两者只一音之差。为某种宗教目的而供奉的 ; 具有某种神的品行者 ; 能激发庄严的思想和情绪，如西藏的达赖喇嘛、斯里兰卡的猩猩寺、印度的神牛、古埃"
+    "defCn": ": 据《圣经》记载，上帝在六天内创造了世界，在第七天就休息了。“休息”一词在英语中为rest，而“逮捕”一词为arrest，两者只一音之差。为某种宗教目的而供奉的 ; 具有某种神的品行者 ; 能激发庄严的思想和情绪，如西藏的达赖喇嘛、斯里兰卡的猩猩寺、印度的神牛、古埃",
+    "footnotes": [
+      {
+        "term": "Ceylon",
+        "pos": "n.",
+        "gloss": "锡兰(印度以南一岛国)"
+      }
+    ]
   },
   {
     "id": 611,
@@ -5048,7 +6727,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "撒旦",
     "defEn": "One of the Creator's lamentable mistakes, repented in sashcloth and axes. Being instated as an archangel®, Satan made himself multifariously* objectionable and was finally expelled from Heaven. Halfway in his descent he paused, bent his head in thought a moment and at last went back. \"There is one favor that I should like to ask,\" said he. eternity with hatred of his soul -- you ask for the right to make his laws?\" himself.\" It was so ordered. 7 25 HRA, Ania",
-    "defCn": "这是上帝所犯的可悲的错误之一。魔鬼撒旦原先是一名天使，被任命为天使长之后，性情变得荒唐起来，想法设法惹是生非，结果被上帝赶出了天堂。在从天上贬到人间的途中，他眉头一皱计上心来，于是又返回天堂，对上帝说，\"我有一个提议。\"\n\"说出来。\"\n\"我知道人很快就要被创造出来了。但他需要法律。\"\n\"啊，卑贱的家伙！你是他命中注定的敌人，从创造天地之时，就对他的灵魂充满了仇恨，——你竟然想为他获得制定法律的权利。\"\n\"请原谅，我必须向你要求的是，请允许人类自己设立法律。\"\n最后，事情就这样搞定了。"
+    "defCn": "这是上帝所犯的可悲的错误之一。魔鬼撒旦原先是一名天使，被任命为天使长之后，性情变得荒唐起来，想法设法惹是生非，结果被上帝赶出了天堂。在从天上贬到人间的途中，他眉头一皱计上心来，于是又返回天堂，对上帝说，\"我有一个提议。\"\n\"说出来。\"\n\"我知道人很快就要被创造出来了。但他需要法律。\"\n\"啊，卑贱的家伙！你是他命中注定的敌人，从创造天地之时，就对他的灵魂充满了仇恨，——你竟然想为他获得制定法律的权利。\"\n\"请原谅，我必须向你要求的是，请允许人类自己设立法律。\"\n最后，事情就这样搞定了。",
+    "footnotes": [
+      {
+        "term": "adversary",
+        "pos": "n.",
+        "gloss": "敌手，对手"
+      }
+    ]
   },
   {
     "id": 614,
@@ -5064,7 +6750,29 @@ const WORDS = [
     "pos": "n",
     "cnWord": "放血",
     "defEn": "A form of penance practised by the mediaeval! pious. The rite was performed, sometimes with a knife, sometimes with a hot iron, but always, says Arsenius, acceptably if the penitent spared himself no pain nor harmless disfigurement’. Scarification®, with other crude penances, has now been superseded‘ by benefaction. The founding of a library or endowment of a university is said to yield to the penitent a sharper and more lasting pain than is conferred by the knife or iron, and is therefore a surer means of grace. There are, however, two grave objections to it as a penitential method: the good that it does and the taint of justice. A professional writer whose views are antagonistic’ to one's own.",
-    "defCn": "这是中世纪虔信宗教者的一种苦刑。这种苦修仪式有时是用刀子进行的，有时则用烧红的烙铁完成。按照阿尔塞尼的说法，假使苦刑者不惧剧痛，不惜让外瑶受些无关紧要的毁损，这种放血自残仪式总是令人欣昧的。到了今天，和其他的一些原始的苦行一样，放血献祭这种修行法已被捐款等善举取代。据传捐资修建图书馆或大学给悔改者带来的疼痛，比刀子和红烙铁造成的痛苦强烈得多，而且也长久得多，因此捐款是一种更为保险的修行方式。不过 , 捐款这种苦刑也有两件重大的缺憾 :它能带来利益，还会弄脏正义。这是一个职业作家，他的各种观点是相互冲突的。"
+    "defCn": "这是中世纪虔信宗教者的一种苦刑。这种苦修仪式有时是用刀子进行的，有时则用烧红的烙铁完成。按照阿尔塞尼的说法，假使苦刑者不惧剧痛，不惜让外瑶受些无关紧要的毁损，这种放血自残仪式总是令人欣昧的。到了今天，和其他的一些原始的苦行一样，放血献祭这种修行法已被捐款等善举取代。据传捐资修建图书馆或大学给悔改者带来的疼痛，比刀子和红烙铁造成的痛苦强烈得多，而且也长久得多，因此捐款是一种更为保险的修行方式。不过 , 捐款这种苦刑也有两件重大的缺憾 :它能带来利益，还会弄脏正义。这是一个职业作家，他的各种观点是相互冲突的。",
+    "footnotes": [
+      {
+        "term": "mediaeval",
+        "pos": "adj.",
+        "gloss": "中古的，中世纪的"
+      },
+      {
+        "term": "disfigurement",
+        "pos": "n.",
+        "gloss": "毁容，缺陷，畸形"
+      },
+      {
+        "term": "scarification",
+        "pos": "n.",
+        "gloss": "【医】多次划破(法)，放血(法)"
+      },
+      {
+        "term": "supersede",
+        "pos": "vt.",
+        "gloss": "代替，取代"
+      }
+    ]
   },
   {
     "id": 616,
@@ -5072,7 +6780,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "圣经",
     "defEn": "The sacred books of our holy religion, as distinguished from the false and profane” writings on which all other faiths are based.",
-    "defCn": "1 这是我们神圣宗教的圣典，它比其他那教所依托的那些廖误、污神的著作当然要神圣。"
+    "defCn": "1 这是我们神圣宗教的圣典，它比其他那教所依托的那些廖误、污神的著作当然要神圣。",
+    "footnotes": [
+      {
+        "term": "profane",
+        "pos": "adj.",
+        "gloss": "亵渎的"
+      }
+    ]
   },
   {
     "id": 617,
@@ -5088,7 +6803,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "自尊",
     "defEn": "An erroneous appraisement'.",
-    "defCn": "一个错误的评价。"
+    "defCn": "一个错误的评价。",
+    "footnotes": [
+      {
+        "term": "appraisement",
+        "pos": "n.",
+        "gloss": "评价，估价"
+      }
+    ]
   },
   {
     "id": 619,
@@ -5112,7 +6834,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "元老院",
     "defEn": "A body of elderly gentlemen charged with high duties and misdemeanors’. TREE.",
-    "defCn": "这是由一批德高望重的老人组成的团体，他们担负的责任重大，罪"
+    "defCn": "这是由一批德高望重的老人组成的团体，他们担负的责任重大，罪",
+    "footnotes": [
+      {
+        "term": "misdemeanor",
+        "pos": "n.",
+        "gloss": "不正当的行为；轻罪"
+      }
+    ]
   },
   {
     "id": 622,
@@ -5120,7 +6849,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "连载",
     "defEn": "A literary work, usually a story that is not true, creeping through several issues of a newspaper or magazine. Frequently appended” to each installment is a \"synopsis? of preceding chapters\" for those who have not read them, but a direr need is a synposis of succeeding chapters for those better. The late James 严 Bowman was writing a serial tale for a weekly paper wrote, not jointly but alternately, Bowman supplying the installment for one week, his friend for the next, and so on, world without end, they hoped. Unfortunately they quarreled, and one Monday morning when Bowman read the paper to prepare himself for his task, he found his work cut out for him in a way to surprise and pain him. His collaborator had embarked every character of the narrative on a ship and sunk them all in the deepest part of the Atlantic.",
-    "defCn": "这是一种语言艺术作品，一般是一个虚构故事，它分期刊登出来，从杂志或报纸的这一期转到另一期。为了方便那些没读过前几章的读者，每一个连载部分的开头都附有一个\"前面几章的梗概\"，此外还附有一个\"后面章节的提要\"，因为很多人根本就没打算读后面的东西。连载作品的整体概括说不定比作品本身更生动有趣一些。\n已去世的詹姆斯·鲍曼曾和一位我们已不知姓名的天才合作，为一份周刊写一部连载小说。他们俩不是同时写，而是交替写，鲍曼写这周的故事，他的伙伴写下一周，这样不停地轮流写下去，他们希望世界不会有末日。遗憾的是他们后来闹翻了。某个星期一的早上，鲍曼先生读着那份周刊上连载的故事以便能接着写下去，他惊奇而痛心地发现，他的续篇写不下去了，因为他的同伙一怒之下把故事里所有的人物全部调配到一条船上，最后，所有的人和船一同沉入了大西洋底。"
+    "defCn": "这是一种语言艺术作品，一般是一个虚构故事，它分期刊登出来，从杂志或报纸的这一期转到另一期。为了方便那些没读过前几章的读者，每一个连载部分的开头都附有一个\"前面几章的梗概\"，此外还附有一个\"后面章节的提要\"，因为很多人根本就没打算读后面的东西。连载作品的整体概括说不定比作品本身更生动有趣一些。\n已去世的詹姆斯·鲍曼曾和一位我们已不知姓名的天才合作，为一份周刊写一部连载小说。他们俩不是同时写，而是交替写，鲍曼写这周的故事，他的伙伴写下一周，这样不停地轮流写下去，他们希望世界不会有末日。遗憾的是他们后来闹翻了。某个星期一的早上，鲍曼先生读着那份周刊上连载的故事以便能接着写下去，他惊奇而痛心地发现，他的续篇写不下去了，因为他的同伙一怒之下把故事里所有的人物全部调配到一条船上，最后，所有的人和船一同沉入了大西洋底。",
+    "footnotes": [
+      {
+        "term": "append",
+        "pos": "vt.",
+        "gloss": "附加，添加，悬挂"
+      },
+      {
+        "term": "synopsis",
+        "pos": "n.",
+        "gloss": "大纲"
+      }
+    ]
   },
   {
     "id": 623,
@@ -5144,7 +6885,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "诡辩",
     "defEn": "The controversial method of an opponent, distinguished from one's own by superior insincerity and fooling. This method is that of the later Sophists, a Grecian sect of philosophers who began by teaching wisdom, prudence, science, art and, in brief, whatever men ought to know, but lost themselves in a maze of quibbles’ and a fog of words.",
-    "defCn": "这是我们对手的论战手段，同我们的相比，不仅虚伪，而且愚蠢。这也是希腊次辩派哲学家的方式，这些人要教给人机灵、小心、学问和技巧一一总而言之，就是人所要了解的一切，可他们自己却在诡辩和双关语的迷雾中迷失了方向。"
+    "defCn": "这是我们对手的论战手段，同我们的相比，不仅虚伪，而且愚蠢。这也是希腊次辩派哲学家的方式，这些人要教给人机灵、小心、学问和技巧一一总而言之，就是人所要了解的一切，可他们自己却在诡辩和双关语的迷雾中迷失了方向。",
+    "footnotes": [
+      {
+        "term": "quibble",
+        "pos": "n.",
+        "gloss": "双关语，遁辞"
+      }
+    ]
   },
   {
     "id": 626,
@@ -5152,7 +6900,24 @@ const WORDS = [
     "pos": "n",
     "cnWord": "灵魂",
     "defEn": "A spiritual entity concerning which there hath been brave disputation. Plato held that those souls which in a previous state of existence had obtained the clearest glimpses of eternal truth entered into the bodies of persons who became philosophers. Plato himself was a philosopher. The souls that had least contemplated divine truth animated the bodies of usurpers’ and despots”. Dionysius I, who had threatened to decapitate* the broad-browed philosopher, was a usurper and a despot. Plato, doubtless, was not the first to construct a system of philosophy that could be quoted against his enemies; certainly he was not the last.",
-    "defCn": "一种精神的存在，自古以来，关于它的激烈争吵数不胜数。柏拉图认为，那些在前世清晰地见过永恒真理的灵魂，一旦钻进某些人的身体，这些人就会成为哲学家。柏拉图自己就是这样的人。那些对伟大真理想得最少的灵魂则进入了另一些人体内，他们会成为篡权者和暴君。迪奥尼修斯一世就是篡位者和暴君，他曾威吓要砍掉眉毛长得特别茂盛的柏拉图的头。不用说柏拉图不会是第一位提倡用哲学对付自己敌人的人，自然也不会是最后一个。"
+    "defCn": "一种精神的存在，自古以来，关于它的激烈争吵数不胜数。柏拉图认为，那些在前世清晰地见过永恒真理的灵魂，一旦钻进某些人的身体，这些人就会成为哲学家。柏拉图自己就是这样的人。那些对伟大真理想得最少的灵魂则进入了另一些人体内，他们会成为篡权者和暴君。迪奥尼修斯一世就是篡位者和暴君，他曾威吓要砍掉眉毛长得特别茂盛的柏拉图的头。不用说柏拉图不会是第一位提倡用哲学对付自己敌人的人，自然也不会是最后一个。",
+    "footnotes": [
+      {
+        "term": "usurper",
+        "pos": "n.",
+        "gloss": "篡夺者，篡位者"
+      },
+      {
+        "term": "despot",
+        "pos": "n.",
+        "gloss": "专制君主，暴君"
+      },
+      {
+        "term": "decapitate",
+        "pos": "v.",
+        "gloss": "斩首"
+      }
+    ]
   },
   {
     "id": 627,
@@ -5160,7 +6925,24 @@ const WORDS = [
     "pos": "n",
     "cnWord": "选举",
     "defEn": "Expression of opinion by means of a ballot. The right of suffrage (which is held to be both a privilege and a duty) means, as commonly interpreted, the right to vote for the man of another man's choice, and is highly prized. Refusal to do so has the bad name of \"incivism®.\" The incivilian, however, cannot be properly arraigned’ for his crime, for there is no legitimate accuser. If the accuser is himself guilty he has no standing in the court of opinion; if not, he profits by the crime, for A's abstention from voting gives greater weight to the vote of B. By female suffrage is meant the right of a woman to vote as some man tells her to. It is based on female responsibility, which is somewhat limited. The woman most eager to jump out of her petticoat” to assert her rights is first to jump back into it when threatened with a switching for misusing them.",
-    "defCn": "”柏拉图(前 427 一前 347)，是古希腊最著名的唯心论哲学家和思想家，是西方哲学史上第一个使唯心论哲学体系化的人。他的著作和思想对后世有着十分重要的影响。柏拉图留下了许多著作，多数以对话体写成，常被后人引用的有 :《辩诉篇》、《理想国信《智者篇》《法律篇》等。《理想国》是其中的代表作。5 叙拉古(Syracus)的暴君《卒于公元前 368 年 )选举用投票的方式发表看法。一般而言，选举就是傻里僵气地对别人中意的人投上你拥护的一票，心里还美滋滋地以为在享用选举权的光荣。如果拒绝投票，那么就会招来“不履行公民义务”或“没有爱国心”的| 斥责，但你不会被控有罪，因为找不到合法的起诉者。就算真有那么一个，如果他自己有罪，那么他就无权在与论的法庭发言，也根本无容身之地，如果他没罪，那他就能从你这种行为中捞得好处，因为你放弃投票，就意味着他投票的分量加重。所谓妇女选举权，指的是女人们按照某些男人的指令投票的权利一一当然，它相当有限。那些最渴望跳出她们肥大的裙子去行使投票权的女人 , 一旦投票有误而有受到鞠打的危险时，又是她们最先缩回她们的裙子中。"
+    "defCn": "”柏拉图(前 427 一前 347)，是古希腊最著名的唯心论哲学家和思想家，是西方哲学史上第一个使唯心论哲学体系化的人。他的著作和思想对后世有着十分重要的影响。柏拉图留下了许多著作，多数以对话体写成，常被后人引用的有 :《辩诉篇》、《理想国信《智者篇》《法律篇》等。《理想国》是其中的代表作。5 叙拉古(Syracus)的暴君《卒于公元前 368 年 )选举用投票的方式发表看法。一般而言，选举就是傻里僵气地对别人中意的人投上你拥护的一票，心里还美滋滋地以为在享用选举权的光荣。如果拒绝投票，那么就会招来“不履行公民义务”或“没有爱国心”的| 斥责，但你不会被控有罪，因为找不到合法的起诉者。就算真有那么一个，如果他自己有罪，那么他就无权在与论的法庭发言，也根本无容身之地，如果他没罪，那他就能从你这种行为中捞得好处，因为你放弃投票，就意味着他投票的分量加重。所谓妇女选举权，指的是女人们按照某些男人的指令投票的权利一一当然，它相当有限。那些最渴望跳出她们肥大的裙子去行使投票权的女人 , 一旦投票有误而有受到鞠打的危险时，又是她们最先缩回她们的裙子中。",
+    "footnotes": [
+      {
+        "term": "incivism",
+        "pos": "n.",
+        "gloss": "没公德心，缺少公民意识，无爱国精神"
+      },
+      {
+        "term": "arraign",
+        "pos": "vt.",
+        "gloss": "提问，传讯，责难"
+      },
+      {
+        "term": "petticoat",
+        "pos": "n.",
+        "gloss": "衬裙，裙子"
+      }
+    ]
   },
   {
     "id": 628,
@@ -5168,7 +6950,29 @@ const WORDS = [
     "pos": "n",
     "cnWord": "编辑",
     "defEn": "One who approaches Greatness on his belly so that he may not be commanded to turn and be kicked. He is sometimes an editor. As the lean leech’, its victim found, is pleased to fix itself upon a part diseased till, its black hide distended with bad blood, it drops to die of surfeit! in the mud, so the base sycophant? with joy descries? his neighbor's weak spot and his mouth applies, gorges and prospers like the leech, although, unlike that reptile’, he will not let go. Bea",
-    "defCn": "这是一个爱趋近大人物的人。他用肚子贴地滑行，这样大人物就不会要他转过身去，也不会在他屁股上踢上一脚了。这种人偶尔会是一名编辑。精疫的蚂三到处寻找寄托，叮上人的腿肚子就不再松口，直到它深色的皮襄被血胀玻，它因过量吸食而撑死，掉进泥土。卑好的询媚者也是这样孜致以求，找到邻居的缺口就张开血盆大口，狂饮大喝，变得和蚂病一样胖乎乎，和水星不同的是，他死也不会松口。"
+    "defCn": "这是一个爱趋近大人物的人。他用肚子贴地滑行，这样大人物就不会要他转过身去，也不会在他屁股上踢上一脚了。这种人偶尔会是一名编辑。精疫的蚂三到处寻找寄托，叮上人的腿肚子就不再松口，直到它深色的皮襄被血胀玻，它因过量吸食而撑死，掉进泥土。卑好的询媚者也是这样孜致以求，找到邻居的缺口就张开血盆大口，狂饮大喝，变得和蚂病一样胖乎乎，和水星不同的是，他死也不会松口。",
+    "footnotes": [
+      {
+        "term": "leech",
+        "pos": "n.",
+        "gloss": "水蛭，吸血鬼，榨取他人利益的人"
+      },
+      {
+        "term": "surfeit",
+        "pos": "n.",
+        "gloss": "过食，过度，恶心"
+      },
+      {
+        "term": "descry",
+        "pos": "vt.",
+        "gloss": "察看，发现，远远看到"
+      },
+      {
+        "term": "reptile",
+        "pos": "n.",
+        "gloss": "爬虫动物，卑鄙的人"
+      }
+    ]
   },
   {
     "id": 629,
@@ -5176,7 +6980,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "三段论",
     "defEn": "A logical formula’ consisting of a major and a minor assumption and an inconsequent’. (See LOGIC.)",
-    "defCn": "这是一种逻辑公式，由一个较大一点的“如果”一个较小一点的“如果”和最后不一致的结论构成。( 参见“逻辑”一词 )"
+    "defCn": "这是一种逻辑公式，由一个较大一点的“如果”一个较小一点的“如果”和最后不一致的结论构成。( 参见“逻辑”一词 )",
+    "footnotes": [
+      {
+        "term": "formula",
+        "pos": "n.",
+        "gloss": "公式，规则"
+      },
+      {
+        "term": "inconsequent",
+        "pos": "adj.",
+        "gloss": "不一致的"
+      }
+    ]
   },
   {
     "id": 630,
@@ -5184,7 +7000,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "符号",
     "defEn": "Something that is supposed to typify or stand for something else. Many symbols are mere \"survivals\" -- things which having no longer any utility continue to exist because we have inherited the tendency to make them; as funereal urns! carved on memorial monuments. They were once real ums holding the ashes of the dead. We cannot stop making them, but we can give them a name that conceals our helplessness. Ce Ways wag! gis &s ARE ere 6 a",
-    "defCn": "这是用以代表另一种事物的东西。许多符号不过是一些残迹而已一它们不再有任何用途，它们之所以继续在世上存在，只是由于我们从十人那些遗传了制作它们的嗜好，比如说，放在纪念碑上的骨灰坛就属于这类残迹。从前的骨灰坛真是用来盛放死者的骨灰，我们没法不去制造骨灰坛，不过我们可以给它另外起个名字，来掩盖我们这种无可泰何的"
+    "defCn": "这是用以代表另一种事物的东西。许多符号不过是一些残迹而已一它们不再有任何用途，它们之所以继续在世上存在，只是由于我们从十人那些遗传了制作它们的嗜好，比如说，放在纪念碑上的骨灰坛就属于这类残迹。从前的骨灰坛真是用来盛放死者的骨灰，我们没法不去制造骨灰坛，不过我们可以给它另外起个名字，来掩盖我们这种无可泰何的",
+    "footnotes": [
+      {
+        "term": "urn",
+        "pos": "n.",
+        "gloss": "瓮，缸，骨灰瓮"
+      }
+    ]
   },
   {
     "id": 631,
@@ -5198,6 +7021,11 @@ const WORDS = [
         "term": "indubitably",
         "pos": "adv.",
         "gloss": "无疑地，确实地"
+      },
+      {
+        "term": "caterer",
+        "pos": "n.",
+        "gloss": "包办伙食者，(尤)指备办宴会者"
       }
     ]
   },
@@ -5343,7 +7171,24 @@ const WORDS = [
     "pos": "n",
     "cnWord": "惧内",
     "defEn": "A perverted’ affection that has strayed to one's own wife. Bet se ate eds",
-    "defCn": "这是一种变态的情感，这种情感甚至已经传染到妻子身上了。"
+    "defCn": "这是一种变态的情感，这种情感甚至已经传染到妻子身上了。",
+    "footnotes": [
+      {
+        "term": "conventionality",
+        "pos": "n.",
+        "gloss": "常规，惯例，老一套"
+      },
+      {
+        "term": "imbue",
+        "pos": "v.",
+        "gloss": "浸透"
+      },
+      {
+        "term": "perverted",
+        "pos": "adj.",
+        "gloss": "不正当的，变态的"
+      }
+    ]
   },
   {
     "id": 650,
@@ -5359,7 +7204,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "选举",
     "defEn": "The instrument and symbol of a freeman's power to make a fool of himself and a wreck’ of his country. i=. oe — ws, AM Jor ANS =e Ra AS < SN",
-    "defCn": "这是自由民权力的象征和工具 , 其结果是思弄了自己 , 摘震了国家。"
+    "defCn": "这是自由民权力的象征和工具 , 其结果是思弄了自己 , 摘震了国家。",
+    "footnotes": [
+      {
+        "term": "wreck",
+        "pos": "n.",
+        "gloss": "遭到严重破坏的建筑物，(希望、计划等的)破灭，毁灭"
+      }
+    ]
   },
   {
     "id": 652,
@@ -5367,7 +7219,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "华尔街",
     "defEn": "A symbol for sin for every devil to rebuke!. That Wall Street is a den of thieves is a belief that serves every unsuccessful thief in place of a hope in Heaven.",
-    "defCn": "这是让恶魔都串责的罪划象征。华尔街 \"是个大贼窝一一这种认识让那些失意的窃贼们振奋不已，他们宁愿进华尔街，也不愿进天堂。"
+    "defCn": "这是让恶魔都串责的罪划象征。华尔街 \"是个大贼窝一一这种认识让那些失意的窃贼们振奋不已，他们宁愿进华尔街，也不愿进天堂。",
+    "footnotes": [
+      {
+        "term": "rebuke",
+        "pos": "n.",
+        "gloss": "指责，谴责，非难"
+      }
+    ]
   },
   {
     "id": 653,
@@ -5375,7 +7234,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "战争",
     "defEn": "PW, TEN eRe Bee, AAA EE. A by-product of the arts of peace. The most menacing political condition is a period of international amity. The student of history who has not been taught to expect the unexpected may justly boast himself inaccessible to the light. \"In time of peace prepare for war\" has a deeper meaning than is commonly discerned; it means, not merely that all things earthly have an end -- that change is the one immutable’ and eternal law -- but that the soil of peace is thickly sown with the seeds of war and singularly suited to their germination” and growth. It was when Kubla Khan had decreed his \"stately pleasure dome\" -- when, that is to say, there were peace and fat feasting in Xanadu’ -- that he heard from afar Ancestral voices prophesying war. One of the greatest of poets, Coleridge was one of the wisest of men, and it was not for nothing that he read us this parable’. Let us have a little less of \"hands across the sea,\" and a little more of that elemental distrust that is the security of nations. War loves to come like a thief in the night; professions of eternal amity provide the night. IRE HP Rocke Ais ik Ff Bl) FRAGA AS HRS 64 YI BBR iF FoORE-LSSHRRRE: RMAAETELRAS, HO, AON, TR LRM TORR. HES Ho, BABY MERC, MMH KRTALAAR, ArH BRIE ke PRR! BT, C60S BA A, AX teh ARR EA ED FP, ABBE, Pw MARA AMR; ALESIS SEP, HARI Ad BEEP RATAALPOH RE, AAR SH op Ae Fil ih 3 FB] FLA MP TAS A RF 44 Ye! FLEA RAY PRB; RAN FET, HGRA IR, FAMERS, EMME CRE! LEP REMARKS, ARF SCAR A SHE, ME RRS! PRAYER, WA a eRe | RAAB, sewai Hz, RAHA SHS, .",
-    "defCn": "2 华尔街(wall streeb是纽约市曼哈顿区南部一条大街的名字，长不超过一英里，宽仅 11 米。它是美国一些主要金融机构的所在地。华尔街是英文“墙街”的音译。荷兰统治时 ,在这里筑过一道防卫墙。英国人赶走荷兰人后，拆墙建街，因而得名。这条街上的联邦厅曾是美国第一届国会的所在地，首任总统华盛顿就是在这里宣持就职的，如今大门前管立着华盛顿像以纪念此事。不过华尔街作为政治中心只是短战争这是和平的副产品。最危险的政治状况是国际的和睦。学会等待意外的历史学学者完全有理由声明自己无法理解这种看法 .“在和平时期要为战争作准备”的含义比一般人所想的要复杂得多，它不仅表明世间的一切都会结束一一变化是宇宙的永恒法则一一而且还表明和平的沃土已撤满了战争种子，这沃土又极适于这些种子的萌芽和成长。忽必烈: 正是在修筑了他的“快活宫”之后一 -也就是说，在京城一片歌舞升平，百姓安居乐业之际一一伟大诗人柯勒律治 ? 是一个聪明绝顶的旷世奇才，他对我们讲这个寓言是有意义的。愿我们少一些“伸过大洋彼岸的友谊之手”，多一点必不可少的猜总，这才是国家安全的保障。战争像一个小偷，最爱在黑夜袭来，而永久和平的论调正好提供了这样的黑夜。( 附柯勒律治的代表作《忽必烈汗》)穿过深不可测的洞门，直流入不见阳光的海洋。有方圆五英里肥沃的土壤，1 元世祖，又称薛禅汗，蒙哥汗之弟。1260 一 1294 年在位。蒙哥汗即位后，把治理漠南地区权柄交给他。1256 年在梁河上游地建开平府。起用儒士，兴办屯田。1253年，奉命征云南，次年灭大理而归。1259 年，围攻鄂州(湖北武昌 )时，得蒙哥汗死讯，与宋贾似道讲和，率军北还。1264 年，迁都燕京，改称大都( 今北京 )。1271 年，改国名为元。发动灭宋战争，1279 年取胜，统一全国，建立了中央集权的统一的多民族国家。2 萨缀尔。柯勤律治(1772 一 1834)英国湖畔诗人之一，著名评沦家，浪漫主义思潮的主要代表。柯勒律治写诗不多，然而其中有不朽之作，例如《古舟子咏》和《忽必烈汗》，这些诗表现了诗人奇特的想象力如何驰牙在遥远的海洋和中古的月下城堡之间，立意新颖，感情激功，想象奇特，语言瑰丽，音律优美，代表了浪漫主义抒情短许，表现了诗人不幸的生活遭遇和抑郁的心情。他写有大量的文学、哲学，神学论著，论述精辟，见解独到，在英国文学史上占有重要地位。四周给围上楼塔和城墙 :园里树枝上鲜花盛开，一片芬芳 ;这里有森林，跟山蛮同样古老，围住了洒满阳光的一块块青草草场。但是，啊 ! 那深沉而奇异的巨塞沿青山针裂，横过伞盖的柏树 !野变的地方，既神圣而又着了魔 -一好象有女人在衰落的月色里出没，在它那断时续的涌送之间，巨大的石块飞跃着象反跳的冰埋，或者象打稳人连柳下一撮操新舟 ;进发出那条神圣的溪河。迷乱地移动着，晃纤了五英里地方，那神圣的溪河流过了峡谷和森林，于是到达了深不可测的油门，安乐的宫殿有倒影，这儿能听见和谐的音韵来自那地泉和那岩洞。一个手拿德西马琴的姑娘 :那是个阿比西尼亚少女，在她的琴上她奏出乐曲，歌唱着阿伯若山。如果我心中能再度产生她的音乐和歌唱，我将被引入如此深切的欢欣，以至于我要用音乐高朗而又长久谁都能见到这宫殿，只要听见了乐音。他们全都会喊叫 : 当心 ! 当心 !闭下你两眼，带着神圣的恐惧，一直饮着天堂的琼浆仙乳。"
+    "defCn": "2 华尔街(wall streeb是纽约市曼哈顿区南部一条大街的名字，长不超过一英里，宽仅 11 米。它是美国一些主要金融机构的所在地。华尔街是英文“墙街”的音译。荷兰统治时 ,在这里筑过一道防卫墙。英国人赶走荷兰人后，拆墙建街，因而得名。这条街上的联邦厅曾是美国第一届国会的所在地，首任总统华盛顿就是在这里宣持就职的，如今大门前管立着华盛顿像以纪念此事。不过华尔街作为政治中心只是短战争这是和平的副产品。最危险的政治状况是国际的和睦。学会等待意外的历史学学者完全有理由声明自己无法理解这种看法 .“在和平时期要为战争作准备”的含义比一般人所想的要复杂得多，它不仅表明世间的一切都会结束一一变化是宇宙的永恒法则一一而且还表明和平的沃土已撤满了战争种子，这沃土又极适于这些种子的萌芽和成长。忽必烈: 正是在修筑了他的“快活宫”之后一 -也就是说，在京城一片歌舞升平，百姓安居乐业之际一一伟大诗人柯勒律治 ? 是一个聪明绝顶的旷世奇才，他对我们讲这个寓言是有意义的。愿我们少一些“伸过大洋彼岸的友谊之手”，多一点必不可少的猜总，这才是国家安全的保障。战争像一个小偷，最爱在黑夜袭来，而永久和平的论调正好提供了这样的黑夜。( 附柯勒律治的代表作《忽必烈汗》)穿过深不可测的洞门，直流入不见阳光的海洋。有方圆五英里肥沃的土壤，1 元世祖，又称薛禅汗，蒙哥汗之弟。1260 一 1294 年在位。蒙哥汗即位后，把治理漠南地区权柄交给他。1256 年在梁河上游地建开平府。起用儒士，兴办屯田。1253年，奉命征云南，次年灭大理而归。1259 年，围攻鄂州(湖北武昌 )时，得蒙哥汗死讯，与宋贾似道讲和，率军北还。1264 年，迁都燕京，改称大都( 今北京 )。1271 年，改国名为元。发动灭宋战争，1279 年取胜，统一全国，建立了中央集权的统一的多民族国家。2 萨缀尔。柯勤律治(1772 一 1834)英国湖畔诗人之一，著名评沦家，浪漫主义思潮的主要代表。柯勒律治写诗不多，然而其中有不朽之作，例如《古舟子咏》和《忽必烈汗》，这些诗表现了诗人奇特的想象力如何驰牙在遥远的海洋和中古的月下城堡之间，立意新颖，感情激功，想象奇特，语言瑰丽，音律优美，代表了浪漫主义抒情短许，表现了诗人不幸的生活遭遇和抑郁的心情。他写有大量的文学、哲学，神学论著，论述精辟，见解独到，在英国文学史上占有重要地位。四周给围上楼塔和城墙 :园里树枝上鲜花盛开，一片芬芳 ;这里有森林，跟山蛮同样古老，围住了洒满阳光的一块块青草草场。但是，啊 ! 那深沉而奇异的巨塞沿青山针裂，横过伞盖的柏树 !野变的地方，既神圣而又着了魔 -一好象有女人在衰落的月色里出没，在它那断时续的涌送之间，巨大的石块飞跃着象反跳的冰埋，或者象打稳人连柳下一撮操新舟 ;进发出那条神圣的溪河。迷乱地移动着，晃纤了五英里地方，那神圣的溪河流过了峡谷和森林，于是到达了深不可测的油门，安乐的宫殿有倒影，这儿能听见和谐的音韵来自那地泉和那岩洞。一个手拿德西马琴的姑娘 :那是个阿比西尼亚少女，在她的琴上她奏出乐曲，歌唱着阿伯若山。如果我心中能再度产生她的音乐和歌唱，我将被引入如此深切的欢欣，以至于我要用音乐高朗而又长久谁都能见到这宫殿，只要听见了乐音。他们全都会喊叫 : 当心 ! 当心 !闭下你两眼，带着神圣的恐惧，一直饮着天堂的琼浆仙乳。",
+    "footnotes": [
+      {
+        "term": "immutable",
+        "pos": "adj.",
+        "gloss": "不可变的，永恒的"
+      },
+      {
+        "term": "germination",
+        "pos": "n.",
+        "gloss": "萌芽，发生"
+      }
+    ]
   },
   {
     "id": 654,
@@ -5399,7 +7270,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "小麦",
     "defEn": "A cereal from which a tolerably good whisky can with some difficulty be made, and which is used also for bread. The French are said to eat more bread per capita’ of population than any other people, which is natural, for only they know how to make the stuff palatable’. Black.",
-    "defCn": "这是一种谷类作物，倒腾几次之后，可以从中酝酿出还过得去的威士忌，它也可用作面包。据传，按人均消耗量计算，法国人的面包消费量比其他任何民族都要多。这很自然，因为只有法国人才知道如何把小麦做得爽口。白的"
+    "defCn": "这是一种谷类作物，倒腾几次之后，可以从中酝酿出还过得去的威士忌，它也可用作面包。据传，按人均消耗量计算，法国人的面包消费量比其他任何民族都要多。这很自然，因为只有法国人才知道如何把小麦做得爽口。白的",
+    "footnotes": [
+      {
+        "term": "per capita",
+        "pos": "",
+        "gloss": "每人，照人数分配的"
+      }
+    ]
   },
   {
     "id": 657,
@@ -5439,7 +7317,29 @@ const WORDS = [
     "pos": "n",
     "cnWord": "女人",
     "defEn": "An animal usually living in the vicinity of Man, and having a rudimentary susceptibility to domestication'. It is credited by many of the elder zoologists with a certain vestigial” docility’ acquired in a former state of seclusion’, but naturalists of the postsusananthony period, having no knowledge of the seclusion, deny the virtue and declare that such as creation's dawn beheld, it roareth now. The species is the most widely distributed of all beasts of prey, infesting all habitable parts of the globe, from Greeland's spicy mountains to India's moral strand. The popular name (wolfman) is incorrect, for the creature is of the cat kind. The woman is lithe and graceful in its movement, especially the American variety(/elis pugnans), is omnivorous! and can be taught not to talk.",
-    "defCn": "一种经常生活在男人附近的动物，最适宜家养。许多老派的动物学家称赞说：这种发育不全的动物在从前禁闭的生活中养成了一种温顺的品行。但后来的博物学家对那种幽居生活一无所知，他们否认女人的这种温顺的美德并声称：像洪荒时代一样，女人们现在又咆哮起来了。在所有的祭祀品中，这一类分布最为广泛，她遍布地球上所有可以居住的地区，北起格陵兰岛芬芳的群山，南至印度的道德海岸。对它最常见的称呼wolfman是一个谬误。因为这类动物属于猫科，女人举手投足轻快而优雅，美国女人更是如此，它不管拿到什么东西都乱看一通，还可以被教会如何保持沉默。"
+    "defCn": "一种经常生活在男人附近的动物，最适宜家养。许多老派的动物学家称赞说：这种发育不全的动物在从前禁闭的生活中养成了一种温顺的品行。但后来的博物学家对那种幽居生活一无所知，他们否认女人的这种温顺的美德并声称：像洪荒时代一样，女人们现在又咆哮起来了。在所有的祭祀品中，这一类分布最为广泛，她遍布地球上所有可以居住的地区，北起格陵兰岛芬芳的群山，南至印度的道德海岸。对它最常见的称呼wolfman是一个谬误。因为这类动物属于猫科，女人举手投足轻快而优雅，美国女人更是如此，它不管拿到什么东西都乱看一通，还可以被教会如何保持沉默。",
+    "footnotes": [
+      {
+        "term": "domestication",
+        "pos": "n.",
+        "gloss": "驯养，驯服，教化"
+      },
+      {
+        "term": "vestigial",
+        "pos": "adj.",
+        "gloss": "发育不全的，器官退化的"
+      },
+      {
+        "term": "docility",
+        "pos": "n.",
+        "gloss": "顺从，温顺"
+      },
+      {
+        "term": "seclusion",
+        "pos": "n.",
+        "gloss": "隔离，隔绝"
+      }
+    ]
   },
   {
     "id": 662,
@@ -5447,7 +7347,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "蛆虫食用肉",
     "defEn": "The finished product of which we are the raw material. The contents of the Taj Mahal, the Tombeau* Napoleon and the Granitarium. Worms'-meat is usually outlasted by the structure that houses it, but \"this too must pass away.” Probably the silliest work in which a human being can engage is construction of a tomb for himself. The solemn purpose cannot dignify, but only accentuates by contrast the foreknown futility’. -",
-    "defCn": "这是用我们的躯体上的生肉做原料而精心制成的美味佳着。它们是泰姬陵 *、拿破仓墓和格兰特司令 ? 幕中的美食。盛放“蛆虫食用肉”的骨架通常比这种美餐更为长久，但是这种骨架“也是最终要消亡的”人所做的最不明智的事，莫过于为自己修建一座坟墓了。坟墓并不能为死者增加什么光荣，相反，它更清晰地证明了这一切努力都是竹篮打水一场空。"
+    "defCn": "这是用我们的躯体上的生肉做原料而精心制成的美味佳着。它们是泰姬陵 *、拿破仓墓和格兰特司令 ? 幕中的美食。盛放“蛆虫食用肉”的骨架通常比这种美餐更为长久，但是这种骨架“也是最终要消亡的”人所做的最不明智的事，莫过于为自己修建一座坟墓了。坟墓并不能为死者增加什么光荣，相反，它更清晰地证明了这一切努力都是竹篮打水一场空。",
+    "footnotes": [
+      {
+        "term": "omnivorous",
+        "pos": "adj.",
+        "gloss": "杂食的"
+      },
+      {
+        "term": "tombeau",
+        "pos": "",
+        "gloss": "法语：表示墓，同英文的tomb"
+      }
+    ]
   },
   {
     "id": 663,
@@ -5455,7 +7367,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "愤怒",
     "defEn": "Anger of a superior quality and degree, appropriate to exalted* characters and momentous” occasions; as, \"the wrath of God,\" \"the day of wrath,\" etc. Amongst the ancients the wrath of kings was deemed sacred, for it could usually command the agency of some god for its fit manifestation, as could also that of a priest. The Greeks before Troy were so harried by Ke Apollo that they jumped out of the frying-pan of the wrath of Cryses into the fire of the wrath of Achilles, though Agamemnon, the sole offender, was neither fried nor roasted. A similar noted immunity was that of David when he incurred the wrath of Yahveh by numbering his people, seventy thousand of whom paid the penalty with their lives. God is now Love, and a director of the census performs his work without apprehension! of disaster. AMBRE RN SHE, RAR EK, RAE RE. RS aR 争 中 , PRB RICA, PTE, ACT PHS Ea EEA Hector), MENS We, Ams. te Roe Ps Et ae TAs “ 2 RN metering? 28 ae) he} in our alphabet being a needless letter has an added invincibility’ to the attacks of the spelling reformers, and like them, will doubtless last as long as the language. X is the sacred symbol of ten dollars, => 2 and in such words as Xmas, Xn, etc., stands for Christ, ~ ag 六 not, as is popular supposed, because it represents a 4 oa 4 cross, but because the corresponding letter in the Zs >. vA Greek alphabet is the initial of his name -- Xristos. If it \" cS, represented a cross it would stand for St. Andrew, who \\ te psychology x stands for Woman's mind. Words \"\" (an % beginning with X are Grecian and will not be defined mene’ in this standard’ English dictionary. oF 2Fs)",
-    "defCn": "> 泰姬陵是莫臣儿王朝帝王沙贾汉为爱妃泰吉。马哈尔所造。据传当年沙贾汉听闻爱妃先他而去的消息后，竟一夜白头。为纪念奉吉，不爱江山爱美人的国王倾举国之力，耗无数钱财，用了 22 年时间修建了这座晶莹剔透的泰姬陵。国王本想在河对面再为自己造一个一模一样的黑色陵墓，中间用半边和白色、半边黑色的大理石桥连接，与爱妃相对而眠。谁知泰姬陵刚完工不久，其子就狐兄杀弟纂位，他也被办禁在离泰郊陵不远的阿格拉堡。此后整整 8 年的时间，沙页汉每天只能透过小窗，姜然地遥望着远处河里浮动的泰姬陵倒影，直至病死。> 尤利西斯格兰特〈Ulysses S. Grant，1822~1885)，美国内战期间担任北方联军司令，格兰特是位意志坚定的男子汉，即使在极端沉重的压力下也从未失去自制。格兰特打过败仗，曾使许多人丧生，但由于能充分理解后勤的重要性，他往往打胜愤怒这比一般人的怒气级别要高一个层次 ,，它更适合尊贵的人物或重大场合，比如我们经常说的“上帝的愤怒”或“天谴日”等。古人把国王的愤怒看作是神圣的，因为它们把神的旨意最恰当地说出来了，繁司的愤怒也是如此。特洛伊战争之前的希腊人深受阿波罗的折磨，他们跳出克里斯的愤怒的油锅，却跳进了阿基里斯“愤怒的火坑，不过，不管他们遭受怎样的苦难 , 唯一的罪犯阿伽门农却既没有被油炸 , 也没遭火烧。与此类似的还有大卫王，他在统计人口时惹恼了耶和华，结果七万公民遭受了极刑，而大卫王却毫发无损。现在上帝博爱了，这位人口普查官勤勤居奶地工作，无需担心灾难的降临。2 阿基里斯是希腊联军里最英勇善战的孢将，也是荷马史诗《饿利亚特》里的主要人物之一。传说他是希腊密耳弥多涅斯人的国王珀琉斯和海神的女儿西蒂斯所生的儿子。阿基里斯出生后，母亲想使此子健壮永生，把他放在火里锻炼，又捏着他的脚中倒淄在实河(Styx)圣水里浸泡。因此阿基里斯浑身象钢入铁骨，刀枪不入，只伊的任何武器都无法伤害他的身躯。后来，太阳神阿波罗(Apollo)把阿基里斯的弱点告诉了特洛伊王子帕里斯，阿基里斯终于被由里斯诱到城门口，用暗箭射中他的虽然在英语字母表中 , X是一个多余的字母，但它却有一种极为顽强的生命力，使拼写改革家对它一筹莫展，看来它和他们一样，一定要和英语一起长久存在下去了。X是一个代表 10 美元的神圣符号。在诸如Xmas，Xn中，它代表与耶酥有关的东西，这并不是因为它看起来像一个十字架一一尽管人们通常是这样认为的一一而是因为与X相对应的希腊字母同耶酥之名的第一个字母一样。如果X真的代表一个十字架的话，那么它大概象征是“对安德鲁 ?”，他曾被钉在上面，有资格出庭作证。在心理学代数中 , X代表女人的心。以和开头的词都是希腊语词汇，这本正宗的英语词典就不亡加定义了。> 圣安德鲁是苏格兰的守护神，圣安德鲁与苏格兰的关系源远流长，苏格兰人无论到哪儿，都将此铭记于心。第一个圣安德鲁协会于 1657 年在马萨诸塞州的波士顿成立。圣安德鲁的真实故事早已失传，但普遍认为他是圣彼得〈St Peter)的弟弟，并且是一个渔民。据传，他被罗马人钉死在十字架上，因此交叉对角线一 -X形十字就成了苏格兰国旗的图案。"
+    "defCn": "> 泰姬陵是莫臣儿王朝帝王沙贾汉为爱妃泰吉。马哈尔所造。据传当年沙贾汉听闻爱妃先他而去的消息后，竟一夜白头。为纪念奉吉，不爱江山爱美人的国王倾举国之力，耗无数钱财，用了 22 年时间修建了这座晶莹剔透的泰姬陵。国王本想在河对面再为自己造一个一模一样的黑色陵墓，中间用半边和白色、半边黑色的大理石桥连接，与爱妃相对而眠。谁知泰姬陵刚完工不久，其子就狐兄杀弟纂位，他也被办禁在离泰郊陵不远的阿格拉堡。此后整整 8 年的时间，沙页汉每天只能透过小窗，姜然地遥望着远处河里浮动的泰姬陵倒影，直至病死。> 尤利西斯格兰特〈Ulysses S. Grant，1822~1885)，美国内战期间担任北方联军司令，格兰特是位意志坚定的男子汉，即使在极端沉重的压力下也从未失去自制。格兰特打过败仗，曾使许多人丧生，但由于能充分理解后勤的重要性，他往往打胜愤怒这比一般人的怒气级别要高一个层次 ,，它更适合尊贵的人物或重大场合，比如我们经常说的“上帝的愤怒”或“天谴日”等。古人把国王的愤怒看作是神圣的，因为它们把神的旨意最恰当地说出来了，繁司的愤怒也是如此。特洛伊战争之前的希腊人深受阿波罗的折磨，他们跳出克里斯的愤怒的油锅，却跳进了阿基里斯“愤怒的火坑，不过，不管他们遭受怎样的苦难 , 唯一的罪犯阿伽门农却既没有被油炸 , 也没遭火烧。与此类似的还有大卫王，他在统计人口时惹恼了耶和华，结果七万公民遭受了极刑，而大卫王却毫发无损。现在上帝博爱了，这位人口普查官勤勤居奶地工作，无需担心灾难的降临。2 阿基里斯是希腊联军里最英勇善战的孢将，也是荷马史诗《饿利亚特》里的主要人物之一。传说他是希腊密耳弥多涅斯人的国王珀琉斯和海神的女儿西蒂斯所生的儿子。阿基里斯出生后，母亲想使此子健壮永生，把他放在火里锻炼，又捏着他的脚中倒淄在实河(Styx)圣水里浸泡。因此阿基里斯浑身象钢入铁骨，刀枪不入，只伊的任何武器都无法伤害他的身躯。后来，太阳神阿波罗(Apollo)把阿基里斯的弱点告诉了特洛伊王子帕里斯，阿基里斯终于被由里斯诱到城门口，用暗箭射中他的虽然在英语字母表中 , X是一个多余的字母，但它却有一种极为顽强的生命力，使拼写改革家对它一筹莫展，看来它和他们一样，一定要和英语一起长久存在下去了。X是一个代表 10 美元的神圣符号。在诸如Xmas，Xn中，它代表与耶酥有关的东西，这并不是因为它看起来像一个十字架一一尽管人们通常是这样认为的一一而是因为与X相对应的希腊字母同耶酥之名的第一个字母一样。如果X真的代表一个十字架的话，那么它大概象征是“对安德鲁 ?”，他曾被钉在上面，有资格出庭作证。在心理学代数中 , X代表女人的心。以和开头的词都是希腊语词汇，这本正宗的英语词典就不亡加定义了。> 圣安德鲁是苏格兰的守护神，圣安德鲁与苏格兰的关系源远流长，苏格兰人无论到哪儿，都将此铭记于心。第一个圣安德鲁协会于 1657 年在马萨诸塞州的波士顿成立。圣安德鲁的真实故事早已失传，但普遍认为他是圣彼得〈St Peter)的弟弟，并且是一个渔民。据传，他被罗马人钉死在十字架上，因此交叉对角线一 -X形十字就成了苏格兰国旗的图案。",
+    "footnotes": [
+      {
+        "term": "exalted",
+        "pos": "adj.",
+        "gloss": "尊贵的，高位的"
+      },
+      {
+        "term": "momentous",
+        "pos": "adj.",
+        "gloss": "重大的，重要的"
+      }
+    ]
   }
 ];
 

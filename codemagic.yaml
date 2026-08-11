@@ -30,9 +30,6 @@ workflows:
       node: 20
       xcode: latest
       cocoapods: default
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: com.fiona.devildictionary
       vars:
         BUNDLE_ID: "com.fiona.devildictionary"
         XCODE_WORKSPACE: "App.xcworkspace"

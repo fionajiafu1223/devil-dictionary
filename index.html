@@ -5538,8 +5538,17 @@ async function gradeSentence(sentence) {
       pos: currentWord.pos,
     }),
   });
-  if (!resp.ok) throw new Error("批改请求失败");
-  return await resp.json();
+  let data;
+  try {
+    data = await resp.json();
+  } catch (e) {
+    throw new Error("状态码 " + resp.status + "，返回内容不是JSON");
+  }
+  if (!resp.ok) {
+    const detail = data.detail ? ("\n详情: " + JSON.stringify(data.detail).slice(0, 300)) : "";
+    throw new Error("状态码 " + resp.status + "，" + (data.error || "未知错误") + detail);
+  }
+  return data;
 }
 
 let lastResult = null;

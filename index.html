@@ -48,7 +48,7 @@
   .imp.bounce { animation: bounce 0.5s ease infinite; }
   @keyframes bounce { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
   .verdict-text { margin-top: 16px; text-align: center; font-size: 17px; font-weight: 800; color: var(--gold); min-height: 24px; }
-  .verdict-sub { margin-top: 4px; text-align: center; font-size: 12px; color: var(--muted); }
+  .verdict-sub { margin-top: 4px; text-align: center; font-size: 12px; color: var(--muted); white-space: pre-wrap; line-height: 1.6; }
 
   .explain { margin-top: 24px; width: 100%; display: none; }
   .explain.show { display: block; }
@@ -5518,11 +5518,28 @@ function renderWord() {
 renderWord();
 
 // ===== 判官反馈（分数逻辑与之前demo一致，图片改为运行时加载 imp/score_N.png） =====
-const verdictPool = {
-  low: { label: "有罪！", lines: ["打入地牢", "逐出城门", "罚你搬砖三日", "罚站示众", "没收晚餐"] },
-  mid: { label: "无罪释放", lines: ["什么都没发生，你被无罪释放了", "判官打了个哈欠，放你走了"] },
-  high: { label: "重赏！", lines: ["赏你金币千两", "为你种下一棵树", "为你立一座雕像", "赐你一座庄园", "赏你一座城"] }
+// 低分：按AI判断的错误类型选罪名，按分数段选惩罚力度
+const crimesByType = {
+  word_wrong:   ["侮辱单词罪", "词义碰瓷罪", "公然玩坏单词罪", "强行糟蹋词义罪", "把单词按地上摩擦罪"],
+  pos_wrong:    ["词性乱伦罪", "强迫单词兼职罪", "强迫单词接客罪"],
+  grammar_wrong:["语法裸奔罪", "语法肇事罪", "瞎JB排列单词罪", "句子半身不遂罪", "搭配乱搞罪"],
+  stiff:        ["句子便秘罪", "说人话未遂罪", "英语塑料感过重罪", "句子不太像人话罪", "生搬硬套罪"],
+  forced:       ["硬塞单词罪", "胡JB搭配罪", "强迫单词营业罪", "狗屁搭配罪", "不懂装懂罪"],
 };
+const punishmentsBySeverity = {
+  severe: ["拖出去游街，沿途不得解释", "拉出去埋了", "打入地牢", "浸猪笼谢罪", "抽筋扒皮", "拖出去砍了"], // 0-1分
+  mid:    ["发配马厩，铲粪三日", "罚去城墙搬砖七日", "押去广场示众", "没收作案工具，发配城外"],          // 2-3分
+  light:  ["罚扫宫殿厕所三日", "押去后院蹲着想清楚", "罚站示众"],                                    // 4分
+};
+const midLines = ["「证据不足。」\n判官敲槌：「当庭释放。」……「滚。」", "情节轻微，不予起诉。", "勉强合法。", "暂不构成犯罪。", "今天算你命大。"];
+const rewardsByScore = {
+  6: { label: "造句有功", lines: ["赏金币一枚", "赏鸡一只", "赏面包两块", "赏酒一壶", "赐新鞋一双"] },
+  7: { label: "用词有功", lines: ["为你种树一棵", "赏马一匹", "赏金币十枚", "赐良田一亩", "修小喷泉一座", "赏厨子一名"] },
+  8: { label: "句子甚佳", lines: ["为你立像", "命名一条街", "发行纪念金币", "修喷泉", "宫廷画师为你画像", "赐马车一辆"] },
+  9: { label: "才华横溢", lines: ["赐庄园一座", "赐葡萄园", "赐森林", "赐城堡", "赐广场", "赐私人卫队"] },
+};
+const line10 = ["判官起立，沉默。「此人无须受审。」……「赏一座城。」", "「把本官的王座搬给他。」", "「从今天起，这座城用他的名字。」", "「全城放假三日。」", "「以后他的句子，不准打分，只准学习。」"];
+
 function pickRandom(arr) { return arr[Math.floor(Math.random()*arr.length)]; }
 
 const WORKER_URL = "https://devil-dict-grader.fionajiafu1223.workers.dev";
@@ -5588,14 +5605,31 @@ function revealVerdict(score, sentence) {
   void imp.offsetWidth;
   imp.classList.add('reveal');
 
-  let tier, group;
-  if (score <= 4) { tier = 'low'; group = verdictPool.low; }
-  else if (score === 5) { tier = 'mid'; group = verdictPool.mid; }
-  else { tier = 'high'; group = verdictPool.high; }
+  let tier;
+  if (score <= 4) tier = 'low';
+  else if (score === 5) tier = 'mid';
+  else tier = 'high';
 
   setTimeout(() => {
-    vText.textContent = group.label;
-    vSub.textContent = pickRandom(group.lines);
+    if (tier === 'low') {
+      const errorType = (lastResult && lastResult.errorType) || 'grammar_wrong';
+      const crimePool = crimesByType[errorType] || crimesByType.grammar_wrong;
+      const crime = pickRandom(crimePool);
+      const severity = score <= 1 ? 'severe' : (score <= 3 ? 'mid' : 'light');
+      const punishment = pickRandom(punishmentsBySeverity[severity]);
+      vText.textContent = "「" + crime + "」罪名成立";
+      vSub.textContent = punishment + "！";
+    } else if (tier === 'mid') {
+      vText.textContent = "五五开";
+      vSub.textContent = pickRandom(midLines);
+    } else if (score === 10) {
+      vText.textContent = "满分";
+      vSub.textContent = pickRandom(line10);
+    } else {
+      const reward = rewardsByScore[score] || rewardsByScore[9];
+      vText.textContent = reward.label;
+      vSub.textContent = pickRandom(reward.lines);
+    }
     if (tier === 'low') imp.classList.add('tremble');
     else if (tier === 'high') imp.classList.add('bounce');
   }, 200);

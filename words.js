@@ -1,5 +1,5 @@
 // 魔鬼辞典词库 - 共 663 条
-// 字段: id, word(单词), pos(词性), cnWord(书中中文词义), defEn(书中英文解释), defCn(书中中文解释)
+// 字段: id, word(单词), pos(词性), cnWord(书中中文词义), defEn(书中英文解释), defCn(书中中文解释), footnotes(可选，部分词条含生词注解)
 const WORDS = [
   {
     "id": 1,
@@ -31,7 +31,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "腹部",
     "defEn": "The temple of the god Stomach, in whose worship, with sacrificial rights, all true men engage. From women this ancient faith commands but a stammering assent’. They sometimes minister at the altar in a half-hearted and ineffective way, but true reverence’ for the one deity’ that men really adore they know not. If woman had a free hand in the world's marketing, the race would become graminivorous’.",
-    "defCn": "这是胃神的圣典。所有的男人都向他顶礼膜拜，献出祭品。这种古老的信仰在女人中很难得到强烈的认同。尽管她们有时也会漫不经心、徒劳地在祭坛边转儿，但是对于男人热切崇拜的胃神却一无所知。如果说女人在世界的交易场中能够自由自在的话 , 那么她们就会变成温顺的食草动物。"
+    "defCn": "这是胃神的圣典。所有的男人都向他顶礼膜拜，献出祭品。这种古老的信仰在女人中很难得到强烈的认同。尽管她们有时也会漫不经心、徒劳地在祭坛边转儿，但是对于男人热切崇拜的胃神却一无所知。如果说女人在世界的交易场中能够自由自在的话 , 那么她们就会变成温顺的食草动物。",
+    "footnotes": [
+      {
+        "term": "deity",
+        "pos": "n.",
+        "gloss": "神，神性"
+      }
+    ]
   },
   {
     "id": 5,
@@ -1039,7 +1046,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "人马",
     "defEn": "One of a race of persons who lived before the division of labor had been carried to such a pitch of differentiation, and who followed the primitive economic maxim!, \"Every man his own horse.\" The best of the lot was Chiron, who to the wisdom and virtues of the horse added the fleetness of man. The scripture story of the head of John the Baptist on a charger shows that pagan’ myths have somewhat sophisticated sacred history.",
-    "defCn": "人马乃是一种半人半马的怪人，是生活在劳动分工尚不发达时期的种族。他们最好地体现了一句古老的经济学格言：\"每一个人同时又都是他自己的马。\"人马中最杰出的是基戎，是他把马的智慧与美德和人的灵活完美地融合在了一起。"
+    "defCn": "人马乃是一种半人半马的怪人，是生活在劳动分工尚不发达时期的种族。他们最好地体现了一句古老的经济学格言：\"每一个人同时又都是他自己的马。\"人马中最杰出的是基戎，是他把马的智慧与美德和人的灵活完美地融合在了一起。",
+    "footnotes": [
+      {
+        "term": "maxim",
+        "pos": "n.",
+        "gloss": "格言"
+      }
+    ]
   },
   {
     "id": 131,
@@ -1367,7 +1381,14 @@ const WORDS = [
     "pos": "vi",
     "cnWord": "跳舞",
     "defEn": "To leap about to the sound of tittering music, preferably with arms about your neighbor's wife or daughter. There are many kinds of dances, but all those requiring the participation of the two sexes have two characteristics in common: they are conspicuously! innocent, and warmly loved by the vicious. !",
-    "defCn": "蹈有很多种，不过那些要求男女两性同时参加的所有舞蹈，都有两个共同的特点 : 一使他们显然都是纯洁的，二是那恶的人们都热爱它们。"
+    "defCn": "蹈有很多种，不过那些要求男女两性同时参加的所有舞蹈，都有两个共同的特点 : 一使他们显然都是纯洁的，二是那恶的人们都热爱它们。",
+    "footnotes": [
+      {
+        "term": "conspicuously",
+        "pos": "adv.",
+        "gloss": "显著地，超群地"
+      }
+    ]
   },
   {
     "id": 172,
@@ -1727,7 +1748,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "怪癖",
     "defEn": "A method of distinction so cheap that fools employ it to accentuate! their incapacity.",
-    "defCn": "这是一种很方便的引人注目的好法子，傻瓜们常用它来显示他们的无能。"
+    "defCn": "这是一种很方便的引人注目的好法子，傻瓜们常用它来显示他们的无能。",
+    "footnotes": [
+      {
+        "term": "accentuate",
+        "pos": "v.",
+        "gloss": "着重强调"
+      }
+    ]
   },
   {
     "id": 217,
@@ -1751,7 +1779,19 @@ const WORDS = [
     "pos": "n",
     "cnWord": "编辑",
     "defEn": "A person who combines the judicial functions of Minos, Rhadamanthus and Aeacus, but is placable” with an obolus® ; a severely virtuous censor, but so charitable withal that he tolerates the virtues of others and the vices of himself; who flings about him the splintering lightning and sturdy thunders of admonition” till he resembles a bunch of firecrackers petulantly? uttering his mind at the tail of a dog; then straightway murmurs a mild, melodious lay, soft as the cooing* of a donkey intoning? its prayer to the evening star. Master of mysteries and lord of law, high-pinnacled® upon the throne of thought, his face suffused’ with the dim splendors of the Transfiguration’, his legs intertwisted and his tongue a-cheek, the editor spills his will along the paper and cuts it off in lengths to suit. And at intervals from behind the veil of the temple is heard the voice of the foreman demanding three inches of wit and six lines of religious meditation, or bidding him turn off the wisdom and whack up some pathos’. BON AAR, FRAT. BED ATE Liki), RR",
-    "defCn": "这是一个审判官，他集米诺斯、拉达曼斯、艾亚哥斯（阴间地狱三判官）的仲裁天赋于一身，不过，只需扔上一枚小钱，他就会前来。他是一个德高望重的严厉的监察官，但以慈善为怀，能够忍受他人的美德和自己的恶行。他向上下左右施放忠告与训诫的电闪雷鸣，活像一串爱发脾气的鞭炮，看见狗尾摇晃几下都要噼里啪啦响个一阵。不过接下来他又会喁喁低语，哼一支美妙的小夜曲，就像驴子向黄昏的星星祷告时那么温柔。他掌握着各种机密，操纵起各项法律，高踞在思想法庭的王位之上，犹如十字架上的基督一样让人望而生畏。他跷起一条腿，搁在自己的另一条腿上，开始大刀阔斧、随心所欲地在稿件上砍砍切切，尽管不哼不哈，他的脸庞都会放射出无比的神采。在休庭期间，从法庭的帷幕后面，传来陪审长的声音，要求三寸机智和六行宗教冥思，或者要求他从稿件上删除智慧，贴上一些哀婉缠绵的滥调。"
+    "defCn": "这是一个审判官，他集米诺斯、拉达曼斯、艾亚哥斯（阴间地狱三判官）的仲裁天赋于一身，不过，只需扔上一枚小钱，他就会前来。他是一个德高望重的严厉的监察官，但以慈善为怀，能够忍受他人的美德和自己的恶行。他向上下左右施放忠告与训诫的电闪雷鸣，活像一串爱发脾气的鞭炮，看见狗尾摇晃几下都要噼里啪啦响个一阵。不过接下来他又会喁喁低语，哼一支美妙的小夜曲，就像驴子向黄昏的星星祷告时那么温柔。他掌握着各种机密，操纵起各项法律，高踞在思想法庭的王位之上，犹如十字架上的基督一样让人望而生畏。他跷起一条腿，搁在自己的另一条腿上，开始大刀阔斧、随心所欲地在稿件上砍砍切切，尽管不哼不哈，他的脸庞都会放射出无比的神采。在休庭期间，从法庭的帷幕后面，传来陪审长的声音，要求三寸机智和六行宗教冥思，或者要求他从稿件上删除智慧，贴上一些哀婉缠绵的滥调。",
+    "footnotes": [
+      {
+        "term": "withal",
+        "pos": "adv.",
+        "gloss": "此外，又"
+      },
+      {
+        "term": "admonition",
+        "pos": "n.",
+        "gloss": "警告"
+      }
+    ]
   },
   {
     "id": 220,
@@ -1847,7 +1887,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "激动",
     "defEn": "A prostrating' disease caused by a determination of the heart to the head. It is sometimes accompanied by a copious” discharge of hydrated? chloride* of sodium? from the eyes.",
-    "defCn": "由于血液从四面八方涌向心脏而导致的一种脑力衰竭症，有时还表现为从双眼排放出大量的氯化钠溶液。"
+    "defCn": "由于血液从四面八方涌向心脏而导致的一种脑力衰竭症，有时还表现为从双眼排放出大量的氯化钠溶液。",
+    "footnotes": [
+      {
+        "term": "chloride",
+        "pos": "n.",
+        "gloss": "[化]氧化物"
+      }
+    ]
   },
   {
     "id": 232,
@@ -2215,7 +2262,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "教会领地权",
     "defEn": ": The tenure” by which a religious corporation holds lands on condition ; of praying for the soul of the donor. In mediaeval times many of the wealthiest fraternities? obtained their estates in this simple and cheap manner, and once when Henry VIII of England sent an officer to confiscate* certain vast possessions which a fraternity of monks held by frankalmoigne, Purgatory®?\" \"Ay,\" said the officer, coldly, \"an ye will not pray him thence” for naught he must e’en roast.\" \"But look you, my son,\" persisted the good man, \"this act hath rank as robbery of God!\" \"Nay, nay, good father, my master the king doth but deliver him from the manifold temptations of too great wealth.\"",
-    "defCn": "这是许多宗教团体借以拥有土地的权力，附带条件是宗教团体为捐赠土地者的灵魂祈祷。在中世纪，很多拥有大量财产的宗教兄弟会都是用这种简单而廉价的手段获取了大量土地。一次，英格兰的亨利八世派遣一位官员去征用被一座修道院用此手段占据的大片领地，修道院院长说：\"什么？难道你的主人希望我们的捐助人永远呆在炼狱中吃苦吗？\"那官员冷冷地回答：\"唉！你从此不必再为他祈祷，他必须忍受煎熬。\"\"看看我，我的孩子。\"那个大好人说：\"你的所作所为是在掠夺上帝的财富。\"\"不，不，好心的神父，这是我主国王殿下的旨意，他这样做是为了帮助上帝摆脱过多财富的诱惑。\""
+    "defCn": "这是许多宗教团体借以拥有土地的权力，附带条件是宗教团体为捐赠土地者的灵魂祈祷。在中世纪，很多拥有大量财产的宗教兄弟会都是用这种简单而廉价的手段获取了大量土地。一次，英格兰的亨利八世派遣一位官员去征用被一座修道院用此手段占据的大片领地，修道院院长说：\"什么？难道你的主人希望我们的捐助人永远呆在炼狱中吃苦吗？\"那官员冷冷地回答：\"唉！你从此不必再为他祈祷，他必须忍受煎熬。\"\"看看我，我的孩子。\"那个大好人说：\"你的所作所为是在掠夺上帝的财富。\"\"不，不，好心的神父，这是我主国王殿下的旨意，他这样做是为了帮助上帝摆脱过多财富的诱惑。\"",
+    "footnotes": [
+      {
+        "term": "purgatory",
+        "pos": "n.",
+        "gloss": "炼狱"
+      }
+    ]
   },
   {
     "id": 278,
@@ -2271,7 +2325,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "青蛙",
     "defEn": "A reptile’ with edible legs. The first mention of frogs in profane” literature is in Homer's narrative of the war between them and the mice. ; learned, ingenious and industrious Dr. Schliemann has set the question : forever at rest by uncovering the bones of the slain frogs. One of the forms : of moral suasion3 by which Pharaoh was besought4 to favor the Israelities was a plague of frogs, but Pharaoh°, who liked them fricasees®, remarked, with truly oriental stoicism’, that he could stand it as long as the frogs and the Jews could; so the programme was changed. The frog is a diligent songster®, having a good voice but no ear. The libretto of his favorite opera, as written by Aristophanes, is brief, simple and effective -- \"brekekex-koax\"; the music is apparently by that eminent composer, Richard Wagner. Horses have a frog in each hoof -- a thoughtful provision of nature, enabling them to shine in a hurdle race’. HUSH, PER BS Ra. “OOO!” SMe ARR! 那 种",
-    "defCn": "一种双腿味道好极了的两栖动物。民间文学第一次提到青蛙是在荷马关于青蛙与老鼠的叙事诗中。不少性情猜忌的人怀疑\"荷马\"不是那部叙事诗的作者。但是，博学多才而勤奋不已的施里曼博士通过挖掘和研究那些战死的青蛙的遗骨，一劳永逸地搞定了《荷马史诗》的著作权的问题。很早以前犹太人用以促使法老体恤犹太民众的道德教训之一就是一场蛙疫，但喜吃油煎青蛙的法老带着一种来自东方的正宗的斯多葛哲学，只要青蛙和犹太人受得了，他也熬得住。青蛙是一位勤奋的歌唱家，他的高腔大嗓，优美动听，不过耳朵不大灵光。像阿里斯托芬所描绘的那样，青蛙最喜欢哼的歌词是：\"呱呱呱！\"如此简洁明快！那种优美的腔调显然出自作曲大师理查德·瓦格纳的笔下。马儿的每个蹄子上都蹲着一只青蛙——这是上帝意味深长的馈赠，使马儿在跨栏比赛中能先声夺人。"
+    "defCn": "一种双腿味道好极了的两栖动物。民间文学第一次提到青蛙是在荷马关于青蛙与老鼠的叙事诗中。不少性情猜忌的人怀疑\"荷马\"不是那部叙事诗的作者。但是，博学多才而勤奋不已的施里曼博士通过挖掘和研究那些战死的青蛙的遗骨，一劳永逸地搞定了《荷马史诗》的著作权的问题。很早以前犹太人用以促使法老体恤犹太民众的道德教训之一就是一场蛙疫，但喜吃油煎青蛙的法老带着一种来自东方的正宗的斯多葛哲学，只要青蛙和犹太人受得了，他也熬得住。青蛙是一位勤奋的歌唱家，他的高腔大嗓，优美动听，不过耳朵不大灵光。像阿里斯托芬所描绘的那样，青蛙最喜欢哼的歌词是：\"呱呱呱！\"如此简洁明快！那种优美的腔调显然出自作曲大师理查德·瓦格纳的笔下。马儿的每个蹄子上都蹲着一只青蛙——这是上帝意味深长的馈赠，使马儿在跨栏比赛中能先声夺人。",
+    "footnotes": [
+      {
+        "term": "reptile",
+        "pos": "n.",
+        "gloss": "疏虫动物，两栖动物"
+      }
+    ]
   },
   {
     "id": 285,
@@ -2351,7 +2412,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "地理学家",
     "defEn": "A chap! who can tell you offhand” the difference between the outside of the world and the inside.",
-    "defCn": "这家伙立马就能告诉你地球内部和外部的区别。"
+    "defCn": "这家伙立马就能告诉你地球内部和外部的区别。",
+    "footnotes": [
+      {
+        "term": "offhand",
+        "pos": "adv.",
+        "gloss": "即时地，随便地"
+      }
+    ]
   },
   {
     "id": 295,
@@ -2375,7 +2443,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "暴饮暴食者",
     "defEn": "A person who escapes the evils of moderation’ by committing dyspepsia’.",
-    "defCn": "这种人通过患消化不良症来逃避饥饿的折麻。"
+    "defCn": "这种人通过患消化不良症来逃避饥饿的折麻。",
+    "footnotes": [
+      {
+        "term": "moderation",
+        "pos": "n.",
+        "gloss": "慢化，减速，延时作用"
+      }
+    ]
   },
   {
     "id": 298,
@@ -2631,7 +2706,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "布道术",
     "defEn": "The science of adapting sermons to the spiritual needs, capacities and conditions of the congregation”. So skilled the parson was in homiletics’ that all his normal purges and emetics* to medicine the spirit were compounded with a most just discrimination founded upon a rigorous examination of tongue and pulse and heart and respiration’. Then, having diagnosed each one's condition, his scriptural specifics this physician administered -- his pills so efficacious® and pukes’ of disposition so vivacious that souls afflicted with ten kinds of Adam were convalescent ere they knew they had 'em. But Slander's tongue -- itself all coated — uttered her bilious' mind and scandalously muttered that in the case of patients having money the pills were sugar and the pukes were honey. Biography of Bishop Potter",
-    "defCn": "这是一种能使说教适合各种不同的心灵需求和社会地位的教徒的学问。那牧师大人精通医术，他热心地为教友们诊断病情，按舌头、脉捕和出汗的情形把教友公正地分为几个阶段，然后用道德的泻药和催吐剂为众教友治疗灵魂的毛病。每当一个教友诊断完毕，牧师就从《圣经》中开出秘方，他的催吐剂是那么厉害，他的泻药一招搞定，教友们还没. 弄明白，回春妙手就已把他灵魂的罪恶清洗地干干净净，使得他的灵魂卫生文明。但是披着迷人外衣的诽谤者以醉苇之意散步流言压语，说 :牧师为有钱人看病，给的药九摊了糖，衷了蜜。《波特主教传》"
+    "defCn": "这是一种能使说教适合各种不同的心灵需求和社会地位的教徒的学问。那牧师大人精通医术，他热心地为教友们诊断病情，按舌头、脉捕和出汗的情形把教友公正地分为几个阶段，然后用道德的泻药和催吐剂为众教友治疗灵魂的毛病。每当一个教友诊断完毕，牧师就从《圣经》中开出秘方，他的催吐剂是那么厉害，他的泻药一招搞定，教友们还没. 弄明白，回春妙手就已把他灵魂的罪恶清洗地干干净净，使得他的灵魂卫生文明。但是披着迷人外衣的诽谤者以醉苇之意散步流言压语，说 :牧师为有钱人看病，给的药九摊了糖，衷了蜜。《波特主教传》",
+    "footnotes": [
+      {
+        "term": "homiletics",
+        "pos": "n.",
+        "gloss": "说教术"
+      }
+    ]
   },
   {
     "id": 330,
@@ -2887,7 +2969,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "收入",
     "defEn": "The natural and rational gauge’ and measure of respectability, the commonly accepted standards being artificial, arbitrary” and fallacious’; for, as \"Sir Sycophas Chrysolater\" in the play has justly remarked, \"the true use and function of property (in whatsoever it consisteth -- coins, or land, or houses, or merchant- stuff, or anything which may be named as holden of right to one's own subservience) as also of honors, titles, preferments and place, and all favor and acquaintance of persons of quality or ableness, are worth in measure of their serviceableness to that end; and their possessors should take rank in agreement thereto, neither the lord of an unproducing manor, howsoever broad and ancient, nor he who bears an unremunerate : dignity, nor yet the pauper favorite of a king, being esteemed of level : excellency with him whose riches are of daily accretion’; and hardly should ， they whose wealth is barren claim and rightly take more honor than the poor and unworthy.\"",
-    "defCn": "衡量一个人能和否值得敬重的合情合理的标准，通常大家所接受的其他各种标准都是做作的、随意的、匾雇的。正如西克法斯。克莱索雷特事士所说，财富的真正用处就是带来金钱。不管它体现为何种形态一一金币、土地、房产、商品或其他所有能给拥有者带来利益的东西，最终回归到金钱。荣耀、头衔、高位或与权贵人物的交往同样也是以金钱为最终目的。因此，任何东西是否有用，当然都是由它能和否带来金钱决定的 , 拥有者的社会地位也取决于此 .。领地广亡却颗粒无收的地主老爷，不管他的庄园是多么历史悠久，和日进斗金的人相比实在是人微言轻。身居要职却囊中空空之辈 , 即便是国王的重丰 , 和财大气粗的富豪相比，也要委曲求全，被人看作低贱之人。"
+    "defCn": "衡量一个人能和否值得敬重的合情合理的标准，通常大家所接受的其他各种标准都是做作的、随意的、匾雇的。正如西克法斯。克莱索雷特事士所说，财富的真正用处就是带来金钱。不管它体现为何种形态一一金币、土地、房产、商品或其他所有能给拥有者带来利益的东西，最终回归到金钱。荣耀、头衔、高位或与权贵人物的交往同样也是以金钱为最终目的。因此，任何东西是否有用，当然都是由它能和否带来金钱决定的 , 拥有者的社会地位也取决于此 .。领地广亡却颗粒无收的地主老爷，不管他的庄园是多么历史悠久，和日进斗金的人相比实在是人微言轻。身居要职却囊中空空之辈 , 即便是国王的重丰 , 和财大气粗的富豪相比，也要委曲求全，被人看作低贱之人。",
+    "footnotes": [
+      {
+        "term": "fallacious",
+        "pos": "adj.",
+        "gloss": "错误的，靠不住的，虚妄的"
+      }
+    ]
   },
   {
     "id": 362,
@@ -3231,7 +3320,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "忍耐",
     "defEn": "The disposition to endure injury with meek forbearance 1 while maturing a plan of revenge.",
-    "defCn": "在报复计划成熟之前，对屈辱照单全收。"
+    "defCn": "在报复计划成熟之前，对屈辱照单全收。",
+    "footnotes": [
+      {
+        "term": "forbearance",
+        "pos": "n.",
+        "gloss": "自制，忍耐"
+      }
+    ]
   },
   {
     "id": 405,
@@ -3559,7 +3655,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "老鼠",
     "defEn": "An animal which strews its path with fainting women. As in Rome Christians were thrown to the lions, so centuries earlier in Otumwee, the most ancient and famous city of the world, female heretics were thrown to the mice. Jakak-Zotp, the historian, the only Otumwump whose writings have descended to us, says that these martyrs met their death with little dignity and much exertion. He even attempts to exculpate' the mice (such is the malice of bigotry) by declaring that the unfortunate women perished, some from exhaustion, some of broken necks from falling over their own feet, and some from lack of restoratives’. The mice, he avers, enjoyed the pleasures of the chase with composure. But if \"Roman history is nine-tenths lying,\" we can hardly expect a smaller proportion of that rhetorical figure in the annals of a people capable of so incredible cruelty to a lovely women; ， for a hard heart has a false tongue.",
-    "defCn": "这种动物喜欢用昏倒的女人来点缀它走过的路。就象古罗马人喜欢把基督徒扔进狮群一样，好几个世纪以前，在世界最古老有名的奥唐威城，人们把女邪教徒扔进满是耗子的笼子。据历史学家贾卡克·左特普（他是唯一一个有著作传世的奥唐威人）描述，这些殉道者死时苦苦挣扎，没有几个是端庄大方的。这位历史学家试图为老鼠开脱罪责，足见他的偏狭，他声称那些倒霉的妇女有的因筋疲力尽而死，有的是被自己绊倒而摔断了脖子，有的因不愿吃饭而缺乏营养而死。他声称：老鼠追逐女人从来都是沉着冷静的。假如诚如这位历史大师所说，\"罗马历史十有八九是谎言\"，那么我们对这位雄辩能手，对他关于一个向可爱的妇女施行难以置信的暴行的民族的记述，恐怕还是不予相信的为好，因为凶残的心往往有一条撒谎的舌头。"
+    "defCn": "这种动物喜欢用昏倒的女人来点缀它走过的路。就象古罗马人喜欢把基督徒扔进狮群一样，好几个世纪以前，在世界最古老有名的奥唐威城，人们把女邪教徒扔进满是耗子的笼子。据历史学家贾卡克·左特普（他是唯一一个有著作传世的奥唐威人）描述，这些殉道者死时苦苦挣扎，没有几个是端庄大方的。这位历史学家试图为老鼠开脱罪责，足见他的偏狭，他声称那些倒霉的妇女有的因筋疲力尽而死，有的是被自己绊倒而摔断了脖子，有的因不愿吃饭而缺乏营养而死。他声称：老鼠追逐女人从来都是沉着冷静的。假如诚如这位历史大师所说，\"罗马历史十有八九是谎言\"，那么我们对这位雄辩能手，对他关于一个向可爱的妇女施行难以置信的暴行的民族的记述，恐怕还是不予相信的为好，因为凶残的心往往有一条撒谎的舌头。",
+    "footnotes": [
+      {
+        "term": "exculpate",
+        "pos": "v.",
+        "gloss": "开脱"
+      }
+    ]
   },
   {
     "id": 446,
@@ -3591,7 +3694,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "木乃伊",
     "defEn": "An ancient Egyptian, formerly in universal use among modern civilized nations as medicine, and now engaged in supplying art with an excellent pigment’. He is handy, too, in museums in gratifying the vulgar curiosity that serves to distinguish man from the lower animals. By means of the Mummy, mankind, it is said, attests to the gods its respect for the dead.we plunder his tomb, be he sinner or saint, distil’ him for physic and grind him for paint, exhibit for money his poor, shrunken frame, and with levity flock to the scene of the shame. O, tell me, ye gods, for the use of my rhyme: for respecting the dead what's the limit of time? Scopas Brune ART att — AP Xt LA FARA RAS A?",
-    "defCn": "这是一个很早以前的埃及人，从前文明国家的人把他制作成一味药，现在人们主要用他来制作上好的颜料。它在博物馆也很有用，可满足人们浅陋的好奇心，正是这种好奇心把人类和下等动物区分开来。\n传闻人类正是用木乃伊向众神证实自己对死者的敬意。我们盗挖他们的坟墓，管他是一肚子坏水还是圣洁之人。我们从他的遗体提取药物，还用他制作颜料，把他磨成粉，为了叮当作响的金币，我们展示他的肉体，他缩成一团的残骸是多么了不起，围观的人们从不觉得有什么愧疚。噢，告诉我，众神对死者的尊敬到底有多久？"
+    "defCn": "这是一个很早以前的埃及人，从前文明国家的人把他制作成一味药，现在人们主要用他来制作上好的颜料。它在博物馆也很有用，可满足人们浅陋的好奇心，正是这种好奇心把人类和下等动物区分开来。\n传闻人类正是用木乃伊向众神证实自己对死者的敬意。我们盗挖他们的坟墓，管他是一肚子坏水还是圣洁之人。我们从他的遗体提取药物，还用他制作颜料，把他磨成粉，为了叮当作响的金币，我们展示他的肉体，他缩成一团的残骸是多么了不起，围观的人们从不觉得有什么愧疚。噢，告诉我，众神对死者的尊敬到底有多久？",
+    "footnotes": [
+      {
+        "term": "pigment",
+        "pos": "n.",
+        "gloss": "[生]色素，颜料"
+      }
+    ]
   },
   {
     "id": 450,
@@ -4383,7 +4493,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "校对员",
     "defEn": "A malefactor3 who atones for making your writing nonsense by permitting the compositor’ to make it unintelligible’. VERE?",
-    "defCn": "一个恶棍，为了修正你在作品中胡说八道、大放厥词的习性，而默"
+    "defCn": "一个恶棍，为了修正你在作品中胡说八道、大放厥词的习性，而默",
+    "footnotes": [
+      {
+        "term": "compositor",
+        "pos": "n.",
+        "gloss": "排字工人，排字员"
+      }
+    ]
   },
   {
     "id": 549,
@@ -4607,7 +4724,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "圣物匣",
     "defEn": "A receptacle? for such sacred objects as pieces of the true cross, short-ribs of the saints, the ears of Balaam's ass, the lung of the cock that called Peter to repentance and so forth. Reliquaries* are commonly of metal, and provided with a lock to prevent the contents from coming out and performing miracles at unseasonable° times. A feather from the wing of the Angel of the Annunciation® once escaped during a sermon in Saint Peter's and so tickled the noses of the congregation that they woke and sneezed with great vehemence’ three times each. It is related in the \"Gesta Sanctorum\" that a sacristan' in the Canterbury cathedral surprised the head of Saint Denis in the library. Reprimanded by its stern custodian’, it explained that it was seeking a body of doctrine. This unseemly levity so raged the diocesan that the offender was publicly anathematized’, thrown into the Stour and replaced by another head of Saint Dennis, brought from Rome. tom eee SENSE MOL, GN ET SCL ARR AR A. EGET A. SPEAR, UR BRR THIS ARS iin, atu",
-    "defCn": "这是一种装圣物的器皿，如钉死过耶稣的十字架的碎木屑、圣徒们的短肋骨、巴兰的驴子耳朵、叫彼得起来忏悔的那只公鸡的肺，诸如此类。圣物匣通常是用金属做的，而且上面往往挂着一把锁，为的是防止里面的存放物溜出来，在不合时宜的情况下弄出奇迹。据称为圣母报喜的天使的翅膀上的一片羽毛，在圣彼得大教堂的一次布道中苏醒过来，每个人都控制不住猛打了三个喷嚏。又据传坎特伯雷大教堂的圣物匣看管人被图书馆内的圣德尼的头吓呆了，在看管人的严词谴责下，那个砍掉的脑袋解释说自己正在寻找他那丢失的身躯，对那个头如此轻浮的行为，主教极为恼怒，将他赶出教堂，予以废弃，并用从罗马带来的另一个圣德尼的头替换。"
+    "defCn": "这是一种装圣物的器皿，如钉死过耶稣的十字架的碎木屑、圣徒们的短肋骨、巴兰的驴子耳朵、叫彼得起来忏悔的那只公鸡的肺，诸如此类。圣物匣通常是用金属做的，而且上面往往挂着一把锁，为的是防止里面的存放物溜出来，在不合时宜的情况下弄出奇迹。据称为圣母报喜的天使的翅膀上的一片羽毛，在圣彼得大教堂的一次布道中苏醒过来，每个人都控制不住猛打了三个喷嚏。又据传坎特伯雷大教堂的圣物匣看管人被图书馆内的圣德尼的头吓呆了，在看管人的严词谴责下，那个砍掉的脑袋解释说自己正在寻找他那丢失的身躯，对那个头如此轻浮的行为，主教极为恼怒，将他赶出教堂，予以废弃，并用从罗马带来的另一个圣德尼的头替换。",
+    "footnotes": [
+      {
+        "term": "sacristan",
+        "pos": "n.",
+        "gloss": "教堂圣器收藏室的管理人，教堂的看守人"
+      }
+    ]
   },
   {
     "id": 577,
@@ -4727,7 +4851,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "偿还者",
     "defEn": "Benefactor; philanthropist.",
-    "defCn": "捐款人，慈善家。"
+    "defCn": "捐款人，慈善家。",
+    "footnotes": [
+      {
+        "term": "benefactor",
+        "pos": "n.",
+        "gloss": "捐助者，赠送者，赞助人"
+      }
+    ]
   },
   {
     "id": 592,
@@ -4823,7 +4954,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "演讲台",
     "defEn": "In Latin, the beak of a bird or the prow of a ship. In America, a place from which a candidate for office energetically expounds the wisdom, virtue and power of the rabble!.",
-    "defCn": "成了精力充沛的候选人推销其智慧、美德和煽动力的营业柜台。"
+    "defCn": "成了精力充沛的候选人推销其智慧、美德和煽动力的营业柜台。",
+    "footnotes": [
+      {
+        "term": "rabble",
+        "pos": "n.",
+        "gloss": "乌合之众，下层社会，拨火棍"
+      }
+    ]
   },
   {
     "id": 604,
@@ -4895,7 +5033,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "天使长大天使",
     "defEn": "Among the Greeks a coffin which being made of a certain kind of carnivorous’ stone, had the peculiar property of devouring the body placed in it. The sarcophagus” known to modern obsequiographers is commonly a product of the carpenter's art.",
-    "defCn": "这是古希腊人的一种棺材，里面放了一种特制的石块，它具有一种吞食放在里面的尸体的特性。现代送大者所知晓的石棺，一般来说是木匠的工艺品。"
+    "defCn": "这是古希腊人的一种棺材，里面放了一种特制的石块，它具有一种吞食放在里面的尸体的特性。现代送大者所知晓的石棺，一般来说是木匠的工艺品。",
+    "footnotes": [
+      {
+        "term": "carnivorous",
+        "pos": "adj.",
+        "gloss": "食肉类的"
+      }
+    ]
   },
   {
     "id": 613,
@@ -5047,7 +5192,14 @@ const WORDS = [
     "pos": "n",
     "cnWord": "盒饭",
     "defEn": "A caterer !'s thrifty concession to the universal passion for irresponsibility. tail, 7. The part of an animal's spine that has transcended its natural limitations to set up an independent existence in a world of its own. Excepting in its foetal? state, Man is without a tail, a privation of which he attests an hereditary’ and uneasy consciousness by the coat-skirt of the male and the train of the female, and by a marked tendency to ornament that part of his attire! where the tail should be, and indubitably” once was. This tendency is most observable in the female of the species, in whom the ancestral sense is strong and persistent. The tailed men described by Lord Monboddo are now generally regarded as a product of an imagination unusually susceptible to influences generated in the golden age of our pithecan’ past.",
-    "defCn": "饭馆作了心痛而将当的让步之后做的一种饭菜 , 它极受广大食客的欢迎，但味道不怎么样，就餐地的卫生状况也不能让人满意。尾巴动物养椎的一部分，它已突破了天性的束缚，形成了一个自己的独立小世界。除了在娘肚里，人是没有尾巴的，这便让人产生了一种世代相传的尴众，男人的燕尾服和女人的拖地长裙都流露了这一点，为了弥补这一缺陷 , 他们喜欢在应该长尾巴而且从前也的确长过一条尾巴的部位点缀饰品。这种准好在女性身上表现得最明显，因为女人对祖宗是最有情意的，而且这种情意最为持久。蒙博托甸士所描述的长尾巴的男人现在一般认为看作是想像中的事物 , 他们太容易受到黄金时代猿人们的| 影响。"
+    "defCn": "饭馆作了心痛而将当的让步之后做的一种饭菜 , 它极受广大食客的欢迎，但味道不怎么样，就餐地的卫生状况也不能让人满意。尾巴动物养椎的一部分，它已突破了天性的束缚，形成了一个自己的独立小世界。除了在娘肚里，人是没有尾巴的，这便让人产生了一种世代相传的尴众，男人的燕尾服和女人的拖地长裙都流露了这一点，为了弥补这一缺陷 , 他们喜欢在应该长尾巴而且从前也的确长过一条尾巴的部位点缀饰品。这种准好在女性身上表现得最明显，因为女人对祖宗是最有情意的，而且这种情意最为持久。蒙博托甸士所描述的长尾巴的男人现在一般认为看作是想像中的事物 , 他们太容易受到黄金时代猿人们的| 影响。",
+    "footnotes": [
+      {
+        "term": "indubitably",
+        "pos": "adv.",
+        "gloss": "无疑地，确实地"
+      }
+    ]
   },
   {
     "id": 632,

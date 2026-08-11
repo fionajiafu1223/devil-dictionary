@@ -5524,14 +5524,25 @@ const verdictPool = {
 };
 function pickRandom(arr) { return arr[Math.floor(Math.random()*arr.length)]; }
 
-function mockGrade(sentence) {
-  const w = currentWord.word.toLowerCase();
-  const has = sentence.toLowerCase().includes(w);
-  let base = has ? 5 : 1;
-  base += Math.min(4, Math.floor(sentence.trim().split(/\s+/).length / 4));
-  base += Math.floor(Math.random()*3) - 1;
-  return Math.max(0, Math.min(10, base));
+const WORKER_URL = "https://devil-dict-grader.fionajiafu1223.workers.dev";
+
+async function gradeSentence(sentence) {
+  const resp = await fetch(WORKER_URL, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      word: currentWord.word,
+      sentence: sentence,
+      defEn: currentWord.defEn,
+      defCn: currentWord.defCn,
+      pos: currentWord.pos,
+    }),
+  });
+  if (!resp.ok) throw new Error("批改请求失败");
+  return await resp.json();
 }
+
+let lastResult = null;
 
 function submitSentence() {
   const val = document.getElementById('sentenceInput').value.trim();
@@ -5541,12 +5552,18 @@ function submitSentence() {
   document.getElementById('verdictStage').classList.remove('show');
   document.getElementById('explain').classList.remove('show');
 
-  setTimeout(() => {
-    document.getElementById('loading').classList.remove('show');
-    const score = mockGrade(val);
-    revealVerdict(score, val);
-    document.getElementById('submitBtn').disabled = false;
-  }, 900);
+  gradeSentence(val)
+    .then(result => {
+      document.getElementById('loading').classList.remove('show');
+      lastResult = result;
+      revealVerdict(result.score, val);
+      document.getElementById('submitBtn').disabled = false;
+    })
+    .catch(err => {
+      document.getElementById('loading').classList.remove('show');
+      document.getElementById('submitBtn').disabled = false;
+      alert('判官暂时联系不上，请稍后再试～\n(' + err.message + ')');
+    });
 }
 
 function revealVerdict(score, sentence) {
@@ -5580,12 +5597,9 @@ function showExplain(score, sentence) {
   const explain = document.getElementById('explain');
   const body = document.getElementById('explainBody');
   explain.classList.add('show');
-  if (score <= 4) body.textContent = '单词使用不太准确，或者句子结构有明显问题，建议对照下面的例句重新体会用法。';
-  else if (score <= 7) body.textContent = '单词用对了，语法基本没问题，但搭配或语境还可以更自然一些。';
-  else body.textContent = '用词精准，语法自然，语境也很贴切，这是很地道的一句表达。';
-
-  document.getElementById('correctEn').textContent = 'Correct Example: (真实AI批改接入后，这里会显示AI生成的正确例句)';
-  document.getElementById('correctCn').textContent = '（对应中文翻译）';
+  body.textContent = lastResult?.explanation || '';
+  document.getElementById('correctEn').textContent = lastResult?.correctEn || '';
+  document.getElementById('correctCn').textContent = lastResult?.correctCn || '';
 }
 
 function retry() {

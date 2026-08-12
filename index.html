@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
 <title>魔鬼辞典 · 每日审判</title>
 <style>
   :root {
@@ -12,7 +12,7 @@
   }
   * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
   html,body { margin:0; padding:0; min-height:100%; background: radial-gradient(circle at 30% 0%, #2c1f16, var(--bg) 60%); font-family: "PingFang SC","Microsoft YaHei",sans-serif; color: var(--paper); }
-  .app { max-width: 420px; margin: 0 auto; min-height: 100vh; padding: 22px 18px 60px; display: flex; flex-direction: column; }
+  .app { max-width: 420px; margin: 0 auto; min-height: 100vh; padding: env(safe-area-inset-top, 22px) 18px 60px; padding-top: max(env(safe-area-inset-top), 22px); display: flex; flex-direction: column; }
   .app-title { text-align: center; margin-bottom: 4px; }
   .app-title .cn { font-size: 22px; font-weight: 800; letter-spacing: 4px; color: var(--gold); }
   .app-title .en { font-size: 10px; letter-spacing: 3px; color: var(--muted); text-transform: uppercase; margin-top: 2px; }
@@ -153,8 +153,7 @@
   </div>
 
   <div class="footnote">
-    数据来源：《魔鬼辞典》Ambrose Bierce（公版）· 共663词，每日随机不重复<br>
-    打分逻辑为模拟演示，接入真实AI批改后替换
+    数据来源：《魔鬼辞典》Ambrose Bierce
   </div>
 </div>
 
@@ -7669,11 +7668,66 @@ function renderWord() {
   document.getElementById('defEn').innerHTML = renderDefEnWithFootnotes(word.defEn || '', currentFootnotes);
   document.getElementById('defCn').textContent = (word.cnWord ? word.cnWord + '\n' : '') + (word.defCn || '');
   document.getElementById('dayBadge').textContent =
-    '第 ' + round + ' 轮 · 今天学：' + word.word + '（共663词随机不重复）';
+    '第 ' + round + ' 轮 · 今天学：' + word.word;
   document.getElementById('sentenceInput').placeholder = 'Use "' + word.word + '" in a sentence...';
 }
 
 renderWord();
+
+// ===== 每日提醒 =====
+// 在真正的App（Capacitor打包版）里：使用本地推送，每天固定9点提醒，App不用打开也能收到
+// 在纯网页里（比如GitHub Pages预览）：退化成"打开App时弹通知"的简化版
+const NOTIFY_KEY = 'devilDict_lastNotifyDate';
+
+async function setupDailyReminder() {
+  const isNativeApp = window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform();
+
+  if (isNativeApp) {
+    try {
+      const { LocalNotifications } = window.Capacitor.Plugins;
+      const perm = await LocalNotifications.requestPermissions();
+      if (perm.display !== 'granted') return;
+      await LocalNotifications.cancel({ notifications: [{ id: 1 }] });
+      await LocalNotifications.schedule({
+        notifications: [
+          {
+            id: 1,
+            title: '魔鬼辞典 · 每日审判',
+            body: '今天的单词已经准备好了，点开接受审判吧 👹',
+            schedule: { on: { hour: 9, minute: 0 }, repeats: true },
+          },
+        ],
+      });
+    } catch (e) {}
+    return;
+  }
+
+  if (!('Notification' in window)) return;
+  const today = todayStr();
+  const lastNotified = localStorage.getItem(NOTIFY_KEY);
+  if (lastNotified === today) return;
+
+  function fireNotification() {
+    try {
+      const n = new Notification('魔鬼辞典 · 今日一词', {
+        body: currentWord.word + '（' + (currentWord.cnWord || '') + '）\n点开App开始今天的审判吧',
+        tag: 'devil-dict-daily',
+      });
+      n.onclick = () => { window.focus(); n.close(); };
+      localStorage.setItem(NOTIFY_KEY, today);
+    } catch (e) {}
+  }
+
+  if (Notification.permission === 'granted') {
+    fireNotification();
+  } else if (Notification.permission !== 'denied') {
+    Notification.requestPermission().then(perm => {
+      if (perm === 'granted') fireNotification();
+    });
+  }
+}
+
+setTimeout(setupDailyReminder, 1500);
 
 // ===== 判官反馈（分数逻辑与之前demo一致，图片改为运行时加载 imp/score_N.png） =====
 // 低分：按AI判断的错误类型选罪名，按分数段选惩罚力度

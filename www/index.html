@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
 <title>魔鬼辞典 · 每日审判</title>
 <style>
   :root {
@@ -12,7 +12,7 @@
   }
   * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
   html,body { margin:0; padding:0; min-height:100%; background: radial-gradient(circle at 30% 0%, #2c1f16, var(--bg) 60%); font-family: "PingFang SC","Microsoft YaHei",sans-serif; color: var(--paper); }
-  .app { max-width: 420px; margin: 0 auto; min-height: 100vh; padding: 22px 18px 60px; display: flex; flex-direction: column; }
+  .app { max-width: 420px; margin: 0 auto; min-height: 100vh; padding: env(safe-area-inset-top, 22px) 18px 60px; padding-top: max(env(safe-area-inset-top), 22px); display: flex; flex-direction: column; }
   .app-title { text-align: center; margin-bottom: 4px; }
   .app-title .cn { font-size: 22px; font-weight: 800; letter-spacing: 4px; color: var(--gold); }
   .app-title .en { font-size: 10px; letter-spacing: 3px; color: var(--muted); text-transform: uppercase; margin-top: 2px; }
@@ -153,8 +153,7 @@
   </div>
 
   <div class="footnote">
-    数据来源：《魔鬼辞典》Ambrose Bierce（公版）· 共663词，每日随机不重复<br>
-    打分逻辑为模拟演示，接入真实AI批改后替换
+    数据来源：《魔鬼辞典》Ambrose Bierce
   </div>
 </div>
 
@@ -7669,7 +7668,7 @@ function renderWord() {
   document.getElementById('defEn').innerHTML = renderDefEnWithFootnotes(word.defEn || '', currentFootnotes);
   document.getElementById('defCn').textContent = (word.cnWord ? word.cnWord + '\n' : '') + (word.defCn || '');
   document.getElementById('dayBadge').textContent =
-    '第 ' + round + ' 轮 · 今天学：' + word.word + '（共663词随机不重复）';
+    '第 ' + round + ' 轮 · 今天学：' + word.word;
   document.getElementById('sentenceInput').placeholder = 'Use "' + word.word + '" in a sentence...';
 }
 
@@ -7681,7 +7680,6 @@ renderWord();
 const NOTIFY_KEY = 'devilDict_lastNotifyDate';
 
 async function setupDailyReminder() {
-  // 判断是否运行在真正的Capacitor App环境里
   const isNativeApp = window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform();
 
   if (isNativeApp) {
@@ -7689,31 +7687,21 @@ async function setupDailyReminder() {
       const { LocalNotifications } = window.Capacitor.Plugins;
       const perm = await LocalNotifications.requestPermissions();
       if (perm.display !== 'granted') return;
-
-      // 先清掉之前排过的同ID通知，避免重复堆积
       await LocalNotifications.cancel({ notifications: [{ id: 1 }] });
-
-      // 排一个每天早上9点重复触发的本地通知
       await LocalNotifications.schedule({
         notifications: [
           {
             id: 1,
             title: '魔鬼辞典 · 每日审判',
             body: '今天的单词已经准备好了，点开接受审判吧 👹',
-            schedule: {
-              on: { hour: 9, minute: 0 },
-              repeats: true,
-            },
+            schedule: { on: { hour: 9, minute: 0 }, repeats: true },
           },
         ],
       });
-    } catch (e) {
-      // 静默失败，不影响App其他功能
-    }
+    } catch (e) {}
     return;
   }
 
-  // ---- 网页兜底版：打开App时如果今天还没提醒过，就弹一次系统通知 ----
   if (!('Notification' in window)) return;
   const today = todayStr();
   const lastNotified = localStorage.getItem(NOTIFY_KEY);

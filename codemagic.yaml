@@ -1,73 +1,47 @@
- workflows:
-  android-workflow:
-    name: 魔鬼辞典 Android Build
-    instance_type: linux
-    max_build_duration: 30
-    environment:
-      java: 21
-      node: 20
-    scripts:
-      - name: Install dependencies
-        script: npm install
-      - name: Add Android platform
-        script: npx cap add android || true
-      - name: Sync Capacitor
-        script: npx cap sync android
-      - name: Build APK (debug, unsigned)
-        script: |
-          cd android
-          ./gradlew assembleDebug
-    artifacts:
-      - android/app/build/outputs/apk/debug/*.apk
-
+workflows:
   ios-workflow:
     name: 魔鬼辞典 iOS Build
-    instance_type: mac_mini_m2
     max_build_duration: 60
+    instance_type: mac_mini_m2
     integrations:
-      app_store_connect: Codemagic
+      app_store_connect: "Codemagic Admin"
     environment:
-      node: 20
-      xcode: latest
-      cocoapods: default
       vars:
         BUNDLE_ID: "com.fiona.devildictionary"
-        XCODE_WORKSPACE: "App.xcworkspace"
+        XCODE_PROJECT: "App.xcodeproj"
         XCODE_SCHEME: "App"
+      node: latest
+      xcode: latest
     scripts:
-      - name: Install dependencies
+      - name: Install npm dependencies
         script: npm install
       - name: Add iOS platform
         script: npx cap add ios || true
-      - name: Sync Capacitor
+      - name: Sync Capacitor web assets
         script: npx cap sync ios
       - name: Install CocoaPods
         script: |
           cd ios/App
           pod install
-      - name: Set up keychain
+      - name: Set up keychain for code signing
         script: keychain initialize
-      - name: Fetch or create certificate (dedicated to this app, untouched by Freed/Manifest)
-        script: |
-          app-store-connect certificates list --type DISTRIBUTION --save || \
-          app-store-connect certificates create --type DISTRIBUTION --save
-      - name: Add certificates to keychain
-        script: keychain add-certificates
-      - name: Fetch signing files (profile)
+      - name: Fetch signing files
         script: |
           app-store-connect fetch-signing-files "$BUNDLE_ID" \
             --type IOS_APP_STORE \
             --create
+      - name: Add certificates to keychain
+        script: keychain add-certificates
       - name: Set up code signing settings on Xcode project
-        script: xcode-project use-profiles
-      - name: Build signed IPA
         script: |
-          cd ios/App
+          xcode-project use-profiles
+      - name: Build ipa
+        script: |
           xcode-project build-ipa \
-            --workspace "$XCODE_WORKSPACE" \
+            --project "ios/App/$XCODE_PROJECT" \
             --scheme "$XCODE_SCHEME"
     artifacts:
-      - ios/App/build/ios/ipa/*.ipa
+      - build/ios/ipa/*.ipa
     publishing:
       app_store_connect:
         auth: integration

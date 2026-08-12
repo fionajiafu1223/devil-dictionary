@@ -26,6 +26,10 @@ workflows:
         script: |
           cd ios/App
           pod install
+      - name: Increment build number
+        script: |
+          cd ios/App
+          agvtool new-version -all $(date +%s)
       - name: Set up keychain for code signing
         script: keychain initialize
       - name: Fetch signing files

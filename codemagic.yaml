@@ -41,7 +41,7 @@ workflows:
       - name: Build ipa
         script: |
           xcode-project build-ipa \
-            --project "ios/App/$XCODE_PROJECT" \
+            --workspace "ios/App/App.xcworkspace" \
             --scheme "$XCODE_SCHEME"
     artifacts:
       - build/ios/ipa/*.ipa

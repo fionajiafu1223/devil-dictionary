@@ -1,4 +1,4 @@
-workflows:
+ workflows:
   android-workflow:
     name: 魔鬼辞典 Android Build
     instance_type: linux
@@ -49,8 +49,8 @@ workflows:
         script: keychain initialize
       - name: Fetch or create certificate (dedicated to this app, untouched by Freed/Manifest)
         script: |
-          app-store-connect certificates list --type APPLE_DISTRIBUTION --save || \
-          app-store-connect certificates create --type APPLE_DISTRIBUTION --save
+          app-store-connect certificates list --type DISTRIBUTION --save || \
+          app-store-connect certificates create --type DISTRIBUTION --save
       - name: Add certificates to keychain
         script: keychain add-certificates
       - name: Fetch signing files (profile)

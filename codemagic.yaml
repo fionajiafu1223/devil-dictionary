@@ -45,14 +45,21 @@ workflows:
         script: |
           cd ios/App
           pod install
-      - name: Fetch signing files
+      - name: Set up keychain
+        script: keychain initialize
+      - name: Fetch or create certificate (dedicated to this app, untouched by Freed/Manifest)
+        script: |
+          app-store-connect certificates list --type APPLE_DISTRIBUTION --save || \
+          app-store-connect certificates create --type APPLE_DISTRIBUTION --save
+      - name: Add certificates to keychain
+        script: keychain add-certificates
+      - name: Fetch signing files (profile)
         script: |
           app-store-connect fetch-signing-files "$BUNDLE_ID" \
             --type IOS_APP_STORE \
             --create
-      - name: Set up code signing
-        script: |
-          xcode-project use-profiles
+      - name: Set up code signing settings on Xcode project
+        script: xcode-project use-profiles
       - name: Build signed IPA
         script: |
           cd ios/App
